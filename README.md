@@ -4,6 +4,20 @@ To get started, fork this repo and copy the text files from the `en` folder to y
 
 Please add your translation for each line under the existing line, because i will forget which line is which and get confused. You do not have to do this with `uni.txt`
 
+To do the block text, please do this
+
+```
+#profile help
+'''
+here is my  english help example
+'''
+
+'''
+here is your translation text! konichiwa
+'''
+```
 Please keep the file names the same, i do not speak your language :)
 
 To submit your translation, make a pull request 
+
+
