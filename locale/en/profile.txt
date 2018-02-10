@@ -1,0 +1,173 @@
+#profile help
+
+'''
+The glorious replacement of fc! Check out !!help profile to get started.
+
+Also try "!!help profile rank" for more in depth information.
+
+You have to add your fc before your profile will work!
+
+Please check "!!help profile fc" and add your friend code before you say spyke isnt working! Thanks! 
+'''
+
+#level help
+'''
+Set your level in splatoon
+
+Example:
+
+!!profile level 50
+
+If you are a star player add an S on the end after your level
+
+!!profile level 50 S
+
+'''
+
+
+'your level has been set to'
+
+#level error messages
+
+'You cant be negative level..'
+'Cmon, that isnt even a number!'
+'Mate, level 99 is the max..'
+'U WOT MATE?! S is the only tier i accept!'
+
+
+
+#weapon help
+'''
+Set your favorite weapons in your profile. Now accepts 3!
+
+Check !!weapons for the list of weapons spyke takes
+
+Example:
+
+!!profile weapon W1 Splattershot Pro
+!!profile weapon W2 N-ZAP 85
+'''
+
+' your weapon #1 set is to '
+' your weapon #2 set is to '
+' your weapon #3 set is to '
+
+#weapon error messages
+'Mate, cmon that isnt a weapon'
+
+
+#rank help
+
+'''
+Set the rank in your profile! This is fairly straightforward:
+
+tc = tower control
+rm = rainmaker
+sz = splat zones
+cb = clam blitz
+
+Example:
+
+!!profile rank tc S+0
+'''
+
+'your rank has been set'
+
+#rank error messages
+
+'That rank does not exist'
+'That game mode does not exist'
+
+#league power help
+
+'''
+Show off your highest league power!
+
+Now with both league types! Teams and pair. Requires a decimal
+
+Example:
+
+!!profile power team 1750.0
+!!profile power pair 1750.0
+'''
+
+'your highest team power level has been set to'
+'your highest pair power level has been set to'
+
+#rank error messages
+
+'You cannot be below one!'
+'Mate..you cant be negative power..'
+'You cannot have more than one decimal place!'
+'Mate, that is far too high! Theres no way youre that good'
+
+
+#fc help
+
+'''
+Register your FC with spyke.
+
+Example:
+
+!!profile fc SW-5208-7719-6394
+'''
+
+' your friend code has been updated, love.'
+' you have been added, cheers.'
+
+#fc error messages
+
+'Sorry love, i only accept friend codes..'
+'Sorry mate, i only accept friend codes..'
+
+#ign help
+
+
+'''
+Set your in game name.
+
+Example:
+
+!!profile ign Marie is best waifu
+'''
+
+'your ign has been set to'
+
+#ign error messages
+
+'You arent in the database. Please use `!!profile` to get started
+
+#sr help
+
+'''
+Set your salmon rank. Also accepts 300/99 and up to 9999/99
+
+Example:
+
+!!profile sr Profreshional
+'''
+
+'your salmon rank has been set to'
+
+#sr error messages
+
+that is not a valid salmon title
+
+#loadout help
+
+'''
+Show off your loadout.ink loadouts! You can have up to 3
+
+Example:
+
+!!profile loadout L1 https://loadout.ink/url-here
+'''
+
+'your loadout #1 has been set'
+'your loadout #2 has been set'
+'your loadout #3 has been set'
+    
+#loadout error messages
+
+'Mate, you cant fool ol Spyke. Thats not a loadout.ink url'
+
