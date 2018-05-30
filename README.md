@@ -23,7 +23,6 @@ jp:
     
   example_help: | 
     you should be able to understand how this works
-'''
 ```
 Please keep the file names the same, i do not speak your language :)
 
