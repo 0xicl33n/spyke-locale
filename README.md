@@ -4,16 +4,25 @@ To get started, fork this repo and copy the text files from the `en` folder to y
 
 Please add your translation for each line under the existing line, because i will forget which line is which and get confused. You do not have to do this with `uni.txt`
 
-To do the block text, please do this
+Create a new file in the `locale` folder called ` profile.lang.yml`
 
-```
-#profile help
-'''
-here is my  english help example
-'''
+Fill it like this:
 
-'''
-here is your translation text! konichiwa
+
+`profile.jp.yml`
+
+```yaml
+jp:
+  profile_help: |
+    your shit goes here
+  level_help: |
+    your shit goes here
+    if it is multiline do this
+    
+    you can also do this
+    
+  example_help: | 
+    you should be able to understand how this works
 '''
 ```
 Please keep the file names the same, i do not speak your language :)
