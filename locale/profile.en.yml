@@ -116,16 +116,16 @@ en:
 
 #sr help
   sr_help: | 
-  
-  Set your salmon rank. Also accepts 300/99 and up to 9999/99
+    
+    Set your salmon rank. Also accepts 300/99 and up to 9999/99
 
-  Example:
+    Example:
 
-  !!profile sr Profreshional
-  
+    !!profile sr Profreshional
+    
 
-  sr_set: your salmon rank has been set to
-  sr_error: that is not a valid salmon title
+    sr_set: your salmon rank has been set to
+    sr_error: that is not a valid salmon title
 
 #loadout help
 
