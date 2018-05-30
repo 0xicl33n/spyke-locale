@@ -2,7 +2,7 @@
 1) Create a new file in the `locale` folder called ` profile.lang.yml`, an example would be `profile.jp.yml`
 2) Copy the contents of `profile.en.yml` to your new file
 3) Fill it like this:
-3) **Do not change my keys**, the keys are like `profile_help:`. Just add your text where the english is
+3) **Do not change my keys**, the keys are like `profile_help:`. Just replace the english with your text
 
 ```yaml
 jp:
