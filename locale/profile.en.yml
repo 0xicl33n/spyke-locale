@@ -1,14 +1,14 @@
 en:
-  profile_help: >
+  profile_help: |
     The glorious replacement of fc! Check out !!help profile to get started.
   
-    Also try `!!help profile rank` for more in depth information.
+    Also try !!help profile rank for more in depth information.
   
     You have to add your fc before your profile will work!
   
     Please check `!!help profile fc` and add your friend code before you say spyke isnt working! Thanks!
 
-  level_help: >
+  level_help: |
     
     Set your level in splatoon
 
