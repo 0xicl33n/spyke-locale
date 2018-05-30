@@ -1,24 +1,24 @@
 en:
   profile_help: | 
-  The glorious replacement of fc! Check out !!help profile to get started.
+    The glorious replacement of fc! Check out !!help profile to get started.
 
-  Also try `!!help profile rank` for more in depth information.
+    Also try `!!help profile rank` for more in depth information.
 
-  You have to add your fc before your profile will work!
+    You have to add your fc before your profile will work!
 
-  Please check `!!help profile fc` and add your friend code before you say spyke isnt working! Thanks!
+    Please check `!!help profile fc` and add your friend code before you say spyke isnt working! Thanks!
 
   level_help: |
-    
-  Set your level in splatoon
+      
+    Set your level in splatoon
 
-  Example:
+    Example:
 
-  !!profile level 50
+    !!profile level 50
 
-  If you are a star player add an S on the end after your level
-  
-  !!profile level 50 S
+    If you are a star player add an S on the end after your level
+
+    !!profile level 50 S
 
   level_set: your level has been set to
 
@@ -32,34 +32,34 @@ en:
 
   weapon_help: |
 
-  Set your favorite weapons in your profile. Now accepts 3!
+    Set your favorite weapons in your profile. Now accepts 3!
 
-  Check !!weapons for the list of weapons spyke takes
+    Check !!weapons for the list of weapons spyke takes
 
-  Example:
+    Example:
 
-  !!profile weapon W1 Splattershot Pro
-  !!profile weapon W2 N-ZAP 85"
+    !!profile weapon W1 Splattershot Pro
+    !!profile weapon W2 N-ZAP 85"
 
-  w1: your weapon #1 set is to
-  w2: your weapon #2 set is to 
-  w3: your weapon #3 set is to
+    w1: your weapon #1 set is to
+    w2: your weapon #2 set is to 
+    w3: your weapon #3 set is to
 
   wep_error: Mate, cmon that isnt a weapon
 
 
   rank_help: | 
   
-  Set the rank in your profile! This is fairly straightforward:
+    Set the rank in your profile! This is fairly straightforward:
 
-  tc = tower control
-  rm = rainmaker
-  sz = splat zones
-  cb = clam blitz
+    tc = tower control
+    rm = rainmaker
+    sz = splat zones
+    cb = clam blitz
 
-  Example:
+    Example:
 
-  !!profile rank tc S+0
+    !!profile rank tc S+0
 
  rank_set: your rank has been set
  rank_error1: That rank does not exist
@@ -67,16 +67,16 @@ en:
 
 
  league_power_help: | 
-  
-  Show off your highest league power!
+    
+    Show off your highest league power!
 
-  Now with both league types! Teams and pair. Requires a decimal
+    Now with both league types! Teams and pair. Requires a decimal
 
-  Example:
+    Example:
 
-  !!profile power team 1750.0
-  !!profile power pair 1750.0
-  
+    !!profile power team 1750.0
+    !!profile power pair 1750.0
+    
 
   team_power:  your highest team power level has been set to
   pair_power: your highest pair power level has been set to
@@ -90,13 +90,13 @@ en:
 
 
   fc_help: |
-  
-  Register your FC with spyke.
+    
+    Register your FC with spyke.
 
-  Example:
+    Example:
 
-  !!profile fc SW-5208-7719-6394
-  
+    !!profile fc SW-5208-7719-6394
+    
 
   fc_added: you have been added, cheers.
   fc_error: Sorry love, i only accept friend codes..
@@ -105,13 +105,13 @@ en:
 #ign help
 
   ign_help: | 
-  
-  Set your in game name.
+    
+    Set your in game name.
 
-  Example:
+    Example:
 
-  !!profile ign Marie is best waifu
-  
+    !!profile ign Marie is best waifu
+    
 
   ign_set: your ign has been set to
 
@@ -132,11 +132,11 @@ sr_error: that is not a valid salmon title
 
 loadout_help: | 
 
-Show off your loadout.ink loadouts! You can have up to 3
+  Show off your loadout.ink loadouts! You can have up to 3
 
-Example:
+  Example:
 
-!!profile loadout L1 https://loadout.ink/url-here
+  !!profile loadout L1 https://loadout.ink/url-here
 
 
 l1: your loadout #1 has been set
