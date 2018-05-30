@@ -9,9 +9,7 @@ jp:
   
   example_multiline: |
   
-    your shit goes here
     if it is multiline do this
-    you can also do this
     the | is very important if youre doing multiple lines, be sure and match my tabs
     
   example2: you should be able to understand how this works
