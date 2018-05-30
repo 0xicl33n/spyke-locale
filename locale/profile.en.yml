@@ -1,5 +1,5 @@
 en:
-  profile_help: |
+  profile_help: >
     The glorious replacement of fc! Check out !!help profile to get started.
   
     Also try `!!help profile rank` for more in depth information.
@@ -8,17 +8,17 @@ en:
   
     Please check `!!help profile fc` and add your friend code before you say spyke isnt working! Thanks!
 
-  level_help: |
+  level_help: >
     
-  Set your level in splatoon
+    Set your level in splatoon
 
-  Example:
+    Example:
 
-  !!profile level 50
+    !!profile level 50
 
-  If you are a star player add an S on the end after your level
+    If you are a star player add an S on the end after your level
 
-  !!profile level 50 S
+    !!profile level 50 S
 
   level_set: your level has been set to
 
