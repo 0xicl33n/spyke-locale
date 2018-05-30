@@ -21,11 +21,11 @@ en:
   profile_help: | 
   The glorious replacement of fc! Check out !!help profile to get started.
 
-  Also try \"!!help profile rank\" for more in depth information.
+  Also try "!!help profile rank" for more in depth information.
 
   You have to add your fc before your profile will work!
 
-  Please check \"!!help profile fc\" and add your friend code before you say spyke isnt working! Thanks!
+  Please check "!!help profile fc" and add your friend code before you say spyke isnt working! Thanks!
 
   level_help: |
     
@@ -56,9 +56,9 @@ en:
   !!profile weapon W1 Splattershot Pro
   !!profile weapon W2 N-ZAP 85"
 
-  w1: your weapon \#1 set is to
-  w2: your weapon \#2 set is to 
-  w3: your weapon \#3 set is to
+  w1: your weapon #1 set is to
+  w2: your weapon #2 set is to 
+  w3: your weapon #3 set is to
 
   wep_error: Mate, cmon that isnt a weapon
 
@@ -154,8 +154,8 @@ Example:
 !!profile loadout L1 https://loadout.ink/url-here
 
 
-l1: your loadout \#1 has been set
-l2: your loadout \#2 has been set
-l3: your loadout \#3 has been set
+l1: your loadout #1 has been set
+l2: your loadout #2 has been set
+l3: your loadout #3 has been set
 
 loadout_error: Mate, you cant fool ol Spyke. Thats not a loadout.ink url
