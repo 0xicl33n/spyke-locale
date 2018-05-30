@@ -41,9 +41,9 @@ en:
     !!profile weapon W1 Splattershot Pro
     !!profile weapon W2 N-ZAP 85"
 
-    w1: your weapon #1 set is to
-    w2: your weapon #2 set is to 
-    w3: your weapon #3 set is to
+  w1: your weapon #1 set is to
+  w2: your weapon #2 set is to 
+  w3: your weapon #3 set is to
 
   wep_error: Mate, cmon that isnt a weapon
 
@@ -61,9 +61,9 @@ en:
 
     !!profile rank tc S+0
 
- rank_set: your rank has been set
- rank_error1: That rank does not exist
- rank_error2: That game mode does not exist
+  rank_set: your rank has been set
+  rank_error1: That rank does not exist
+  rank_error2: That game mode does not exist
 
 
  league_power_help: | 
