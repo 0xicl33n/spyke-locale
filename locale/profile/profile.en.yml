@@ -41,9 +41,9 @@ en:
     !!profile weapon W1 Splattershot Pro
     !!profile weapon W2 N-ZAP 85"
 
-  w1: your weapon \#1 set is to
-  w2: your weapon \#2 set is to 
-  w3: your weapon \#3 set is to
+  w1: "your weapon #1 set is to"
+  w2: "your weapon #2 set is to"
+  w3: "your weapon #3 set is to"
 
   wep_error: Mate, cmon that isnt a weapon
 
