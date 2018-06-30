@@ -169,19 +169,19 @@ fr:
 #remove help
 
   remove_help: |
+  
+    !!profile remove
 
-  !!profile remove
-
-  S'enlever de la base de données des profils.
+    S'enlever de la base de données des profils.
 
 #splat help
 
   splat_help: |
 
-  Ajoutez votre actuelle ou dernière équipe en Festimatch pour trouver des personnes avec qui jouer
+    Ajoutez votre actuelle ou dernière équipe en Festimatch pour trouver des personnes avec qui jouer
 
-  Example: 
+    Example: 
 
-  !!profile splat Egg
+    !!profile splat Egg
 
-  splat_error: Ceci n'est pas une équipe de Festimatch
+    splat_error: Ceci n'est pas une équipe de Festimatch
