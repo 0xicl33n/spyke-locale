@@ -42,7 +42,7 @@ en:
     (This is disabled until confirmed it exists)
     rkt = Rocket
 
-    Example:
+    Example\:
     !!profile rank tc S+0
     And the X rank works like this:
     !!profile rank tc X 300.4
@@ -64,7 +64,7 @@ en:
     Show off your highest league power!
     Now with both league types! Teams and pair. Requires a decimal
         
-    Example:
+    Example\:
     !!profile power team 1750.0
     !!profile power pair 1750.0
   pwr_low: You cannot be below one!
@@ -82,13 +82,13 @@ en:
   lvl_help: |
     Set your level in Splatoon 2
     
-    Example:
+    Example\:
     !!profile level 50
     If you are a star player add an S on the end after your level
     !!profile level 50 S
   fc_help: |
     Register your FC with spyke.
-    Example:
+    Example\:
     !!profile fc SW-5208-7719-6394
   fc_example: Mate please, are ya stupid? That's the example friend code!
   fc_zero: Your friend code cannot be zero.
@@ -97,33 +97,33 @@ en:
   fc_notfc: Sorry mate, I only accept friend codes...
   ign_help: |
     Set your in game name.
-    Example:
+    Example\:
     !!profile ign MarieWaifu
   ign_long: Mate, c'mon that's too long...
   ign_set: your IGN has been set to
   db_err: You aren't in the database. Please use `!!help profile fc` to get started.
   clan_help: |
     Set your clan if you have one.
-    Example:
+    Example\:
     !!profile clan Not Nigiri
   clan_long: Mate, c'mon that's too long...
   clan_set: your clan has been set to
   favmap_help: |
     Set your favourite map
-    Example:
+    Example\:
     !!profile favmap Kelp Dome
   not_map: That isn't a map
   favmap_set: your favourite map has been set to
   splat_help: |
     Set your current or last splatfest team to help find others to play with.
-    Example:
+    Example\:
     !!profile splat Squid
   splat_long: Mate, c'mon that's too long...
   splat_set: your splatfest team has been set to
   not_splat: That is not a valid splatfest team.
   sr_help: |
     Set your Grizzco title. Also accepts 300/99 and up to 9999/99
-    Example:
+    Example\:
     !!profile sr Profreshional
   sr_set: your Grizzco title has been set to
   not_sr: that is not a valid Grizzco title
@@ -162,7 +162,7 @@ en:
   sp_title_help: |
     Set your singleplayer title! Check from the nintendo app
     
-    Example:
+    Example\:
     !!sp title Dingleberries
   sp_title_set: your singleplayer title has been set.
   sp_cp_help: |
@@ -171,14 +171,14 @@ en:
     For now, you cannot use a percent sign so just please enter a number.
     It will show up as a percent in your !!sp profile
 
-    Example:
+    Example\:
     !!sp cp 150
   sp_cp_large: Percentage goes up to 1000% max!
   sp_cp_set: your completion percent has been set
   sp_sf_help: |
     This is to show how many scrolls you've found!
     
-    Example:
+    Example\:
     !!sp sf 4
   sp_sf_large: There are only 18 scrolls in the game!
   sp_sf_set: your scroll count has been set
@@ -186,35 +186,35 @@ en:
     This is used to show off how many hero weapons youve obtained
     There are only 9 in the game(? please correct me if im wrong)
 
-    Example:
+    Example\:
     !!sp hwo 3
   sp_hwo_large: There are only 9 hero weapons in the game!
   sp_blt_help: |
     Set your bacon lettuce tomato!
     I'm kidding, this is for your best level time. Use 00:00 format
 
-    Example:
+    Example\:
     !!sp blt 01:24
   sp_blt_set: your best level time has been set
   sp_blt_time: That's not a valid time! Remember the leading 0!
   sp_mc_help:
     Use this to show off how many memcakes youve obtained!
 
-    Example:
+    Example\:
     !!sp mc 50
   sp_mc_large: There are only 80 levels in the Octo Expansion...
   sp_mc_set: your mem cake count has been set
   sp_thangs_help: |
     Set how many thangs youve obtained
 
-    Example:
+    Example\:
     !!sp mc 4
   sp_thangs_large: There are only 4 thangs
   sp_thangs_set: your thang count has been set
   sp_tp_help: |
     Yes/No if you have the Golden Toothpick
 
-    Example:
+    Example\:
     !!sp pick no
   sp_tp_set: your Golden Toothpick collection status has been set
   sp_tp_wrong: This is a yes or no question, mate
