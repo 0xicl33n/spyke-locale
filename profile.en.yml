@@ -4,8 +4,8 @@ en:
   cmn_neg: You cannot have negative numbers
   cmn_nan: C'mon mate, that isn't a number
   is_spyke: Mate, are you kiddin' me?
-  not_in_db_self: You're not in the database! Register with `!!help profile fc` first!
-  not_in_db_others: They're not in the database! Tell them to register with `!!help profile fc` first!
+  not_in_db_self: You're not in the database! Register with `[p]help profile fc` first!
+  not_in_db_others: They're not in the database! Tell them to register with `[p]help profile fc` first!
   rank_rm: Rainmaker
   rank_sz: Splat Zones
   rank_tc: Tower Control
@@ -42,9 +42,9 @@ en:
     rkt = Rocket
 
     Example
-    !!profile rank tc S+0
+    [p]profile rank tc S+0
     And the X rank works like this:
-    !!profile rank tc X 300.4
+    [p]profile rank tc X 300.4
   rm_set: your Rainmaker rank has been set
   tc_set: your Tower Control rank has been set
   sz_set: your Splat Zones rank has been set
@@ -64,8 +64,8 @@ en:
     Now with both league types! (team and pair)
         
     Example
-    !!profile power team 1750
-    !!profile power pair 1750
+    [p]profile power team 1750
+    [p]profile power pair 1750
   pwr_low: You cannot be below one!
   pwr_acc: You cannot have more than one decimal place!
   pwr_neg: Mate... You can't have a negative power...
@@ -73,21 +73,21 @@ en:
   pwr_team_set: your highest team power level has been set to
   pwr_pair_set: your highest pair power level has been set to
   profile_help: |
-    The glorious replacement of fc! Check out `!!help profile fc` to get started.
-    Also try `!!help profile rank` for more in depth information.
+    The glorious replacement of fc! Check out `[p]help profile fc` to get started.
+    Also try `[p]help profile rank` for more in depth information.
     You have to add your fc before your profile will work!
-    Please check `!!help profile fc` and add your friend code before you say Spyke isnt working! Thanks!
+    Please check `[p]help profile fc` and add your friend code before you say Spyke isnt working! Thanks!
   lvl_help: |
     Set your level in Splatoon 2
     
     Example
-    !!profile level 50
+    [p]profile level 50
     If you are a star player add an S on the end after your level
-    !!profile level 50 S
+    [p]profile level 50 S
   fc_help: |
     Register your FC with spyke.
     Example
-    !!profile fc SW-5208-7719-6394
+    [p]profile fc SW-5208-7719-6394
   fc_example: Mate please, are ya stupid? That's the example friend code!
   fc_zero: Your friend code cannot be zero.
   fc_update: your friend code has been updated, love.
@@ -96,7 +96,7 @@ en:
   ign_help: |
     Set your In Game Name.
     Example
-    !!profile ign MarieWaifu
+    [p]profile ign MarieWaifu
   ign_set: your IGN has been set to
   clan_help: |
     Set your clan if you have one.
@@ -105,25 +105,25 @@ en:
   favmap_help: |
     Set your favourite map
     Example
-    !!profile favmap Kelp Dome
+    [p]profile favmap Kelp Dome
   not_map: That isn't a map
   favmap_set: your favourite map has been set to
   splat_help: |
     Set your current or last splatfest team to help find others to play with.
     Example
-    !!profile splat Squid
+    [p]profile splat Squid
   splat_set: your splatfest team has been set to
   not_splat: That is not a valid splatfest team.
   sr_help: |
     Set your Grizzco title. Also accepts 300/99 and up to 9999/99
     Example
-    !!profile sr Profreshional
+    [p]profile sr Profreshional
   sr_set: your Grizzco title has been set to
   not_sr: that is not a valid Grizzco title
   loadout_help: |
     Show off your loadout.ink loadouts! You can have up to 3
     Example
-    !!profile loadout L1 https://loadout.ink/url-here
+    [p]profile loadout L1 https://loadout.ink/url-here
   l1_set: your first loadout has been set
   l2_set: your second loadout has been set
   l3_set: your third loadout has been set
@@ -132,7 +132,7 @@ en:
   remove_suc: you have been removed... Sorry to see you go! o/
   remove_fail: You were never in the database!
   sp_help: |
-    This is the singleplayer part of your profile! Use `!!help sp` to get started. The subcommands are abbreviated:
+    This is the singleplayer part of your profile! Use `[p]help sp` to get started. The subcommands are abbreviated:
 
     Title = title
     Completion Percent = cp
@@ -141,7 +141,7 @@ en:
     Best Level Time = blt
     Has Octo Expansion = oe
 
-    So check out `!!help sp cp` or `!!help sp hwo` to get started adding to your singleplayer profile.
+    So check out `[p]help sp cp` or `[p]help sp hwo` to get started adding to your singleplayer profile.
   sp_embed: Singleplayer stats
   sp_title: Title
   sp_cp: Completion Percent
@@ -156,21 +156,21 @@ en:
     Set your singleplayer title! Check from the nintendo app
     
     Example
-    !!sp title Dingleberries
+    [p]sp title Dingleberries
   sp_title_set: your singleplayer title has been set.
   sp_cp_help: |
     This is your completion percent, you can go up to 1000%
 
     Example
-    !!sp cp 150
-    !!sp cp 150%
+    [p]sp cp 150
+    [p]sp cp 150%
   sp_cp_large: Percentage goes up to 1000% max!
   sp_cp_set: your completion percent has been set
   sp_sf_help: |
     This is to show how many scrolls you've found!
     
     Example
-    !!sp sf 4
+    [p]sp sf 4
   sp_sf_large: There are only 18 scrolls in the game!
   sp_sf_set: your scroll count has been set
   sp_hwo_help: |
@@ -178,45 +178,45 @@ en:
     There are only 9 in the game(? please correct me if im wrong)
 
     Example
-    !!sp hwo 3
+    [p]sp hwo 3
   sp_hwo_large: There are only 9 hero weapons in the game!
   sp_blt_help: |
     Set your bacon lettuce tomato!
     I'm kidding, this is for your best level time. Use 00:00 format
 
     Example
-    !!sp blt 01:24
+    [p]sp blt 01:24
   sp_blt_set: your best level time has been set
   sp_blt_time: That's not a valid time! Remember the leading 0!
   sp_mc_help:
     Use this to show off how many memcakes youve obtained!
 
     Example
-    !!sp mc 50
+    [p]sp mc 50
   sp_mc_large: There are only 80 levels in the Octo Expansion...
   sp_mc_set: your mem cake count has been set
   sp_thangs_help: |
     Set how many thangs youve obtained
 
     Example
-    !!sp mc 4
+    [p]sp mc 4
   sp_thangs_large: There are only 4 thangs
   sp_thangs_set: your thang count has been set
   sp_tp_help: |
     Yes/No if you have the Golden Toothpick
 
     Example
-    !!sp pick no
+    [p]sp pick no
   sp_tp_set: your Golden Toothpick collection status has been set
   sp_tp_wrong: This is a yes or no question, mate
   wep_help: |
     Set your favorite weapons in your profile. Now accepts 3!
-    Check `!!weapons` for the list of weapons spyke takes
+    Check `[p]weapons` for the list of weapons spyke takes
 
     Example
 
-    !!profile weapon W1 Splattershot Pro
-    !!profile weapon W2 N-ZAP 85
+    [p]profile weapon W1 Splattershot Pro
+    [p]profile weapon W2 N-ZAP 85
   wep_error: Mate, c'mon that isn't a weapon.
   w1_set: your first weapon has been set
   w2_set: your second weapon has been set
