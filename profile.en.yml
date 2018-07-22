@@ -74,7 +74,7 @@ en:
   pwr_team_set: your highest team power level has been set to
   pwr_pair_set: your highest pair power level has been set to
   profile_help: |
-    The glorious replacement of fc! Check out `!!help profile` to get started.
+    The glorious replacement of fc! Check out `!!help profile fc` to get started.
     Also try `!!help profile rank` for more in depth information.
     You have to add your fc before your profile will work!
     Please check `!!help profile fc` and add your friend code before you say Spyke isnt working! Thanks!
@@ -99,7 +99,6 @@ en:
     Example
     !!profile ign MarieWaifu
   ign_set: your IGN has been set to
-  db_err: You aren't in the database. Please use `!!help profile fc` to get started.
   clan_help: |
     Set your clan if you have one.
     Example
