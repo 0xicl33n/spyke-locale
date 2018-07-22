@@ -2,6 +2,7 @@ en:
   unset: Unset
   cmn_long: Mate, c'mon that's too long...
   cmn_neg: You cannot have negative numbers
+  cmn_nan: C'mon mate, that isn't a number
   is_spyke: Mate, are you kiddin' me?
   not_in_db_self: You're not in the database! Register with `!!help profile fc` first!
   not_in_db_others: They're not in the database! Tell them to register with `!!help profile fc` first!
@@ -26,7 +27,6 @@ en:
   footer_bonnie: Oh look, my creator. They're pretty great huh?
   footer_star: Active maintainer responsible for translation backend. Nice guy, eh?
   lvl_negative: Your level can't be negative!
-  lvl_nan: C'mon mate, that isn't a number
   lvl_large: Mate, level 99 is the maximum...
   lvl_tiererror: U WOT MATE?! S is the only prestige level I accept!
   lvl_set: your level has been set to
@@ -70,7 +70,6 @@ en:
   pwr_acc: You cannot have more than one decimal place!
   pwr_neg: Mate... You can't have a negative power...
   pwr_big: Mate, that is far too high! There's no way you're that good!
-  pwr_nan: Mate, that isn't a number...
   pwr_team_set: your highest team power level has been set to
   pwr_pair_set: your highest pair power level has been set to
   profile_help: |
