@@ -55,7 +55,7 @@ en:
         
     IT IS CASE SENSITIVE!
         
-    Please be sure and check [https://hastebin.com/ugimufopab.vbs](this list) for the time zone code.
+    Please check [https://hastebin.com/ugimufopab.vbs](this list) for the time zone code.
   tz_err: That is not a valid timezone. This is CASE SENSITIVE! Please check https://hastebin.com/ugimufopab.vbs to get your proper timezone!
   tz_set: your time zone has been set.
   pwr_help: |
