@@ -174,15 +174,16 @@ en:
   sp_sf_large: There are only 18 scrolls in the game!
   sp_sf_set: your scroll count has been set
   sp_hwo_help: |
-    This is used to show off how many hero weapons youve obtained
-    There are only 9 in the game(? please correct me if im wrong)
+    This is used to show off how many hero weapons you've obtained
+    There are only 9 in the game(? please correct me if I'm wrong)
 
     Example
     [p]sp hwo 3
   sp_hwo_large: There are only 9 hero weapons in the game!
+  sp_hwo_set: your hero weapon count has been set
   sp_blt_help: |
     Set your bacon lettuce tomato!
-    I'm kidding, this is for your best level time. Use 00:00 format
+    I'm kidding, this is for your best level time. Use XX:XX format
 
     Example
     [p]sp blt 01:24
@@ -210,7 +211,7 @@ en:
   sp_tp_set: your Golden Toothpick collection status has been set
   sp_tp_wrong: This is a yes or no question, mate
   wep_help: |
-    Set your favorite weapons in your profile. Now accepts 3!
+    Set your favourite weapons in your profile. Now accepts 3!
     Check `[p]weapons` for the list of weapons spyke takes
 
     Example
