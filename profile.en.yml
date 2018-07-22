@@ -60,11 +60,11 @@ en:
   tz_set: your time zone has been set.
   pwr_help: |
     Show off your highest league power!
-    Now with both league types! Teams and pair. Requires a decimal
+    Now with both league types! (team and pair)
         
     Example
-    !!profile power team 1750.0
-    !!profile power pair 1750.0
+    !!profile power team 1750
+    !!profile power pair 1750
   pwr_low: You cannot be below one!
   pwr_acc: You cannot have more than one decimal place!
   pwr_neg: Mate... You can't have a negative power...
