@@ -29,9 +29,12 @@ en:
   lvl_large: Mate, level 99 is the maximum...
   lvl_tiererror: U WOT MATE?! S is the only prestige level I accept!
   lvl_set: your level has been set to
-  loadout1: your first weapon has been set to
-  loadout2: your second weapon has been set to
-  loadout3: your third weapon has been set to
+  loadout1: your first loadout has been set to
+  loadout2: your second loadout has been set to
+  loadout3: your third loadout has been set to
+  w1: your first weapon has been set to
+  w2: your second weapon has been set to
+  w3: your third weapon has been set to
   rank_help: |
     Set the rank in your profile! This is fairly straightforward:
 
@@ -43,7 +46,7 @@ en:
     (This is disabled until confirmed it exists)
     rkt = Rocket
 
-    Example\:
+    Example
     !!profile rank tc S+0
     And the X rank works like this:
     !!profile rank tc X 300.4
@@ -89,7 +92,7 @@ en:
     !!profile level 50 S
   fc_help: |
     Register your FC with spyke.
-    Example\:
+    Example
     !!profile fc SW-5208-7719-6394
   fc_example: Mate please, are ya stupid? That's the example friend code!
   fc_zero: Your friend code cannot be zero.
@@ -97,7 +100,7 @@ en:
   fc_add: you have been added, cheers.
   fc_notfc: Sorry mate, I only accept friend codes...
   ign_help: |
-    Set your in game name.
+    Set your In Game Name.
     Example
     !!profile ign MarieWaifu
   ign_long: Mate, c'mon that's too long...
@@ -105,7 +108,7 @@ en:
   db_err: You aren't in the database. Please use `!!help profile fc` to get started.
   clan_help: |
     Set your clan if you have one.
-    Example\:
+    Example
     !!profile clan Not Nigiri
   clan_long: Mate, c'mon that's too long...
   clan_set: your clan has been set to
@@ -124,13 +127,13 @@ en:
   not_splat: That is not a valid splatfest team.
   sr_help: |
     Set your Grizzco title. Also accepts 300/99 and up to 9999/99
-    Example\:
+    Example
     !!profile sr Profreshional
   sr_set: your Grizzco title has been set to
   not_sr: that is not a valid Grizzco title
   loadout_help: |
     Show off your loadout.ink loadouts! You can have up to 3
-    Example:
+    Example
     !!profile loadout L1 https://loadout.ink/url-here
   l1_set: your first loadout has been set
   l2_set: your second loadout has been set
@@ -150,7 +153,6 @@ en:
     Has Octo Expansion = oe
 
     So check out `!!help sp cp` or `!!help sp hwo` to get started adding to your singleplayer profile.
-  sp_spyke: Are you kidding me?
   sp_embed: Singleplayer stats
   sp_title: Title
   sp_cp: Completion Percent
@@ -219,3 +221,11 @@ en:
     !!sp pick no
   sp_tp_set: your Golden Toothpick collection status has been set
   sp_tp_wrong: This is a yes or no question, mate
+  wep_help: |
+    Set your favorite weapons in your profile. Now accepts 3!
+    Check !!weapons for the list of weapons spyke takes
+
+    Example
+
+    !!profile weapon W1 Splattershot Pro
+    !!profile weapon W2 N-ZAP 85
