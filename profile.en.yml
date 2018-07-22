@@ -1,5 +1,6 @@
 en:
   unset: Unset
+  cmn_long: Mate, c'mon that's too long...
   cmn_neg: You cannot have negative numbers
   is_spyke: Mate, are you kiddin' me?
   not_in_db_self: You're not in the database! Register with `!!help profile fc` first!
@@ -97,14 +98,11 @@ en:
     Set your In Game Name.
     Example
     !!profile ign MarieWaifu
-  ign_long: Mate, c'mon that's too long...
   ign_set: your IGN has been set to
   db_err: You aren't in the database. Please use `!!help profile fc` to get started.
   clan_help: |
     Set your clan if you have one.
     Example
-    !!profile clan Not Nigiri
-  clan_long: Mate, c'mon that's too long...
   clan_set: your clan has been set to
   favmap_help: |
     Set your favourite map
@@ -116,7 +114,6 @@ en:
     Set your current or last splatfest team to help find others to play with.
     Example
     !!profile splat Squid
-  splat_long: Mate, c'mon that's too long...
   splat_set: your splatfest team has been set to
   not_splat: That is not a valid splatfest team.
   sr_help: |
