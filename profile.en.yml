@@ -161,11 +161,9 @@ en:
   sp_cp_help: |
     This is your completion percent, you can go up to 1000%
 
-    For now, you cannot use a percent sign so just please enter a number.
-    It will show up as a percent in your !!sp profile
-
     Example
     !!sp cp 150
+    !!sp cp 150%
   sp_cp_large: Percentage goes up to 1000% max!
   sp_cp_set: your completion percent has been set
   sp_sf_help: |
