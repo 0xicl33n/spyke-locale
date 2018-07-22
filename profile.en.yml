@@ -190,14 +190,14 @@ en:
   sp_blt_set: your best level time has been set
   sp_blt_time: That's not a valid time! Remember the leading 0!
   sp_mc_help:
-    Use this to show off how many memcakes youve obtained!
+    Use this to show off how many mem cakes you've obtained!
 
     Example
     [p]sp mc 50
   sp_mc_large: There are only 80 levels in the Octo Expansion...
   sp_mc_set: your mem cake count has been set
   sp_thangs_help: |
-    Set how many thangs youve obtained
+    Set how many thangs you've obtained
 
     Example
     [p]sp mc 4
