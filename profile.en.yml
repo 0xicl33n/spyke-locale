@@ -219,6 +219,6 @@ en:
     [p]profile weapon W1 Splattershot Pro
     [p]profile weapon W2 N-ZAP 85
   wep_error: Mate, c'mon that isn't a weapon.
-  w1_set: your first weapon has been set
-  w2_set: your second weapon has been set
-  w3_set: your third weapon has been set
+  w1_set: your first weapon has been set to
+  w2_set: your second weapon has been set to
+  w3_set: your third weapon has been set to
