@@ -39,7 +39,7 @@ en:
     
     Example
     [p]sp sf 4
-  sf_large: There are only 18 scrolls in the game!
+  sf_large: There are only 28 scrolls in the game!
   sf_set: your scroll count has been set
   hwo_help: |
     This is used to show off how many hero weapons you've obtained
