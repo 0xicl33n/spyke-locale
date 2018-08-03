@@ -1,11 +1,4 @@
 en:
-  unset: Unset
-  cmn_long: Mate, c'mon that's too long...
-  cmn_neg: You cannot have negative numbers
-  cmn_nan: C'mon mate, that isn't a number
-  is_spyke: Mate, are you kiddin' me?
-  not_in_db_self: You're not in the database! Register with `[p]help profile fc` first!
-  not_in_db_others: They're not in the database! Tell them to register with `[p]help profile fc` first!
   rank_rm: Rainmaker
   rank_sz: Splat Zones
   rank_tc: Tower Control
