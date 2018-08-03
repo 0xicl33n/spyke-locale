@@ -1,0 +1,8 @@
+en:
+  unset: Unset
+  arg_long: Mate, c'mon that's too long...
+  arg_neg: You cannot have negative numbers
+  arg_nan: C'mon mate, that isn't a number
+  is_spyke: Mate, are you kiddin' me?
+  not_in_db_self: You're not in the database! Register with `[p]help profile fc` first!
+  not_in_db_others: They're not in the database! Tell them to register with `[p]help profile fc` first!
