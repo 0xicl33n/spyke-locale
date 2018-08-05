@@ -6,3 +6,4 @@ en:
   is_spyke: Mate, are you kiddin' me?
   not_in_db_self: You're not in the database! Register with `[p]help profile fc` first!
   not_in_db_others: They're not in the database! Tell them to register with `[p]help profile fc` first!
+  user_not_found: Could not find user.
