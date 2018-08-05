@@ -1,18 +1,4 @@
 en:
-  help: |
-    This is the singleplayer part of your profile! Use `[p]help sp` to get started. The subcommands are abbreviated:
-
-    Title = title
-    Completion Percent = cp
-    Scrolls Found = sf
-    Hero Weapons Obtained = hwo
-    Best Level Time = blt
-    Has Octo Expansion = oe
-    Mem Cakes = mc
-    Thangs = thangs
-    Golden Toothpick Obtained = pick
-    
-    So check out `[p]help sp cp` or `[p]help sp hwo` to get started adding to your singleplayer profile.
   embed: Singleplayer stats
   title: Title
   cp: Completion Percent
@@ -23,61 +9,18 @@ en:
   mc: Mem Cakes
   thangs: Thangs
   tp: Golden Toothpick Obtained
-  title_help: |
-    Set your singleplayer title! Check from the nintendo app
-    
-    Example
-    [p]sp title Dingleberries
   title_set: your singleplayer title has been set.
-  cp_help: |
-    This is your completion percent, you can go up to 1000%
-
-    Example
-    [p]sp cp 150
-    [p]sp cp 150%
   cp_large: Percentage goes up to 1000% max!
   cp_set: your completion percent has been set
-  sf_help: |
-    This is to show how many scrolls you've found!
-    
-    Example
-    [p]sp sf 4
   sf_large: There are only 28 scrolls in the game!
-  sf_set: your scroll count has been set
-  hwo_help: |
-    This is used to show off how many hero weapons you've obtained
-    There are only 9 in the game(? please correct me if I'm wrong)
-
-    Example
-    [p]sp hwo 3
+  sf_set: your scroll count has been set.
   hwo_large: There are only 9 hero weapons in the game!
   hwo_set: your hero weapon count has been set
-  blt_help: |
-    Set your bacon lettuce tomato!
-    I'm kidding, this is for your best level time. Use XX:XX format
-
-    Example
-    [p]sp blt 01:24
   blt_set: your best level time has been set
   blt_time: That's not a valid time! Remember the leading 0!
-  mc_help:
-    Use this to show off how many mem cakes you've obtained!
-
-    Example
-    [p]sp mc 50
   mc_large: There are only 80 levels in the Octo Expansion...
   mc_set: your mem cake count has been set
-  thangs_help: |
-    Set how many thangs you've obtained
-
-    Example
-    [p]sp mc 4
   thangs_large: There are only 4 thangs
   thangs_set: your thang count has been set
-  tp_help: |
-    Yes/No if you have the Golden Toothpick
-
-    Example
-    [p]sp pick no
   tp_set: your Golden Toothpick collection status has been set
   tp_wrong: This is a yes or no question, mate
