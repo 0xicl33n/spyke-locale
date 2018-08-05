@@ -8,6 +8,6 @@ en:
   header: Next {mode} for {style}
   rot_until: Map rotations until
   time_until: Time until
-  time_format: {hours} hours, {minutes} minutes and {seconds} seconds
+  time_format: {h} hours, {m} minutes and {s} seconds
   maps: Maps
   mode_gone: That game mode has come and gone! You'll have to wait a bit before trying again.
