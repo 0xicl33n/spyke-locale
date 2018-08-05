@@ -95,9 +95,10 @@ en:
     Example:
     [p]profile sr Profreshional
   pf_loadout: |
-    Show off your loadout.ink loadouts! You can have up to 3
+    Show off your loadout.ink loadouts! You can have up to 3.
     Example:
     [p]profile loadout L1 https://loadout.ink/url-here
+  pf_remove: Remove yourself from the profile database.
   pf_wep: |
     Set your favourite weapons in your profile. Now accepts 3!
     Check `[p]weapons` for the list of weapons Spyke takes.
