@@ -108,12 +108,14 @@ en:
     [p]profile weapon W2 N-ZAP 85
   pf_locale: |
     Set your locale, for Spyke in another language!
-    Available locales: EN
+    Available locales: EN, JP
     
     If your locale is not found Spyke will default to EN
     
+    Note that the translations are still WIP, many parts of Spyke are not yet translated.
+    
     Example:
-    [p]profile blocale EN
+    [p]profile locale EN
   sp: |
     This is the singleplayer part of your profile! Use `[p]help sp` to get started. The subcommands are abbreviated:
 
@@ -178,7 +180,6 @@ en:
     
     Example:
     [p]lfg 3 4h league
-    
     This posts an LFG message for 3 people, max 4 hours for league battle.
     Other options for mode: Salmon, Scrim
   lfg_join: |
@@ -192,3 +193,15 @@ en:
     [p]join G-34256
     
     Groups are reset each day so old IDs do not clog the system.
+  maps_nextmode: |
+    This command allows you to check when your favourite mode will be on next, and how many rotations you have to wait.
+    
+    rm = Rainmaker
+    sz = Splat Zones
+    tc = Tower Control
+    cb = Clam Blitz
+    
+    Still somewhat WIP, but it works.
+    
+    Example:
+    [p]mextmode tc league
