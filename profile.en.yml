@@ -61,3 +61,5 @@ en:
   w1_set: your first weapon has been set to
   w2_set: your second weapon has been set to
   w3_set: your third weapon has been set to
+  locale_set: your locale has been set to
+  locale_check: your locale is currently
