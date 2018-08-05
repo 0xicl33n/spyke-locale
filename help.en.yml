@@ -173,3 +173,14 @@ en:
     
     This posts an LFG message for 3 people, max 4 hours for league battle.
     Other options for mode: Salmon, Scrim
+  lfg_join: |
+    Allows you to join a group found by LFG
+    
+    Every LFG post has an associated ID
+    
+    To join the group, and get contact with its creator, run `[p]join <group ID>`
+    
+    Example:
+    [p]join G-34256
+    
+    Groups are reset each day so old IDs do not clog the system.
