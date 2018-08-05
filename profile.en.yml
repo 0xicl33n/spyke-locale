@@ -23,100 +23,33 @@ en:
   lvl_large: Mate, level 99 is the maximum...
   lvl_tiererror: U WOT MATE?! S is the only prestige level I accept!
   lvl_set: your level has been set to
-  rank_help: |
-    Set the rank in your profile! This is fairly straightforward:
-
-    tc = Tower Control
-    rm = Rainmaker
-    sz = Splat Zones
-    cb = Clam Blitz
-
-    (This is disabled until confirmed it exists)
-    rkt = Rocket
-
-    Example
-    [p]profile rank tc S+0
-    And the X rank works like this:
-    [p]profile rank tc X 300.4
   rm_set: your Rainmaker rank has been set
   tc_set: your Tower Control rank has been set
   sz_set: your Splat Zones rank has been set
   cb_set: your Clam Blitz rank has been set
   no_mode: That game mode does not exist
   no_rank: That rank does not exist
-  tz_help: |
-    This allows you to set a time zone where you live for when you use the salmon run command.
-        
-    IT IS CASE SENSITIVE!
-        
-    Please check [https://hastebin.com/ugimufopab.vbs](this list) for the time zone code.
   tz_err: That is not a valid timezone. This is CASE SENSITIVE! Please check https://hastebin.com/ugimufopab.vbs to get your proper timezone!
   tz_set: your time zone has been set.
-  pwr_help: |
-    Show off your highest league power!
-    Now with both league types! (team and pair)
-        
-    Example
-    [p]profile power team 1750
-    [p]profile power pair 1750
   pwr_low: You cannot be below one!
   pwr_acc: You cannot have more than one decimal place!
   pwr_neg: Mate... You can't have a negative power...
   pwr_big: Mate, that is far too high! There's no way you're that good!
   pwr_team_set: your highest team power level has been set to
   pwr_pair_set: your highest pair power level has been set to
-  profile_help: |
-    The glorious replacement of fc! Check out `[p]help profile fc` to get started.
-    Also try `[p]help profile rank` for more in depth information.
-    You have to add your fc before your profile will work!
-    Please check `[p]help profile fc` and add your friend code before you say Spyke isnt working! Thanks!
-  lvl_help: |
-    Set your level in Splatoon 2
-    
-    Example
-    [p]profile level 50
-    If you are a star player add an S on the end after your level
-    [p]profile level 50 S
-  fc_help: |
-    Register your FC with spyke.
-    Example
-    [p]profile fc SW-5208-7719-6394
   fc_example: Mate please, are ya stupid? That's the example friend code!
   fc_zero: Your friend code cannot be zero.
   fc_update: your friend code has been updated, love.
   fc_add: you have been added, cheers.
   fc_notfc: Sorry mate, I only accept friend codes...
-  ign_help: |
-    Set your In Game Name.
-    Example
-    [p]profile ign MarieWaifu
   ign_set: your IGN has been set to
-  clan_help: |
-    Set your clan if you have one.
-    Example
   clan_set: your clan has been set to
-  favmap_help: |
-    Set your favourite map
-    Example
-    [p]profile favmap Kelp Dome
   not_map: That isn't a map
   favmap_set: your favourite map has been set to
-  splat_help: |
-    Set your current or last splatfest team to help find others to play with.
-    Example
-    [p]profile splat Squid
   splat_set: your splatfest team has been set to
   not_splat: That is not a valid splatfest team.
-  sr_help: |
-    Set your Grizzco title. Also accepts 300/99 and up to 9999/99
-    Example
-    [p]profile sr Profreshional
   sr_set: your Grizzco title has been set to
   not_sr: that is not a valid Grizzco title
-  loadout_help: |
-    Show off your loadout.ink loadouts! You can have up to 3
-    Example
-    [p]profile loadout L1 https://loadout.ink/url-here
   l1_set: your first loadout has been set
   l2_set: your second loadout has been set
   l3_set: your third loadout has been set
@@ -124,14 +57,6 @@ en:
   remove_help: Remove yourself from the database
   remove_suc: you have been removed... Sorry to see you go! o/
   remove_fail: You were never in the database!
-  wep_help: |
-    Set your favourite weapons in your profile. Now accepts 3!
-    Check `[p]weapons` for the list of weapons spyke takes
-
-    Example
-
-    [p]profile weapon W1 Splattershot Pro
-    [p]profile weapon W2 N-ZAP 85
   wep_error: Mate, c'mon that isn't a weapon.
   w1_set: your first weapon has been set to
   w2_set: your second weapon has been set to
