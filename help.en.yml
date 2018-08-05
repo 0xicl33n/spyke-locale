@@ -20,3 +20,145 @@ en:
     [p]help <category>: Show commands and description for a category.
   #{0.name} is a command, do not translate this
   no_subcommands: Command "{0.name}" has no subcommands.
+  callout: |
+    Get the normal callout map for a map you specify, can be in any order or any spelling of the name.
+
+    Lets say you want to get Camp Triggerfish. Well you can either "[p]callout camp: or "[p]callout triggerfish", whichever is easier for you.
+
+    Example
+
+    [p]callout arena
+    [p]callout shipyard
+    [p]callout fitness
+  pf_rank: |
+    Set the rank in your profile! This is fairly straightforward:
+
+    tc = Tower Control
+    rm = Rainmaker
+    sz = Splat Zones
+    cb = Clam Blitz
+
+    (This is disabled until confirmed it exists)
+    rkt = Rocket
+
+    Examples:
+    [p]profile rank tc S+0
+    And the X rank works like this:
+    [p]profile rank tc X 300.4
+  pf_tz: |
+    This allows you to set a time zone where you live for when you use the salmon run command.
+        
+    IT IS CASE SENSITIVE!
+        
+    Please check [https://hastebin.com/ugimufopab.vbs](this list) for the time zone code.
+  pf_pwr: |
+    Show off your highest league power!
+    Now with both league types! (team and pair)
+        
+    Examples:
+    [p]profile power team 1750
+    [p]profile power pair 1750.9
+  profile: |
+    The glorious replacement of fc! Check out `[p]help profile fc` to get started.
+    Also try `[p]help profile rank` for more in depth information.
+    You have to add your fc before your profile will work!
+    Please check `[p]help profile fc` and add your friend code before you say Spyke isnt working! Thanks!
+  pf_lvl: |
+    Set your level in Splatoon 2
+    
+    Examples:
+    [p]profile level 50
+    If you are a star player add an S on the end after your level:
+    [p]profile level 50 S
+  pf_fc: |
+    Register your FC with spyke.
+    Example:
+    [p]profile fc SW-5208-7719-6394
+  pf_ign: |
+    Set your In Game Name.
+    Example:
+    [p]profile ign MarieWaifu
+  pf_clan: |
+    Set your clan if you have one.
+    Example:
+    [p]profile clan Ink2Death
+  pf_favmap: |
+    Set your favourite map
+    Example:
+    [p]profile favmap Kelp Dome
+  pf_splat: |
+    Set your current or last splatfest team to help find others to play with.
+    Example:
+    [p]profile splat Squid
+  pf_sr: |
+    Set your Grizzco title. Also accepts 300/99 and up to 9999/99
+    Example:
+    [p]profile sr Profreshional
+  pf_loadout: |
+    Show off your loadout.ink loadouts! You can have up to 3
+    Example:
+    [p]profile loadout L1 https://loadout.ink/url-here
+  pf_wep: |
+    Set your favourite weapons in your profile. Now accepts 3!
+    Check `[p]weapons` for the list of weapons Spyke takes.
+
+    Examples:
+    [p]profile weapon W1 Splattershot Pro
+    [p]profile weapon W2 N-ZAP 85
+  sp: |
+    This is the singleplayer part of your profile! Use `[p]help sp` to get started. The subcommands are abbreviated:
+
+    Title = title
+    Completion Percent = cp
+    Scrolls Found = sf
+    Hero Weapons Obtained = hwo
+    Best Level Time = blt
+    Has Octo Expansion = oe
+    Mem Cakes = mc
+    Thangs = thangs
+    Golden Toothpick Obtained = pick
+    
+    So check out `[p]help sp cp` or `[p]help sp hwo` to get started adding to your singleplayer profile.
+  sp_title: |
+    Set your singleplayer title! Check from the nintendo app
+    
+    Example:
+    [p]sp title Dingleberries
+  sp_cp: |
+    This is your completion percent, you can go up to 1000%
+
+    Example:
+    [p]sp cp 150
+    [p]sp cp 150%
+  sp_sf: |
+    This is to show how many scrolls you've found!
+    
+    Example:
+    [p]sp sf 4
+  sp_hwo: |
+    This is used to show off how many hero weapons you've obtained
+    There are only 9 in the game(? please correct me if I'm wrong)
+
+    Example:
+    [p]sp hwo 3
+  sp_blt: |
+    Set your bacon lettuce tomato!
+    I'm kidding, this is for your best level time. Use XX:XX format
+
+    Example:
+    [p]sp blt 01:24
+  sp_mc: |
+    Use this to show off how many mem cakes you've obtained!
+
+    Example:
+    [p]sp mc 50
+  sp_thangs: |
+    Set how many thangs you've obtained
+
+    Example:
+    [p]sp mc 4
+  sp_tp: |
+    Yes/No if you have the Golden Toothpick
+
+    Example:
+    [p]sp pick no
