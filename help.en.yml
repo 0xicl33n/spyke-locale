@@ -106,6 +106,14 @@ en:
     Examples:
     [p]profile weapon W1 Splattershot Pro
     [p]profile weapon W2 N-ZAP 85
+  pf_locale: |
+    Set your locale, for Spyke in another language!
+    Available locales: EN
+    
+    If your locale is not found Spyke will default to EN
+    
+    Example:
+    [p]profile blocale EN
   sp: |
     This is the singleplayer part of your profile! Use `[p]help sp` to get started. The subcommands are abbreviated:
 
