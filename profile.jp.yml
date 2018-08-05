@@ -1,21 +1,21 @@
 jp:
-  rank_rm: ホコ
-  rank_sz: エリア
-  rank_tc: ヤグラ
-  rank_cb: アサリ
-  loadout: Loadout
-  ign: In Game Name
-  lvl: Level
-  fc: Friend Code
-  ranks: Ranks
-  power_team: League Team Power
-  power_pair: League Pair Power
-  sr_title: Grizzco Title
-  fav_wep: Favourite Weapons
-  fav_map: Favourite Map
-  loadouts: Loadouts
-  clan: Clan
-  splat: Splatfest Team
+  rank_rm: ガチホコ
+  rank_sz: ガチエリア
+  rank_tc: ガチヤグラ
+  rank_cb: ガチアサリ
+  loadout: 服
+  ign: ゲームの名前
+  lvl: レベル
+  fc: 書き込んどいたヨ
+  ranks: ガチ
+  power_team: リーグパワー最高値（チーム）
+  power_pair: リーグパワー最高値（ペア）
+  sr_title: サーモンラン
+  fav_wep: お気に入りの武器
+  fav_map: お気に入りの地図
+  loadouts: ロードアウト
+  clan: 一族
+  splat: フェス
   footer_morti: The one true Morti
   footer_bonnie: Oh look, my creator. They're pretty great huh?
   footer_star: Active maintainer responsible for translation backend. Nice guy, eh?
