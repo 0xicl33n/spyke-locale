@@ -163,3 +163,13 @@ en:
 
     Example:
     [p]sp pick no
+  lfg: |
+    Allows you to look for a group publicly:
+    
+    [p]lfg <players needed> <time in xy format> <mode> [title for salmon run]
+    
+    Example:
+    [p]lfg 3 4h league
+    
+    This posts an LFG message for 3 people, max 4 hours for league battle.
+    Other options for mode: Salmon, Scrim
