@@ -2,7 +2,7 @@ en:
 #don't translate words in {curly braces}
   unavailable: I cannot get the maps information right now, sorry.
   not_mode: Oi mate! That's not a real mode!
-  ttn: Remaining time until rotation:
+  ttn: Remaining time until rotation
   need_mode: Mate, you need to give me a mode to look up...
   need_style: Mate, do you want ranked or league? You need to tell me...
   header: Next {mode} for {style}
