@@ -1,0 +1,18 @@
+es:
+  profile_help: |
+    ¡El glorioso reemplazo del fc! Checa !!help profile para comenzar.
+    También checa "!!help profile rank" para más detalles.
+    Tienes que agregar tu código de amigo (fc) para que tu perfil funcione.
+    
+    ¡Por favor, primero checa "!!help profile fc" y agrega tu 'friend code' antes de decir que Spyke no funciona! ¡Gracias!
+
+  level_help: |
+    Agrega tu nivel en splatoon
+
+    Ejemplo:
+
+    !!perfil nivel 50
+    
+    Si tienes una estrella agrega una S después de tu nivel:
+
+    !!perfil nivel 50 S

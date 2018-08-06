@@ -1,0 +1,5 @@
+en:
+  no_permission: You don't have permissions to use that command.
+  missing_required: You are missing required arguments.
+  bad: You have given an invalid argument.
+  reported: An error occurred with the `{}` command. This has automatically been reported for you.

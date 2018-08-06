@@ -1,0 +1,17 @@
+en:
+  spyke_welcome: |
+    Hey there! I'm Spyke! The Splatoon 2 specific bot. To see what I can do, type `[p]help`
+    To set up your profile, get started with `[p]help profile`.
+    To set up splatnet and the mapstream, check `[p]help stream`.
+    If you still need help, please come to the support server!
+    https://discord.gg/q2j8HtB
+  order_help: |
+    This command lets you queue up a piece of gear for splatnet. Spyke will send you a DM when the piece of gear you want is available in splatnet for you to buy
+    
+    Example
+    [p]order Annaki Yellow Cuff
+  order_created: |
+    Order created for **{}**.
+    
+    **You will be DMd when it's available.**
+  order_fail: There is no gear with that name!

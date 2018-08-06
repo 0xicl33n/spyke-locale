@@ -1,0 +1,65 @@
+l33t:
+  rank_rm: '`|241/\/|\/|4|<3|2`'
+  rank_sz: '`5|D|_/\+ (\)0/\/35`'
+  rank_tc: '`+0\/\/3|2 <0/\/+|20|_`'
+  rank_cb: '`<|_4/\/\ |3|_1+(\)`'
+  loadout: '`|_0/\|)0|_|+`'
+  ign: '`16/\/`'
+  lvl: '`|_3\/3|_`'
+  fc: '`|=|213/\/|) <0|)3`'
+  ranks: '`|24/\/|<5`'
+  power_team: '`|_3/\63 +34/\/\`'
+  power_pair: '`|_3/\63 |D41|2 `'
+  sr_title: '`6|21(\)(\)<0 +1+|_3`'
+  fav_wep: '`|=4\/0|21+3 \/\/34|D0/\/5`'
+  fav_map: '`|=4\/0|21+3 |\/|4|D`'
+  loadouts: '`|_0/\|)0|_|+`'
+  clan: '`<|_4/\/`'
+  splat: '`5|_4+|=35+ +34|\/|`'
+  footer_morti: The one true Morti
+  footer_bonnie: Oh look, my creator. They're pretty great huh?
+  footer_star: Active maintainer responsible for translation backend. Nice guy, eh?
+  lvl_negative: Your level can't be negative!
+  lvl_large: Mate, level 99 is the maximum...
+  lvl_tiererror: U WOT MATE?! S is the only prestige level I accept!
+  lvl_set: your level has been set to
+  rm_set: your Rainmaker rank has been set
+  tc_set: your Tower Control rank has been set
+  sz_set: your Splat Zones rank has been set
+  cb_set: your Clam Blitz rank has been set
+  no_mode: That game mode does not exist
+  no_rank: That rank does not exist
+  tz_err: That is not a valid timezone. This is CASE SENSITIVE! Please check https://hastebin.com/ugimufopab.vbs to get your proper timezone!
+  tz_set: your time zone has been set.
+  pwr_low: You cannot be below one!
+  pwr_acc: You cannot have more than one decimal place!
+  pwr_neg: Mate... You can't have a negative power...
+  pwr_big: Mate, that is far too high! There's no way you're that good!
+  pwr_team_set: your highest team power level has been set to
+  pwr_pair_set: your highest pair power level has been set to
+  fc_example: Mate please, are ya stupid? That's the example friend code!
+  fc_zero: Your friend code cannot be zero.
+  fc_update: your friend code has been updated, love.
+  fc_add: you have been added, cheers.
+  fc_notfc: Sorry mate, I only accept friend codes...
+  ign_set: your IGN has been set to
+  clan_set: your clan has been set to
+  not_map: That isn't a map
+  favmap_set: your favourite map has been set to
+  splat_set: your splatfest team has been set to
+  not_splat: That is not a valid splatfest team.
+  sr_set: your Grizzco title has been set to
+  not_sr: that is not a valid Grizzco title
+  l1_set: your first loadout has been set
+  l2_set: your second loadout has been set
+  l3_set: your third loadout has been set
+  not_loadout: Mate, you can't fool ol' Spyke. That's not a loadout.ink url...
+  remove_help: Remove yourself from the database
+  remove_suc: you have been removed... Sorry to see you go! o/
+  remove_fail: You were never in the database!
+  wep_error: Mate, c'mon that isn't a weapon.
+  w1_set: your first weapon has been set to
+  w2_set: your second weapon has been set to
+  w3_set: your third weapon has been set to
+  locale_set: your locale has been set to
+  locale_check: your locale is currently

@@ -1,0 +1,26 @@
+en:
+  embed: Singleplayer stats
+  title: Title
+  cp: Completion Percent
+  sf: Scrolls Found
+  oe: Has the Octo Expansion
+  hwo: Hero Weapons Obtained
+  blt: Best Level Time
+  mc: Mem Cakes
+  thangs: Thangs
+  tp: Golden Toothpick Obtained
+  title_set: your singleplayer title has been set.
+  cp_large: Percentage goes up to 1000% max!
+  cp_set: your completion percent has been set
+  sf_large: There are only 28 scrolls in the game!
+  sf_set: your scroll count has been set.
+  hwo_large: There are only 9 hero weapons in the game!
+  hwo_set: your hero weapon count has been set
+  blt_set: your best level time has been set
+  blt_time: That's not a valid time! Remember the leading 0!
+  mc_large: There are only 80 levels in the Octo Expansion...
+  mc_set: your mem cake count has been set
+  thangs_large: There are only 4 thangs
+  thangs_set: your thang count has been set
+  tp_set: your Golden Toothpick collection status has been set
+  tp_wrong: This is a yes or no question, mate

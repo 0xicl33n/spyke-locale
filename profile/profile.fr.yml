@@ -1,0 +1,187 @@
+fr:
+  profile_help: |
+    Le glorieux remplacement du fc! Tapez "!!help profile" pour commencer.
+  
+    Essayez aussi "!!help profile rank" pour plus d'informations.
+  
+    Vous devez ajouter votre code d'ami (fc) avant que votre profil fonctionne!
+  
+    S'il vous plaît tapez "!!help profile fc" et ajoutez votre code d'ami (fc) avant de dire que Spyke ne fonctionne pas! Merci!
+
+  level_help: |
+    
+    Ajoutez votre niveau sur Splatoon
+
+    Example:
+
+    !!profile level 50
+
+    Si vous avez une étoile après votre niveau ajoutez un S à la fin après votre niveau.
+
+    !!profile level 50 S
+
+  level_set: Vous êtes maintenant niveau 
+
+  level_error1: Vous ne pouvez pas avoir un niveau négatif...
+
+  level_error2: Ce n'est même pas un nombre!
+
+  level_error3: Le niveau 99 est le maximum...
+
+  level_error4: Le S est le seul tier que j'accepte!
+
+  weapon_help: |
+
+    Ajoutez vos armes préférées dans votre profil. Maintenant il en accepte 3!
+
+    Tapez "!!weapons" pour voir la liste des armes que Spyke accepte
+
+    Example:
+
+    !!profile weapon W1 Splattershot Pro
+    !!profile weapon W2 N-ZAP 85
+
+  w1: Votre arme préférée #1 est le
+  w2: Votre arme préférée #2 est le
+  w3: Votre arme préférée #3 est le
+
+  wep_error: Ce n'est pas une arme...
+
+
+  rank_help: | 
+  
+    Ajoutez vos rangs dans votre profil! C'est plûtot simple:
+
+    tc = tower control (expédition risquée)
+    rm = rainmaker (mission bazookarpe)
+    sz = splat zones (défense de zone)
+    cb = clam blitz (pluie de palourdes)
+
+    Example:
+
+    !!profile rank tc S+0
+
+  rank_set: Votre rang a été ajouté
+  rank_error1: Ce rang n'existe pas
+  rank_error2: Ce mode de jeu n'existe pas
+
+
+  league_power_help: | 
+    Ajoutez votre ligue power le plus haut!
+
+    Maintenant avec les deux types de ligue! Équipe et Duo.
+
+    Exemple:
+
+    !!profile power team 1750.0
+    !!profile power pair 1750.0
+    
+
+  team_power: Votre ligue power en équipe le plus haut est
+  pair_power: Votre ligue power en duo le plus haut est
+
+#rank error messages
+
+  rank_error1: Vous ne pouvez pas avoir un ligue power en dessous de 1!
+  rank_error2: Vous ne pouvez pas avoir un ligue power négatif...
+  rank_error3: Vous ne pouvez pas avoir un ligue power avec plus d'un nombre après le point!
+  rank_error4: Ce ligue power est beaucoup trop haut! Vous n'êtes pas aussi fort!
+
+
+  fc_help: |
+    
+    Ajoutez votre code d'ami (fc) avec Spyke.
+
+    Example:
+
+    !!profile fc SW-5208-7719-6394
+    
+
+  fc_added: Vous avez été ajouté.
+  fc_error: Désolé, je n'accepte que les codes d'ami...
+  db_error: Vous n'êtes pas dans la base de données. Tapez "!!profil" pour commencer
+
+#ign help
+
+  ign_help: | 
+    
+    Ajoutez votre nom dans le jeu (ign).
+
+    Example:
+
+    !!profile ign Marie
+    
+
+  ign_set: Votre nom dans le jeu est
+
+#sr help
+  sr_help: | 
+    
+    Ajoutez votre rang Salmon Run. Accepte 300/99 et jusqu'à 9999/99
+
+    Example:
+
+    !!profile sr Profreshional
+    
+
+    sr_set: Votre rang Salmon Run est 
+    sr_error: Ce n'est pas un rang Salmon Run
+
+#loadout help
+
+  loadout_help: | 
+
+    Ajoutez vos loadouts de loadout.ink! Vous pouvez en ajouter 3
+
+    Example:
+
+    !!profile loadout L1 https://loadout.ink/url-here
+
+
+  l1: Votre loadout #1 a été ajouté
+  l2: Votre loadout #2 a été ajouté
+  l3: Votre loadout #3 a été ajouté
+
+  loadout_error: Ceci n'est pas un lien loadout.ink
+
+#clan help
+
+  clan_help: |
+
+    Ajoutez votre clan si vous en avez un.
+
+    Example:
+
+    !!profile clan Not Nigiri
+
+#favmap help
+
+  favmap_help: |
+
+    Ajoutez vos maps favorites.
+
+    Example:
+
+    !!profile favmap Kelp Dome
+
+    favmap_error: Ceci n'est pas une map
+
+#remove help
+
+  remove_help: |
+  
+    !!profile remove
+
+    S'enlever de la base de données des profils.
+
+#splat help
+
+  splat_help: |
+
+    Ajoutez votre actuelle ou dernière équipe en Festimatch pour trouver des personnes avec qui jouer
+
+    Example: 
+
+    !!profile splat Egg
+
+    splat_error: Ceci n'est pas une équipe de Festimatch
