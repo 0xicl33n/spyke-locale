@@ -1,5 +1,5 @@
 
-1) Download [this](http://spykebot.ink/locale_example_v2.zip) zip file
+Download [this](http://spykebot.ink/locale_example_v2.zip) zip file
 
 **Do not change the keys**, the keys are like `rank_rm:`. Just replace the english with your text
 
