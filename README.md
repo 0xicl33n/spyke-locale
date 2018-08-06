@@ -1,10 +1,9 @@
 
 1) Download [this](http://spykebot.ink/locale_example_v2.zip) zip file
-2) There will be a bunch of files
+**Do not change the keys**, the keys are like `rank_rm:`. Just replace the english with your text
 
-3) Fill it like this:
-3) **Do not change the keys**, the keys are like `rank_rm:`. Just replace the english with your text
 Example:
+
 ```yaml
 jp:
   rank_rm: ガチホコ
