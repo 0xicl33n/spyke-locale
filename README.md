@@ -1,5 +1,5 @@
 
-1) Download this zip file
+1) Download [this](http://spykebot.ink/locale_example_v2.zip) zip file
 2) There will be a bunch of files
 
 3) Fill it like this:
