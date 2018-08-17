@@ -11,3 +11,10 @@ en:
   time_format: "{h} hours, {m} minutes and {s} seconds"
   maps: Maps
   mode_gone: That game mode has come and gone! You'll have to wait a bit before trying again.
+  mode: Game Mode
+  rn: Right Now
+  nextmode: Next Game Mode
+  nextmaps: Next Maps
+  league: League Maps
+  ranked: Ranked Maps
+  turf: Turf War Maps
