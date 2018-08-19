@@ -1,0 +1,13 @@
+en:
+  #don't translate words in {curly braces}
+  unavailable:  Je ne peux pas obtenir l'information de cartes maintenant, désolé.
+  not_mode: Hé Mec! Ce n'est pas un mode correct
+  ttn: Temps restant jusqu'à la rotation
+  need_mode: Mec, tu doit me donne un mode pour chercher
+  need_style:   Mec, doit-tu `ranked` (match pro) ou `league) (match de Ligue)? Tu doit me dire...
+  header: "Le {mode} prochain pour le match {style}"
+  rot_until: La rotation de cartes jusqu'à
+  time_until: Temps jusqu'à
+  time_format: "{h} heures, {m} minutes et {s} secondes"
+  maps: Cartes
+  mode_gone: Ce mode de jeu est allé et venu! Tu doit attendre un peu avant réessayer.

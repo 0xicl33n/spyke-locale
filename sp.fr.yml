@@ -1,0 +1,26 @@
+en:
+  embed:   Les stats de campagne solo
+  title: Titre
+  cp: Pourcentage d'achèvement
+  sf: Documents Trouvé
+  oe: A "Octo Expansion"
+  hwo: Armes Héroïque Obtenu
+  blt: Meilleur Niveau Temps
+  mc: Souvenirs Patapoulpe
+  thangs: Machins
+  tp: Cure-dent d'or obtenu
+  title_set: Ton titre de campgane solo a été réglé.
+  cp_large: Pourcentage augmente jusqu'à 1000% max!
+  cp_set: ton pourcentage d'achèvement a été réglé.
+  sf_large:  Il y a seulement 28 documents dans ce jeu
+  sf_set: Ton compte de documents a été réglé
+  hwo_large:  Il y a seulement 9 armes héroïque dans le jeu.
+  hwo_set: ton compte d'armes héroïque a été réglé
+  blt_set: ton Meilleur Niveau Temps a été réglé
+  blt_time:   Ce n'est pas un temps valide!  Souviens-toi le 0 éminant!
+  mc_large: Il est seulement 80 niveaus dans l'Octo Expansion...
+  mc_set: ton compte de souvenirs patapoulpe a été réglé
+  thangs_large: Il y a seulement 4 Machins
+  thangs_set: ton compte de Machins a été réglé
+  tp_set: ton état de la collecte de le cure-dent d'or a été réglé
+  tp_wrong: Ce question a deux réponses; Yes (pour Oui) ou No (pour Non)

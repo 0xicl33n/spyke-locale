@@ -1,0 +1,223 @@
+# {} or {0} stands in for something, usually a number :)
+en:
+  manual: Spyke Manuel D'aide
+  page_msg: Il y a {} pages d'aide. Envoie un chiffre pour voir la page correspondant. Envoie tout autre message pour quitter.
+  quit: Quitter le menu d'aide
+  #{0} is prefix here
+  footer: Tape {0}help <commande> pour plus d'information sur cette commande. Tu peux aussi typer {0}help <catégorie> pour plus d'info sur une catégoire.
+  desc: Les commandes de Spyke
+  syntax: Syntaxe =
+  no_category: Pas de Catégoire
+  part: pt.
+  commands: Commandes
+  subcommands: Sous-commandes
+  page: Spyke Manuel D'aide Page {}
+  command_not_found: Les commandes sont sensible aux majuscules. S'il te plaît vérifie ton orthographe and réessayer.
+  help: |
+    Montre les documentation d'aide
+    [p]help: Montre le manuel d'aide
+    [p]help <command>: Montre l'aide pour une commande
+    [p]help <category>: Montre les commandes et la description de la catégorie
+  #{0.name} is a command, do not translate this
+  no_subcommands: La commande "{0.name}" n'a pas de sous-commandes
+  callout: |
+    Obtiens le stage callout normal pour une stage tu spécifie. Peut être dans aucun ordre ou aucun orthographe de le nom.
+    
+   Disons que tu veux obtenir "Camp Triggerfish". Alors tu peux taper soit  "[p]callout camp" soit "[p]triggerfish", ce qui est plus facile porur toi.
+   S'il te plaît, utilise la version anglaise pour les stages
+
+    Exemple
+
+    [p]callout arena
+    [p]callout shipyard 
+    [p]callout fitness
+  pf_rank: |
+
+    Règle les rangs dans ton  profil! C'est assez simple:
+
+    tc = Expédition risquée
+    rm = Mission Bazookarpe
+    sz = Défennse de zone
+    cb = pluie de palourdes
+
+   (C'est désactivé jusqu'à Nintendo confirme qu'il existe)
+    rkt = Roquette
+
+    (les acryonymes sont pour la version anglaise de Splatoon 2)
+
+    Exemples:
+    [p]profil rank tc S+0
+    Et le rang X fonctionne comme ça:
+    [p]profil rank tc X 300.4
+  pf_tz: |
+    Cet te permet de régler un fuseau horaire où tu habites pour quand tu utilise la commande de Salmon Run.
+    
+    C'EST SENSIBLE AUX MAJUSCULES!
+        
+     S'il te plaît, vérifie [https://hastebin.com/ugimufopab.vbs](cette liste) pour le code de fuseau horaire.
+  pf_pwr: |
+    Montrer ton Ligue Power le plus élevé
+
+    Maintenant avec les deux types de Ligue:
+    team = en équipe
+    pair = en duo
+        
+    Exemples:
+    [p]profil power team  1750
+    [p]profil power pair  1750.9
+  profile: |
+    La remplacement magnifique de code d'ami. Vérifie `[p]help profil fc` pour commencer!
+    
+    Aussi essaie `[p]help profil rank` pour plus d'information détaillé
+    Tu doit ajouter ton code d'ami avant de ton profil fonctionne
+    S'il te plaît, vérifie `[p]help profil fc` et ajoute ton code d'ami avant de dire que Spyke ne fonctionne pas! Merci!
+  pf_lvl: |
+    Règle ton niveau dans Splatoon 2 (utilisant le mot anglais pour "niveau": level)
+    
+    Exemples:
+    [p]profil level 50
+    Si tu est un(e) joueur/euse avec une étoile, ajoute "S" à la fin après ton niveau:
+    [p]profil level 50 S
+  pf_fc: |
+    Inscris-toi ton code d'ami avec Spyke.
+    Exemple:
+    [p]profil fc SW-5208-7719-6394
+  pf_ign: |
+    Règle ton nom en jeu
+    Exemple:
+    [p]profil ign MarieWaifu
+  pf_clan: |
+    Règle ton clan si t'en as un.
+    Exemple:
+    [p]profil clan Ink2Death
+  pf_favmap: |
+    Règle ton stage préféré (utilise la version anglais de le stage)
+    Exemple:
+    [p]profil favmap Kelp Dome
+  pf_splat: |
+    Règle ton équipe actuel ou précédent de Festival pour aider trouver les joueurs pour jouer avec. 
+    S'il te plaît, utilise le nom anglais pour l'équipe.
+    Utilise un site comme splatoonwiki.org pour le trouver.
+    Exemple:
+    [p]profil splat Squid
+  pf_sr: |
+    Règle ton titre de M. Ours SA. J'accepte aussi 300/99 et jusqu'à 9999/99
+    Utilise un site comme splatoonwiki.org pour trouver la version anglaise de ton titre
+    Exemple:
+    [p]profil sr Profreshional
+  pf_loadout: |
+    Montre ton loadouts de loadout.ink! Tu peux avoir allant jusqu'à 3.
+    Exemple:
+    [p]profil loadout L1 https://loadout.ink/url-ici
+
+  pf_remove: Enleve-toi de la base de données de profil.
+  pf_wep: |
+    Règle ton arme préférée dans ton profil (utilisant le mot anglais pour "arme": weapon). 
+    Maintenant, J'accepte 3 armes!
+    S'il te plaît, utilise l'arme avec le nom anglais.
+    Vérifie `[p]weapons` pour la liste d'armes qui Spyke prend.
+    
+
+    Exemples:
+    [p]profil weapon W1 Splattershot Pro
+    [p]profil weapon W2 N-ZAP 85
+  pf_locale: |
+    Règle ta locale pour voir Spyke dans une autre langue!
+    locales disponibles: EN, JP, FR
+    
+    Si ta locale n'est pas trouvé, Spyke retombera en EN
+    
+    Note que les traduictions sont encore travail en cours; beaucoup de parties de Spyke ne sont pas traduits.
+   
+    
+    Exemple:
+    [p]profil locale EN
+  sp: |
+    C'est le partie solo de ton profil! Utilise `[p]help sp` pour commencer. Les sous-commandes sont les abréviation:
+  
+
+    Titire = title (le mot anglais pour titre)
+    Documents Trouvé = sf
+    Pourcentage d'achèvement = cp
+    Armes Héroïque Obtenu = hwo
+    Meilleur Niveau Temps= blt
+    A "Octo Expansion" = oe
+    Souvenirs Patapoulpe = mc
+    Machins = thangs
+    Cure-dent d'or obtenu = pick
+    
+   Donc vérifie `[p]help sp cp` or `[p]help sp hwo` pour commencer à apporter ton profil solo.
+   
+  sp_title: |
+    Règle ton titre du campagne solo! Vérifie de l'appli Nintendo.
+    
+    Exemple:
+    [p]sp title Dingleberries
+  sp_cp: |
+    Voici ton pourcentage d'achèvement, tu peux augmenter jusq'à 1000%
+
+    Exemple:
+    [p]sp cp 150
+    [p]sp cp 150%
+  sp_sf: |
+    Voici pour montrer combien de documents que tu as trouvé
+    
+    Example:
+    [p]sp sf 4
+  sp_hwo: |
+    Voici pour montrer combien d'armes héroïque que tu as obtenu
+    Il y a seulement 9 dans le jeu
+
+    Exemple:
+    [p]sp hwo 3
+  sp_blt: |
+    Règle ton Meilleur Niveau Temps
+
+    Exemple:
+    [p]sp blt 01:24
+  sp_mc: |
+    L'utilise pour montrer combien de souvenirs patapoulpes que tu as obtenu!
+
+    Exemple:
+    [p]sp mc 50
+  sp_thangs: |
+    Règle combien de Machins que tu as obtenu!
+
+    Exemple:
+    [p]sp mc 4
+  sp_tp: |
+    Yes (Oui) / No (Non) si tu as le cure-dent d'or
+
+    Exemple:
+    [p]sp pick no
+  lfg: |
+    Te permet à chercher pour une groupe en public:
+    
+    [p]lfg <jouers requis> <temps au format xy> <mode> [title pour salmon run]
+    
+    Exemple:
+    [p]lfg 3 4h league
+    C'affice une message LFG pour trois joueurs, le max est 4 heures pour match de Ligue.
+    Les autre options pour mode: Salmon, Scrim
+  lfg_join: |
+    Te permet te joindre à une groupe qui est ch par LFG
+    
+    Tous les postes ont leur propres identités
+    
+    Fais fonctionner `[p]join <group ID>` pour te joindre une groupe et contacter son créateur.
+    
+    Exemple:
+    [p]join G-34256
+    
+    Les groupes sont remis chaque jour pour que les identités vielles ne bouchent pas le système.
+  maps_nextmode: |
+    Cette commande te permit à vérifier quand ton mode préféré sera par la suite, et combien de rotations que tu dois attendre.
+    rm = Mission Bazookarpe
+    sz = Défense de zone
+    tc = Expédition risquée
+    cb = Pluie de parlourdes
+    
+    Utilise "league" pour match de Ligue ou "ranked" pour match pro
+    
+    Example:
+    [p]nextmode tc league

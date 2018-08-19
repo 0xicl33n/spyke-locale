@@ -1,0 +1,9 @@
+fr:
+  unset: Pas réglé
+  arg_long:  Mec, viens, c'est trop long
+  arg_neg: Tu ne peux pas avoir les chiffres négatifs
+  arg_nan: Viens, ce n'est pas un chiffre
+  is_spyke: Quoi? Tu rigoles!
+  not_in_db_self: Tu n'est pas dans la base de données. Inscris-toi avec `[p]help profil fc` en premier!
+  not_in_db_others: Ils ne sont pas dans la base de données. Leur dire de s'inscrire avec `[p]help profil fc` en premier!
+  user_not_found: Ne peux pas trouver la personne.

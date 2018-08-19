@@ -1,0 +1,5 @@
+en:
+  no_permission: Tu n'as pas le droit d'accès pour utiliser cette commande.
+  missing_required: Tu rates les variables obligatoires.
+  bad: Tu as donné une variable invalide
+  reported: Une erreur s'est produit avec la commande `{}`. Ça a été automatiquement signalé pour toi.

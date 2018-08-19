@@ -1,0 +1,66 @@
+fr:
+  rank_rm: Mission Bazookarpe
+  rank_sz: Défense de zone
+  rank_tc: Expédition risquée
+  rank_cb: Pluie des palourdes
+  loadout: Loadout
+  ign: Nom en jeu
+  lvl: Niveau
+  fc: Code d'ami
+  ranks: Rangs
+  power_team: Ligue Power en équipe
+  power_pair: Ligue Power en duo
+  sr_title: Titre de M. Ours SA
+  fav_wep: Armes Préférées
+  fav_map: Stage Préféré
+  loadouts: Loadouts
+  clan: Clan
+  splat: Équipe de Festival
+  footer_morti: Le seul vrai Morti
+  footer_bonnie:  Voila, mon créateur. Il est génial, non?
+  footer_star: Éditeur de logiciels actif qui est respobable pour le traduiction. Bon gars, hein?
+  lvl_negative: Ton niveau ne peut pas être négatif!
+  lvl_large: Niveau 99 est le maximum!
+  lvl_tiererror: QUOI? S est le seul niveau de prestige que j'accepte!
+  lvl_set: ton niveau a été réglé à
+  rm_set: ton rang de Mission Bazookarpe a été réglé
+  tc_set: ton rang d'Expédition risquée a été réglé
+  sz_set: ton rang de Défense de zone a été réglé
+  cb_set: ton rang de Pluie de palourdes a été réglé
+  no_mode: Ce mode de jeux n'existe pas
+  no_rank: Ce rang n'existe pas
+  tz_err: Ce n'est pas un fuseau horaire valide. C'est SENSIBLE AUX MAJUSCULES. S'il te plaît, vérifie https://hastebin.com/ugimufopab.vbs pour obtenir ton fuseau horaire correct!
+  tz_set: Ton fuseau horaire a été réglé
+  pwr_low: Tu ne peux pas être en dessous d'un!
+  pwr_acc: Tu ne peux pas avoir plus d'un chiffre après la virgule.
+  pwr_neg: Mec.... Tu ne peux pas avoir un Ligue Power négatif...
+  pwr_big: Mec..., that is far too high! There's no way you're that good! C'est beaucoup trop élevé! Tu n'as aucune chance d'être si bon!
+  pwr_team_set: ton Ligue Power en équipe le plus élevé a été réglé à 
+  pwr_pair_set: ton Ligue Power en duo le plus élévé a été réglé à
+  fc_example: Enfin! T'es stupide? C'est le code d'ami d'exemple!
+  fc_zero: Ton code d'ami ne peux pas être zéro
+  fc_update: Ton code d'ami a été mis à jour, mon cœur.
+  fc_add: T'as été ajouté, merci
+  fc_notfc: Désole, j'accepte seulement les codes d'ami
+  ign_set: ton nom en-jeu a été réglé à
+  clan_set: ton clan a été réglé à
+  not_map: Ce n'est pas un stage
+  favmap_set: ton stage préféré a été réglé à
+  splat_set: ton équipe de festival a été réglé à
+  not_splat: TCe n'est pas un équipe de festival valide.
+  sr_set: ton titre de M. Ours SA a été réglé à
+  not_sr: ce n'est pas un titre de M. Ours SA valide.
+  l1_set: ton premier loadout a été réglé
+  l2_set: ta deuxième loadout a été réglé
+  l3_set: ta troisième loadout a été réglé
+  not_loadout: Mec, tu ne peux pas me duper. Ce n'est pas un URL loadout.ink...
+  remove_help: Enleve-toi de la base de données.
+  remove_suc: t'as été enlevé... désolé de vous voir partir
+  remove_fail: tu n'étais jamais dans la base de données!
+  wep_error: Mec, viens, ce n'est pas une arme
+  w1_set: ta première arme a été réglée à 
+  w2_set: ta deuxième arme a été réglée à 
+  w3_set: ta troisième arme a été réglée à
+  locale_set: ta langue a été régléé à
+  locale_check: En ce moment, ta langue est
+  

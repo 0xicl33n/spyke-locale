@@ -1,0 +1,19 @@
+fr:
+  lfg: Chercher pour une groupe
+  time_left: Temps restant
+  gid: identité de groupe
+  lfno: joueurs requis
+  fc: le code d'ami du chef
+  mode: Mode de Jeu
+  players_large: hé, mec, c'est trop de joueurs!
+  players_small:   Mec, tu doit chercher pour au moins d'une joueur!
+  invalid_mode:   Mec, je peux seulement t'aide trouver un match pour `league` (match de Ligue), `scrim` (match d'entraînement) ou `salmon` (Salmon Run) - je ne peux pas t'aide avec ça.
+  posted: Ton post de LFG a été mis!
+  time_err: Chéri(e), c'est le format mauvais! Réessayer dans le format `Xh`, `X` étant le nombre d'heurues le poste devrait durer.
+  group_full: Cette groupe est plein.
+  #{0} is a username, {1} is a friend code and {2} is the set of ranks
+  wants_to_join: |
+    `{0}` voudrait se joindre à ta groupe!
+    
+    Leur code d'ami est `{1}` et leur rangs sont {2}
+  not_group: Cette groupe n'existe pas!
