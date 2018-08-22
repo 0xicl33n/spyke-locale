@@ -12,6 +12,7 @@ en:
   commands: Commands
   subcommands: Subcommands
   page: Spyke Help Manual Page {}
+  no_command: No command called "{}" found.
   command_not_found: Commands are case sensitive. Please check your spelling and try again.
   help: |
     Shows help documentation.
