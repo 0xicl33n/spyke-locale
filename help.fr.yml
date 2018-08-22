@@ -1,5 +1,5 @@
 # {} or {0} stands in for something, usually a number :)
-en:
+fr:
   manual: Spyke Manuel D'aide
   page_msg: Il y a {} pages d'aide. Envoie un chiffre pour voir la page correspondant. Envoie tout autre message pour quitter.
   quit: Quitter le menu d'aide
