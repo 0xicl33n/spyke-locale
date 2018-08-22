@@ -11,3 +11,10 @@ en:
   time_format: "{h} heures, {m} minutes et {s} secondes"
   maps: Cartes
   mode_gone: Ce mode de jeu est allé et venu! Tu doit attendre un peu avant réessayer.
+  mode: Mode de jeu
+  rn: Maintenant
+  nextmode: Le mode de jeu suivant
+  nextmaps: Les cartes suivantes
+  league: Les cartes de match de ligue
+  ranked: Les cartes de match de pro
+  turf: Les cartes de match classique
