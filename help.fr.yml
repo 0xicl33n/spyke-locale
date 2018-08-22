@@ -12,6 +12,7 @@ en:
   commands: Commandes
   subcommands: Sous-commandes
   page: Spyke Manuel D'aide Page {}
+  no_command: Je n'ai pas pu trouver une commande qui s'appelle {}
   command_not_found: Les commandes sont sensible aux majuscules. S'il te plaît vérifie ton orthographe and réessayer.
   help: |
     Montre les documentation d'aide
