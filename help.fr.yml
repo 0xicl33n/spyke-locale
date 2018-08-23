@@ -24,8 +24,8 @@ fr:
   callout: |
     Obtiens le stage callout normal pour une stage tu spécifie. Peut être dans aucun ordre ou aucun orthographe de le nom.
     
-   Disons que tu veux obtenir "Camp Triggerfish". Alors tu peux taper soit  "[p]callout camp" soit "[p]triggerfish", ce qui est plus facile porur toi.
-   S'il te plaît, utilise la version anglaise pour les stages
+    Disons que tu veux obtenir "Camp Triggerfish". Alors tu peux taper soit  "[p]callout camp" soit "[p]triggerfish", ce qui est plus facile porur toi.
+    S'il te plaît, utilise la version anglaise pour les stages
 
     Exemple
 
@@ -41,7 +41,7 @@ fr:
     sz = Défennse de zone
     cb = pluie de palourdes
 
-   (C'est désactivé jusqu'à Nintendo confirme qu'il existe)
+    (C'est désactivé jusqu'à Nintendo confirme qu'il existe)
     rkt = Roquette
 
     (les acryonymes sont pour la version anglaise de Splatoon 2)
@@ -55,7 +55,7 @@ fr:
     
     C'EST SENSIBLE AUX MAJUSCULES!
         
-     S'il te plaît, vérifie [https://hastebin.com/ugimufopab.vbs](cette liste) pour le code de fuseau horaire.
+    S'il te plaît, vérifie [https://hastebin.com/ugimufopab.vbs](cette liste) pour le code de fuseau horaire.
   pf_pwr: |
     Montrer ton Ligue Power le plus élevé
 
@@ -147,7 +147,7 @@ fr:
     Machins = thangs
     Cure-dent d'or obtenu = pick
     
-   Donc vérifie `[p]help sp cp` or `[p]help sp hwo` pour commencer à apporter ton profil solo.
+    Donc vérifie `[p]help sp cp` or `[p]help sp hwo` pour commencer à apporter ton profil solo.
    
   sp_title: |
     Règle ton titre du campagne solo! Vérifie de l'appli Nintendo.
