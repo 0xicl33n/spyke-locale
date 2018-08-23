@@ -11,6 +11,6 @@ en:
   posted: Your LFG post has been sent!
   time_err: Love, please, that's the wrong format! Please try again in the format `Xh`, with `X` being the number of hours the post should last.
   group_full: This group is full.
-  wants_to_join: |
-    "`{0}` wants to join your group!"
+  wants_to_join: >
+    `{0}` wants to join your group!
   not_group: That group does not exist!

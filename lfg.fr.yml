@@ -11,6 +11,6 @@ fr:
   posted: Ton post de LFG a été mis!
   time_err: Chéri(e), c'est le format mauvais! Réessayer dans le format `Xh`, `X` étant le nombre d'heurues le poste devrait durer.
   group_full: Cette groupe est plein.
-  wants_to_join: |
-    "`{0}` voudrait se joindre à ta groupe!"
+  wants_to_join: >
+    `{0}` voudrait se joindre à ta groupe!
   not_group: Cette groupe n'existe pas!
