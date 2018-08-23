@@ -1,22 +1,21 @@
 # {} or {0} stands in for something, usually a number :)
-en:
-  manual: Spyke Help Manual
-  page_msg: There are {} help pages. Send a number to see the corresponding page. Send any other message to exit.
+ne:
+  manual: Manual help spyke
+  page_msg: There are {} help pages. Send a number to see the curresponding page. Send any other message to exit.
   quit: Quit Help menu.
   #{0} is prefix here
-  footer: Type {0}help <command> for more info on a command. You can also type {0}help <category> for more info on a category.
-  desc: Spyke's commands
-  syntax: Syntax =
-  no_category: No Category
+  footer: Type {0}help <command> for more info on a cummand. You can also type {0}hela <category> for more info on a category.
+  desc: Poopy's commands
+  syntax: Sintax =
+  no_category: No Catigory
   part: pt.
-  commands: Commands
-  subcommands: Subcommands
-  page: Spyke Help Manual Page {}
-  no_command: No command called "{}" found.
+  commands: Cummands
+  subcommands: Subcummand
+  page: Senti Help Manual Page {}
   command_not_found: Commands are case sensitive. Please check your spelling and try again.
   help: |
-    Shows help documentation.
-    [p]help: Shows the help manual.
+    Blows help documentation.
+    [p]help: Blows the help manual.
     [p]help <command>: Show help for a command.
     [p]help <category>: Show commands and description for a category.
   #{0.name} is a command, do not translate this
@@ -205,4 +204,4 @@ en:
     Still somewhat WIP, but it works.
     
     Example:
-    [p]nextmode tc league
+    [p]mextmode tc league

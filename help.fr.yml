@@ -1,5 +1,5 @@
 # {} or {0} stands in for something, usually a number :)
-en:
+fr:
   manual: Spyke Manuel D'aide
   page_msg: Il y a {} pages d'aide. Envoie un chiffre pour voir la page correspondant. Envoie tout autre message pour quitter.
   quit: Quitter le menu d'aide
@@ -12,6 +12,7 @@ en:
   commands: Commandes
   subcommands: Sous-commandes
   page: Spyke Manuel D'aide Page {}
+  no_command: Je n'ai pas pu trouver une commande qui s'appelle {}
   command_not_found: Les commandes sont sensible aux majuscules. S'il te plaît vérifie ton orthographe and réessayer.
   help: |
     Montre les documentation d'aide
@@ -23,8 +24,8 @@ en:
   callout: |
     Obtiens le stage callout normal pour une stage tu spécifie. Peut être dans aucun ordre ou aucun orthographe de le nom.
     
-   Disons que tu veux obtenir "Camp Triggerfish". Alors tu peux taper soit  "[p]callout camp" soit "[p]triggerfish", ce qui est plus facile porur toi.
-   S'il te plaît, utilise la version anglaise pour les stages
+    Disons que tu veux obtenir "Camp Triggerfish". Alors tu peux taper soit  "[p]callout camp" soit "[p]triggerfish", ce qui est plus facile porur toi.
+    S'il te plaît, utilise la version anglaise pour les stages
 
     Exemple
 
@@ -40,7 +41,7 @@ en:
     sz = Défennse de zone
     cb = pluie de palourdes
 
-   (C'est désactivé jusqu'à Nintendo confirme qu'il existe)
+    (C'est désactivé jusqu'à Nintendo confirme qu'il existe)
     rkt = Roquette
 
     (les acryonymes sont pour la version anglaise de Splatoon 2)
@@ -54,7 +55,7 @@ en:
     
     C'EST SENSIBLE AUX MAJUSCULES!
         
-     S'il te plaît, vérifie [https://hastebin.com/ugimufopab.vbs](cette liste) pour le code de fuseau horaire.
+    S'il te plaît, vérifie [https://hastebin.com/ugimufopab.vbs](cette liste) pour le code de fuseau horaire.
   pf_pwr: |
     Montrer ton Ligue Power le plus élevé
 
@@ -146,7 +147,7 @@ en:
     Machins = thangs
     Cure-dent d'or obtenu = pick
     
-   Donc vérifie `[p]help sp cp` or `[p]help sp hwo` pour commencer à apporter ton profil solo.
+    Donc vérifie `[p]help sp cp` or `[p]help sp hwo` pour commencer à apporter ton profil solo.
    
   sp_title: |
     Règle ton titre du campagne solo! Vérifie de l'appli Nintendo.

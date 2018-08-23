@@ -11,9 +11,14 @@ fr:
   posted: Ton post de LFG a été mis!
   time_err: Chéri(e), c'est le format mauvais! Réessayer dans le format `Xh`, `X` étant le nombre d'heurues le poste devrait durer.
   group_full: Cette groupe est plein.
+<<<<<<< HEAD
   #{0} is a username, {1} is a friend code and {2} is the set of ranks
   wants_to_join: |
     "`{0}` voudrait se joindre à ta groupe!"
     
     Leur code d'ami est `{1}` et leur rangs sont {2}
+=======
+  #{0} is a username, 
+  wants_to_join: `{0}` voudrait se joindre à ta groupe!
+>>>>>>> master
   not_group: Cette groupe n'existe pas!
