@@ -13,7 +13,7 @@ en:
   group_full: This group is full.
   #{0} is a username, {1} is a friend code and {2} is the set of ranks
   wants_to_join: |
-    `{0}` wants to join your group!
+    "`{0}` wants to join your group!"
     
     Their friend code is `{1}` and their ranks are {2}
   not_group: That group does not exist!

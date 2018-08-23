@@ -13,7 +13,7 @@ fr:
   group_full: Cette groupe est plein.
   #{0} is a username, {1} is a friend code and {2} is the set of ranks
   wants_to_join: |
-    `{0}` voudrait se joindre à ta groupe!
+    "`{0}` voudrait se joindre à ta groupe!"
     
     Leur code d'ami est `{1}` et leur rangs sont {2}
   not_group: Cette groupe n'existe pas!
