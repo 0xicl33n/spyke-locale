@@ -13,6 +13,4 @@ en:
   group_full: This group is full.
   wants_to_join: |
     "`{0}` wants to join your group!"
-    
-    Their friend code is `{1}` and their ranks are {2}
   not_group: That group does not exist!
