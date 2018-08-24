@@ -14,3 +14,14 @@ fr:
   wants_to_join: >
     `{0}` voudrait se joindre à ta groupe!
   not_group: Cette groupe n'existe pas!
+  pf_sent: |
+    J'ai envoyé ton profil à {0}
+    Assure-toi que tu laisse tes DMs ouvert puisque tu recevras ton résultat là.
+  accepted: Tu as accepté {0} dans ta groupe!
+  declined: Tu as refusé {0} d'être dans ta groupe!
+  decision_fail: Hé, Tu fais quoi? Tu n'as même pas une groupe!
+  next_user: L'utilisateur suivant pour accepter/refuser est {0}
+  dm_accept: >
+    {0} t'a accepté dans sa groupe!
+  dm_decline: >
+    {0} t'a refusé l'accès à sa groupe!
