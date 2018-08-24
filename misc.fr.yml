@@ -17,15 +17,15 @@ fr:
   confused: Perdu?
   surprised: Étonné?
   missing_permissions: |
-    Spyke ne peux pas fonctionner sans, au minimum, les permissions `Embed Links`, `Read Message History` et `Attach Files`.
+    Spyke ne peux pas fonctionner sans, au minimum, les permissions `Intégrer des liens`, `Voir les anciens messages` et `Attacher des fichiers`.
     
     Sans ces permissions, tous les commandes ne fonctionnent pas.
     
     Les permissions recommandé sont:
     ```
-    Embed Links
-    Read Message History
-    Manage Messages
-    Attach Files
-    Add Reactions
+    Intégrer des liens
+    Voir les anciens messages
+    Gérer les messaages
+    Attacher des fichiers
+    Ajouter des réactions
     ```
