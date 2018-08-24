@@ -17,3 +17,16 @@ en:
   order_fail: There is no gear with that name!
   confused: Confused?
   surprised: Surprised? 
+  missing_permissions: |
+    Spyke cannot function without, at the very least, the `Embed Links`, `Read Message History`, and `Attach Files` permissions.
+
+    Without these permissions, all commands will be withheld.
+
+    The recommended permissions for Spyke are:
+    ```
+    Embed Links
+    Read Message History
+    Manage Messages
+    Attach Files
+    Add Reactions
+    ```
