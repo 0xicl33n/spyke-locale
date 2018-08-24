@@ -14,8 +14,14 @@ en:
   wants_to_join: >
     `{0}` wants to join your group!
   not_group: That group does not exist!
-  pf_sent: I have sent your profile to {0}
+  pf_sent: |
+    I have sent your profile to {0}.
+    Make sure to keep your DMs open as you will receive your result there!
   accepted: You have accepted {0} into your group!
   declined: You have denied {0} from being in your group!
   decision_fail: Oi mate, what're you doin'? You don't even 'ave a group!
-  next_user: The next user to accept/decline is {0} 
+  next_user: The next user to accept/decline is {0}
+  dm_accept: >
+    {0} accepted you into their group!
+  dm_decline: >
+    {0} denied you access to their group!
