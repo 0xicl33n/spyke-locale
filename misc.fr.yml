@@ -17,15 +17,38 @@ fr:
   confused: Perdu?
   surprised: Étonné?
   missing_permissions: |
-    Spyke ne peux pas fonctionner sans, au minimum, les permissions `Intégrer des liens`, `Voir les anciens messages` et `Attacher des fichiers`.
+    Spyke n'as pas tous les droits d'accès obligatoires pour les commandes.
     
-    Sans ces permissions, tous les commandes ne fonctionnent pas.
+    Sans ces droits d'accès, tous les commandes ne fonctionnent pas.
     
-    Les permissions recommandé sont:
+    Les droits d'accès obligatoires sont:
     ```
     Intégrer des liens
     Voir les anciens messages
-    Gérer les messaages
     Attacher des fichiers
+    ```
+    
+    Les droits d'accès recommandés supplémentaires sont:
+    ```
+    Gérer les messages    
     Ajouter des réactions
     ```
+    
+    
+    Les droits d'accès obligatoires ratés en ce moment:
+    ```
+    {0}
+    ```
+    
+    Les droits d'accès recommandés ratés en ce moment:
+    ```
+    {1}
+    ```
+    
+    Si le rôle "Spyke" (ou des autre rôles appliqué) a ces droits d'accès, vérifie que il n'y a pas d'annulation de salon qui causent le problème
+    Si le problème persiste, joins-toi au serveur de support: `q2j8HtB`
+  permission_embed: Intégrer des liens
+  permission_history: Voir les anciens messages
+  permission_files: Attacher des fichiers
+  permission_messages: Gérer les messages
+  permission_reaction: Ajouter des réactions
