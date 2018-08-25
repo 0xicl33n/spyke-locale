@@ -30,3 +30,21 @@ en:
     Attach Files
     Add Reactions
     ```
+
+    Currently missing required permissions:
+    ```
+    {0}
+    ```
+
+    Currently missing recommended permissions:
+    ```
+    {1}
+    ```
+
+    If the `Spyke` role (or any other applied role) has these permissions, confirm that no channel overrides are causing the issue.
+    If problems persist, join the support server: `q2j8HtB`
+  permission_embed: Embed Links
+  permission_history: Read Message History
+  permission_files: Attach Files
+  permission_messages: Manage Messages
+  permission_reactions: Add Reactions
