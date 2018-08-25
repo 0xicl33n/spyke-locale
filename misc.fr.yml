@@ -14,3 +14,18 @@ fr:
     
     **Tu recevrai un message direct quand c'est disponible.**
   order_fail: Il n'ya pas de pièce d'affaire avec ce nom!
+  confused: Perdu?
+  surprised: Étonné?
+  missing_permissions: |
+    Spyke ne peux pas fonctionner sans, au minimum, les permissions `Intégrer des liens`, `Voir les anciens messages` et `Attacher des fichiers`.
+    
+    Sans ces permissions, tous les commandes ne fonctionnent pas.
+    
+    Les permissions recommandé sont:
+    ```
+    Intégrer des liens
+    Voir les anciens messages
+    Gérer les messaages
+    Attacher des fichiers
+    Ajouter des réactions
+    ```
