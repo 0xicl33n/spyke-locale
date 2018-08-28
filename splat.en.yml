@@ -6,3 +6,8 @@ en:
     winner: WINNER!
     loser: LOSER!
     no_name: Gimme a Splatfest team that exists, dude.
+    by_error: You have two choices, `{0}` or `{1}`
+    zero: There is no zeroth Splatfest....
+    too_high: Can you see the future? 'Cos that splatfest hasn't happened yet.
+    negative: Mate, are you kidding? You can't have a negative splatfest number!
+    ongoing: That Splatfest is ongoing or the results haven't been released yet.
