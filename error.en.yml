@@ -4,3 +4,4 @@ en:
   bad: You have given an invalid argument.
   reported: An error occurred with the `{}` command. This has automatically been reported for you.
   no_image: I do not have permission to post images here
+  rip_command: This command is gone! You're looking for
