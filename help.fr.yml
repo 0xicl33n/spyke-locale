@@ -222,3 +222,13 @@ fr:
     
     Example:
     [p]nextmode tc league
+  splat: |
+    Cette commande te permit à vérifier les résultats des Festivals précédents.
+
+    Entre soit le nom d'un équipe ou le nombre de Festival avec la région (selon SplatNet2)
+
+    Exemple:
+    [p]splatfest Squid
+    [p]splatfest Mayo
+    [p]splatfest 14 eu
+    [p]splatfest 3 na

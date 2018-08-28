@@ -206,3 +206,14 @@ en:
     
     Example:
     [p]nextmode tc league
+  splat: |
+    This command allows you to check the results of previous Splatfests.
+
+    Either enter the name of one of the teams or the Splatfest number & region (according to SplatNet)
+
+    Example:
+    [p]splatfest Squid
+    [p]splatfest Mayo
+    [p]splatfest 14 eu
+    [p]splatfest 3 na
+
