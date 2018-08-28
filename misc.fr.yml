@@ -45,7 +45,7 @@ fr:
     {1}
     ```
     
-    Si le rôle "Spyke" (ou des autre rôles appliqué) a ces droits d'accès, vérifie que il n'y a pas d'annulation de salon qui causent le problème
+    Si le rôle `Spyke` (ou des autre rôles appliqué) a ces droits d'accès, vérifie que il n'y a pas d'annulation de salon qui causent le problème
     Si le problème persiste, joins-toi au serveur de support: `q2j8HtB`
   permission_embed: Intégrer des liens
   permission_history: Voir les anciens messages
