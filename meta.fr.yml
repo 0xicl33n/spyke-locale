@@ -1,0 +1,12 @@
+#Dont touch curly brackets & anything in them
+fr:
+  rw_mono: ton arme aléatoire est le
+  rw_poly: tes {} armes aléatoires sont
+  pb: Match Privé
+  pb_info: Assemble pour ton match privé
+  player: Joueur
+  alpha: Équipe Alpha
+  bravo:  Équipe Bravo
+  long_version: Au fois, calamar, tu sais que tu peux utiliser {0} maintenant au lieu de taper {1}, non?
+  turf: Guerre de territoire
+  map: Stage
