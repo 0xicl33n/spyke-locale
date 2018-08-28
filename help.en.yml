@@ -209,8 +209,8 @@ en:
   splat: |
     This command allows you to check the results of previous Splatfests.
 
-    Either enter the name of one of the teams or the Splatfest number & region (according to SplatNet)
-
+    Either enter the name of one of the teams or the Splatfest number & region
+    
     Example:
     [p]splatfest Squid
     [p]splatfest Mayo

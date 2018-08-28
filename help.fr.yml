@@ -225,7 +225,7 @@ fr:
   splat: |
     Cette commande te permit à vérifier les résultats des Festivals précédents.
 
-    Entre soit le nom d'un équipe ou le nombre de Festival avec la région (selon SplatNet2)
+    Entre soit le nom d'un équipe ou le nombre de Festival avec la région
 
     Exemple:
     [p]splatfest Squid
