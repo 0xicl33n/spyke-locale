@@ -1,12 +1,12 @@
 en:
-  schedule: Salmon run schedule for 
-  active: Active Run
-  through: through
-  map: Map
-  weapons: Weapons
-  nextrun: Next Run
-  nextmap: Next Map
-  nextweapons: Next Weapons
-  futureruns: Future Runs  
-  gear: Reward Gear
-  obtained: Data obtained from 
+  schedule: L'horaire de Salmon Run pour
+  active: Salmon Run actif
+  through: jusqu'à
+  map: Stage
+  weapons: Armes
+  nexrun: Salmon Run suivant
+  nextmap: Stage suivant 
+  nextweapons: Armes suivantes
+  futureruns: A l'avenir
+  gear: Pièce d'affaire en guise de prix
+  obtained: Données obtenues de 
