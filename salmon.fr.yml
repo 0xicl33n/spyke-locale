@@ -1,6 +1,7 @@
 en:
   schedule: Salmon run schedule for 
   active: Active Run
+  through: through
   map: Map
   weapons: Weapons
   nextrun: Next Run
