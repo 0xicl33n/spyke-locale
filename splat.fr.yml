@@ -1,0 +1,13 @@
+fr:
+    region_missing: Mec, me donne un Festival pour chercher...
+    votes: Votes
+    solo_wins: Victoires en solo
+    team_wins: Victories en équipe
+    winner: GAGNANT!
+    loser: PERDANT!
+    no_name: Me donne un équipe de Festival qui existe
+    by_error: Tu as deux choix, `{0}` ou `{1}`
+    zero: Il n'y a pas un zéroième Festival...
+    too_high: Peux-tu voir l'avenir? Car ce Festival ne s'est pas passé encore.
+    negative: Mec, tu rigoles! Tu ne peux pas avoir un nombre negatif de Festival
+    ongoing: Ce Festival est en train de se passer ou les résultats n'étais pas publié

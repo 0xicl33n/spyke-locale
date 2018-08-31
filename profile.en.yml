@@ -8,17 +8,18 @@ en:
   lvl: Level
   fc: Friend Code
   ranks: Ranks
-  power_team: League Team Power
-  power_pair: League Pair Power
-  sr_title: Grizzco Title
-  fav_wep: Favourite Weapons
-  fav_map: Favourite Map
+  power_team: Team
+  power_pair: Pair
+  sr_title: Grizzco Title­­­
+  fav_wep: Weapons­­­
+  fav_map: Favourite Map­­­
   loadouts: Loadouts
   clan: Clan
   splat: Splatfest Team
   footer_morti: The one true Morti
   footer_bonnie: Oh look, my creator. They're pretty great huh?
   footer_star: Active maintainer responsible for translation backend. Nice guy, eh?
+  footer_suhail: He helps with translation both backend and frontend AND is a donator! I mean how amazing is he?
   lvl_negative: Your level can't be negative!
   lvl_large: Mate, level 99 is the maximum...
   lvl_tiererror: U WOT MATE?! S is the only prestige level I accept!

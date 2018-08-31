@@ -1,0 +1,12 @@
+#Dont touch curly brackets & anything in them
+en:
+  rw_mono: your random weapon is the
+  rw_poly: your {} random weapons are
+  pb: Private Battle
+  pb_info: Setup for your private battle
+  player: Player
+  alpha: Alpha Team
+  bravo: Bravo Team
+  long_version: By the way squiddo, you know you can use {0} now instead of typing out {1} right?
+  turf: Turf War
+  map: Map

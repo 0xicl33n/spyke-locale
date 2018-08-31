@@ -3,3 +3,5 @@ fr:
   missing_required: Tu rates les variables obligatoires.
   bad: Tu as donné une variable invalide
   reported: Une erreur s'est produit avec la commande `{}`. Ça a été automatiquement signalé pour toi.
+  no_image: Je n'ai pas le droit d'accès pour poster les images ici.
+  rip_command: Cette command est disparue! Tu cherche pour
