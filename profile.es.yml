@@ -6,7 +6,7 @@ es:
   loadout: Loadout
   ign: Nombre del juego
   lvl: Nivel
-  fc: Friend Code
+  fc: Código de amigo
   ranks: Rangos
   power_team: Equipo
   power_pair: Pareja
@@ -63,4 +63,5 @@ es:
   w3_set: Tu tercera arma ha sido establecida a
   locale_set: Tu idioma ha sido establecido a
   locale_check: En este momento, Tu idioma es 
-
+  getfc_self: tu código de amigo es `{}`
+  getfc_others: su código de amigo es `{}`
