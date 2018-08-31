@@ -63,3 +63,4 @@ en:
   w3_set: your third weapon has been set to
   locale_set: your locale has been set to
   locale_check: your locale is currently
+  getfc: Their friend code is `{}`
