@@ -53,5 +53,10 @@ en:
   permission_messages: Manage Messages
   permission_reactions: Add Reactions
   no_missing: None :D
-  telephone: Okay is it just me or am I confused why you would want to convert your Spyke profile into Telephone bot? Yeah that's what i thought type `exit` now
+  devdm: |
+    {}
+
+    *Sent by `{}`*
+  devreply: Replied to {}.
+  telephone: Okay is it just me or am I confused why you would want to convert your Spyke profile into Telephone bot? Yeah that's what I thought type `exit` now
   
