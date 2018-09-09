@@ -6,7 +6,7 @@ fr:
   loadout: Loadout
   ign: Nom en jeu
   lvl: Niveau
-  fc: Code d'ami
+  fc: Code ami
   ranks: Rangs
   power_team: Équipe
   power_pair: Duo
@@ -64,4 +64,5 @@ fr:
   w3_set: ta troisième arme a été réglée à
   locale_set: ta langue a été régléé à
   locale_check: En ce moment, ta langue est
-  
+  getfc_self: Ton code ami est `{}`
+  getfc_others: Leur code ami est `{}`

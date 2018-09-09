@@ -107,7 +107,9 @@ fr:
     Exemple:
     [p]profil sr Profreshional
   pf_loadout: |
-    Montre ton loadouts de loadout.ink! Tu peux avoir allant jusqu'à 3.
+    Montre ton loadouts de loadout.ink!
+    Le premier (L1) est affiché dans ton profil
+    Les autures peuvent être affich avec la commande !!loadouts 
     Exemple:
     [p]profil loadout L1 https://loadout.ink/url-ici
 
