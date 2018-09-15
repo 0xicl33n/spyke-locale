@@ -218,4 +218,12 @@ en:
     [p]splatfest Mayo
     [p]splatfest 14 eu
     [p]splatfest 3 na
-
+  devmail: |
+    Send the devs a message!
+    This command allows feedback and suggestions, as well as manually reporting issues that aren't reported automatically.
+    The devs will respond to you through DM so keep DMs open!
+    
+    Example:
+    [p]devmail I think it would be neat to add feature x
+    [p]devmail Heads up that command [command] is silently erroring!
+    [p]devmail Thanks for making such a great bot guys!
