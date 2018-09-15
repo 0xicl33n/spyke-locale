@@ -59,5 +59,6 @@ en:
     *Sent by `{}`*
     Respond to them by using `reply` in this DM.
   devreply: Replied to {}.
+  devmail: Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!
   telephone: Okay is it just me or am I confused why you would want to convert your Spyke profile into Telephone bot? Yeah that's what I thought type `exit` now
   
