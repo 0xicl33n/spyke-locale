@@ -52,6 +52,7 @@ en:
   permission_files: Attach Files
   permission_messages: Manage Messages
   permission_reactions: Add Reactions
+  permission_roles: Manage Roles
   no_missing: None :D
   devdm: |
     {}
@@ -61,4 +62,19 @@ en:
   devreply: Replied to {}.
   devmail: Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!
   telephone: Okay is it just me or am I confused why you would want to convert your Spyke profile into Telephone bot? Yeah that's what I thought type `exit` now
-  
+  time:
+    day: day
+    days: days
+    week: week
+    weeks: weeks
+    month: month
+    months: months
+    year: year
+    years: years
+    ago: ago
+    minute: minute
+    minutes: minutes
+    hour: hour
+    hours: hours
+    second: second
+    seconds: seconds

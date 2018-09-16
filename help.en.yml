@@ -218,6 +218,41 @@ en:
     [p]splatfest Mayo
     [p]splatfest 14 eu
     [p]splatfest 3 na
+  splatroles: |
+    This command will generate roles for the current splatfest (requires Manage Roles permission)
+    
+    Include `region`: 'eu', 'na', 'jp', or 'all'
+
+    Examples:
+    [p]splatroles eu
+    [p]splatroles jp True
+    [p]splatroles na no yes
+    [p]splatroles all yes yes
+  oldsplatroles: |
+    This command will generate roles for all previous splatfests (requires Manage Roles permission)
+    
+    Include `region`: 'eu', 'na', or 'jp'
+
+    Examples:
+    [p]splatroles eu
+    [p]splatroles jp True
+    [p]splatroles na no yes
+  splatnet: This command will tell you the entire contents of the splatnet shop.
+  statreg: |
+    This command allows you to register for [p]getstats.
+    To use this correctly, load your stat.ink page and copy the URL. It will look like `http://www.stat.ink/@Starwort`.
+    Copy the part after the @ and use that as the parameter for the command. So for the example above:
+    [p]statreg Starwort
+  getstats: |
+    Get your stat.ink stats.
+    You must first have registered with [p]statreg
+    You may add a user as the parameter to get stats for someone else.
+    Examples:
+    [p]getstats
+    [p]getstats Starwort
+    [p]getstats Starwort#6129
+    [p]getstats 232948417087668235
+    [p]getstats @Starwort#6129
   devmail: |
     Send the devs a message!
     This command allows feedback and suggestions, as well as manually reporting issues that aren't reported automatically.
@@ -225,5 +260,6 @@ en:
     
     Example:
     [p]devmail I think it would be neat to add feature x
-    [p]devmail Heads up that command [command] is silently erroring!
+    [p]devmail Heads up that command x is silently erroring!
     [p]devmail Thanks for making such a great bot guys!
+  about: Shows bot information.

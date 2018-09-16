@@ -1,0 +1,38 @@
+en:
+  about:
+    title: Spyke Stats
+    version: Version
+    commit: Commit
+    shards: Shards
+    shard: Shard
+    birthday: I was created
+    api: API
+    api_value: >
+      `discord.py` (rewrite) version {}
+    db: Database driver
+    db_value: >
+      `motor_asyncio` version {}
+    linux: Linux kernel version
+    pid: Process ID
+    memory: Memory usage
+    ping: Heartbeat ping
+    guilds: Servers
+    profiles: Profiles
+    splat: Splatnet channels
+    maps: Maps channels
+    orders: Splatnet orders tracked
+    lfg: Current LFG groups
+    avi: Profile picture by
+    devs: Current developers
+    links: Links
+    invite: Invite Me!
+    patreon: Patreon
+    support: Support Server
+    suggestions: Suggestions
+    docs: Documentation
+    pfdocs: Profile Documentation
+    keys: Help Translate Spyke
+    donate: Donate
+    paypal: PayPal
+    lastrestart: Last restart was
+  
