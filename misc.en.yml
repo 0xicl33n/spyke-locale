@@ -53,6 +53,7 @@ en:
   permission_messages: Manage Messages
   permission_reactions: Add Reactions
   permission_roles: Manage Roles
+  permission_emoji: Use External Emojis
   no_missing: None :D
   devdm: |
     {}
