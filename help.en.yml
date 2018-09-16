@@ -221,22 +221,22 @@ en:
   splatroles: |
     This command will generate roles for the current splatfest (requires Manage Roles permission)
     
-    Include `region`: 'eu', 'na', 'jp', or 'all'
+    Include `region`: 'eu', 'na', 'jp' or 'all' ('all' is default behaviour)
 
     Examples:
-    [p]splatroles eu
-    [p]splatroles jp True
-    [p]splatroles na no yes
-    [p]splatroles all yes yes
+    [p]splatfestroles eu
+    [p]splatfestroles jp True
+    [p]splatfestroles na no yes
+    [p]splatfestroles all yes yes
   oldsplatroles: |
     This command will generate roles for all previous splatfests (requires Manage Roles permission)
     
     Include `region`: 'eu', 'na', or 'jp'
 
     Examples:
-    [p]splatroles eu
-    [p]splatroles jp True
-    [p]splatroles na no yes
+    [p]oldsplatfestroles eu
+    [p]oldsplatfestroles jp True
+    [p]oldsplatfestroles na no yes
   splatnet: This command will tell you the entire contents of the splatnet shop.
   statreg: |
     This command allows you to register for [p]getstats.
