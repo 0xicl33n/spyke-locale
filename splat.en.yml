@@ -15,3 +15,11 @@ en:
     no_role_perms: I don't have permission to make roles.
     already_done: Seems like you already have Splatfest roles.
     made_some: I have created some of the roles, but it seems like you already have these Splatfest roles
+    pearl: Pearl's Team
+    marina: Marina's Team
+    start: Start Time
+    end: End Time
+    team: Team
+    results: Results
+    timings: Timings for
+    no_upcoming: There are no upcoming Splatfests for this region

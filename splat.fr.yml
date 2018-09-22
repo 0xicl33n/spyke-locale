@@ -15,3 +15,11 @@ fr:
     no_role_perms: Je n'ai pas le droit d'accès pour créer les rôles.
     already_done: Il me semble que tu déjà as les rôles de Festival
     made_some: J'ai créé certains de rôles mais il me semble que tu déjà as ces rôles de Festival
+    pearl: L'Équipe de Pearl
+    marina: L'Équipe de Marina
+    start: Heure de début
+    end: Heure de fin
+    team: L'Équipe de
+    result: Résultat
+    timings: Temps pour
+    no_upcoming: Il n'y a pas de Festivals prochains pour cette région
