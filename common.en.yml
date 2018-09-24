@@ -8,7 +8,7 @@ en:
   not_in_db_others: They're not in the database! Tell them to register with `[p]help profile fc` first!
   user_not_found: Could not find user.
   err: An error occurred.
-  yes: >
-   Yes.
-  no: >
+  mhm: >
+    Yes.
+  smh: >
     No.
