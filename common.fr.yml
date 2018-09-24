@@ -7,3 +7,6 @@ fr:
   not_in_db_self: Tu n'est pas dans la base de données. Inscris-toi avec `[p]help profil fc` en premier!
   not_in_db_others: Ils ne sont pas dans la base de données. Leur dire de s'inscrire avec `[p]help profil fc` en premier!
   user_not_found: Ne peux pas trouver la personne.
+  err: Une erreur est survenue
+  yes: Oui
+  no: Non
