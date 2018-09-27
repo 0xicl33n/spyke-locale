@@ -1,0 +1,13 @@
+es:
+  #don't translate words in {curly braces}
+  unavailable: No puedo obtener la información de los mapas en este momento.
+  not_mode: ¡Hey, amigo! ¡Ese no es un modo real!
+  ttn: Tiempo restante para la siguiente rotación
+  need_mode: Oye, necesitas darme un modo para buscar...
+  need_style: Amigo, ¿quieres jugar competitivo o liga? Necestas decirme...
+  header: "Siguiente {mode} para {style}"
+  rot_until: Rotaciones hasta 
+  time_until: Tiempo para
+  time_format: "{h} horas, {m} minutos and {s} segundos"
+  maps: Mapas
+  mode_gone: ¡Ese modo ya pasó! Tendrás que esperar un poco antes de intentarlo de nuevo.

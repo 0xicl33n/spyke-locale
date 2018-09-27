@@ -1,0 +1,17 @@
+es:
+  spyke_welcome: |
+    ¡Qué tal! ¡Yo soy Spyke! El bot dedicado a Splatoon 2. Para ver que ofrezco, ingresa `[p]help`
+    Para configurar tu perfil, comienza con `[p]help profile`.
+    Para configurar splatnet o mapstream, revisa `[p]help stream`.
+    Si aún necesitas ayuda, por favor visita el servidor de ayuda.
+    https://discord.gg/q2j8HtB
+  order_help: |
+    Este comando te ayuda a establecer alertas para una prenda específica de splatnet. Spyke te mandará un MD cuando esta pieza se encuentre disponible.
+    
+    Ejemplo:
+    [p]order Annaki Yellow Cuff
+  order_created: |
+    Orden creada para **{}**.
+    
+    **Te mandaremos un mensaje directo cuando esté disponible.**
+  order_fail: ¡No hay prendas con ese nombre!

@@ -1,0 +1,206 @@
+# {} or {0} stands in for something, usually a number :)
+es:
+  manual: Manual de Ayuda Spyke
+  page_msg: El manual tiene {} páginas en total. Ingresa un número de página para visualizarla. Ingresa cualquier otro texto para salir.
+  quit: Menú de salida.
+  #{0} is prefix here
+  footer: Teclea {0}help <comando> para más información acerca de un comando. También puedes teclear {0}help <categoria> para más información en esa categoría.
+  desc: Comandos de Spyke
+  syntax: Sintaxis =
+  no_category: Sin Category
+  part: pt.
+  commands: Comandos
+  subcommands: Subcomandos
+  page: Manual de Ayuda Spyke página {}
+  command_not_found: Los comandos distinguen entre mayúsuclas y minúsculas. Verifica tu comando e inténtalo nuevamente.
+  help: |
+    Muestra la documentación de ayuda.
+    [p]help: Muestra el manual de ayuda.
+    [p]help <command>: Muestra la ayuda del comando.
+    [p]help <category>: Muestra comandos y la descripción para la categoría.
+  #{0.name} is a command, do not translate this
+  no_subcommands: El comando "{0.name}" no tiene subcomandos.
+  callout: |
+    Obtén el mapa para cualquier escenario que especifiques. Intenta con diferentes nombres del escenario!
+    
+    Por ejemplo, digamos que quieres Camp Triggerfish. Puedes ingresar "[p]callout camp: o "[p]callout triggerfish", lo que te sea más sencillo.
+
+    Ejemplo:
+
+    [p]callout arena
+    [p]callout shipyard
+    [p]callout fitness
+  pf_rank: |
+    ¡Ingresa tu rango en tu perfil! Esto es muy sencillo:
+
+    tc = Tower Control (Torreón)
+    rm = Rainmaker (Pez Dorado)
+    sz = Splat Zones (Pintazonas)
+    cb = Clam Blitz (Asalto Almeja)
+
+    (Este se encuentra deshabilitado hasta que se confirme su existencia)
+    rkt = Rocket (Cohete)
+
+    Ejemplo:
+    [p]profile rank tc S+0
+    Y el rango X funciona así:
+    [p]profile rank tc X 300.4
+  pf_tz: |
+    Te permite que establezcas una zona horaria al comando de salmon run.
+        
+    ¡Es sensible a mayúsculas/minúsculas!
+        
+    Visita [https://hastebin.com/ugimufopab.vbs](esta lista) para los códigos de zona horaria.
+  pf_pwr: |
+    ¡Muéstranos tu poder de liga más alto!
+    ¡Ahora con ambos tipos de ligas (pareja y equipo)!
+        
+    Ejemplo:
+    [p]profile power team 1750
+    [p]profile power pair 1750.9
+  profile: |
+    ¡El glorioso reemplazo del fc! Ingresa `[p]help profile fc` para empezar.
+    También visita `[p]help profile rank` para información más detallada.
+    Tienes que ingresar tu fc antes de poder mostrar tu perfil.
+    Por favor visita `[p]help profile fc` y añade tu código de amigo (fc) antes de decir que Spyke no funciona. ¡Gracias!
+  pf_lvl: |
+    Ingresa tu nivel en Splatoon 2
+    
+    Ejemplos:
+    [p]profile level 50
+	Si tu nivel tiene una estrella, añade S después de tu nivel:
+    [p]profile level 50 S
+  pf_fc: |
+	Registra tu FC con Spyke.
+    Ejemplo:
+    [p]profile fc SW-5208-7719-6394
+  pf_ign: |
+    Ingresa tu nombre en el juego.
+    Ejemplo:
+    [p]profile ign MarieWaifu
+  pf_clan: |
+    Ingresa tu clan si es que tienes.
+    Ejemplo:
+    [p]profile clan Ink2Death
+  pf_favmap: |
+	Ingresa tu mapa favorito.
+    Ejemplo:
+    [p]profile favmap Kelp Dome
+  pf_splat: |
+	Agrega a tu equipo de splatefest para que otros jugadores te encuentren con facilidad.
+    Ejemplo:
+    [p]profile splat Squid
+  pf_sr: |
+    Agrega tu título de Grizzco. También acepta 300/99 hasta 9999/99.
+    Ejemplo:
+    [p]profile sr Profreshional
+  pf_loadout: |
+	¡Muéstranos tus equipos de loadout.ink! Puedes tener hasta 3.
+    Ejemplo:
+    [p]profile loadout L1 https://loadout.ink/url-here
+  pf_remove: Elimina tu perfil de la base de datos.
+  pf_wep: |
+	Ingresa tus armas favoritas. Ahora puedes seleccionar hasta 3.
+    Revisa `[p]weapons` para la lista de armas.
+
+    Ejemplos:
+    [p]profile weapon W1 Splattershot Pro
+    [p]profile weapon W2 N-ZAP 85
+  pf_locale: |
+	Selecciona tu idioma regional, para tener Spyje en otro idioma.
+    Idiomas disponibles: EN, JP
+    
+	Si le idioma no está disponible, Spyke seleccionará EN.
+    
+    (Recuerda que muchas traducciones aún están en desarrollo, por lo que aún hay secciones sin traducir.)
+    
+    Ejemplo:
+    [p]profile locale EN
+  sp: |
+	Esta es la sección del modo historia de tu perfil. Utiliza `[p]help sp`  para comenzar. Los subcomandos están abreviados:
+
+    Título = title
+    Porcentaje completado = cp
+    Pergaminos encontrados = sf
+    Armas legendarias encontradas = hwo
+    Mejor tiempo = blt
+    Tengo la Octoexpansión = oe
+    Pastirecuerdos = mc
+    Trastos = thangs
+    Palillo de Oro obtenido = pick
+    
+	Así que revisa `[p]help sp cp` o `[p]help sp hwo` para comenzar a agregar tus datos de modo campaña a tu perfil.
+  sp_title: |
+	¡Registra tu título de modo historia! Revísalo en la App de Nintendo.
+    
+    Ejemplo:
+    [p]sp title Dingleberries
+  sp_cp: |
+	Este es tu porcentaje terminado. Puede ir hasta 1000%.
+
+    Ejemplo:
+    [p]sp cp 150
+    [p]sp cp 150%
+  sp_sf: |
+	Este comando sirve para mostrar cuantos pergaminos has encontrado.
+    
+    Ejemplo:
+    [p]sp sf 4
+  sp_hwo: |
+	Este es usado para mostrar cuantas armas legendarias has obtenido.
+    Sólo hay 9 armas en el juego. ¡Si hay más házmelo saber!
+
+    Ejemplo:
+    [p]sp hwo 3
+  sp_blt: |
+	Este comando es para establecer tu mejor tiempo. Utiliza el formato XX:XX 
+
+    Ejemplo:
+    [p]sp blt 01:24
+  sp_mc: |
+	Aquí podrás mostrarnos cuantos pastirecuerdos has obtenido.
+
+    Ejemplo:
+    [p]sp mc 50
+  sp_thangs: |
+	Muéstranos cuantos trastos has conseguido.
+
+    Ejemplo:
+    [p]sp mc 4
+  sp_tp: |
+    Yes/No si tienes el palillo de oro.
+
+    Ejemplo:
+    [p]sp pick no
+  lfg: |
+	Te permite buscar a un grupo publicamente:
+    
+    [p]lfg <jugadores necesitados> <hora en formato xy> <modo> [rango en salmon run]
+    
+    Ejemplo:
+    [p]lfg 3 4h league
+	Esto postea un mensaje LFG para tres personas, máximo 4 horas de ligas.
+    Otras opciones son: Salmon, Scrim
+  lfg_join: |
+	Te permite agregarte a los grupos LFG.
+        
+    Toda entrada LFG tiene una ID associada.
+
+	Para unirte a un grupo y ponerte en contacto con su creador, teclea `[p]join <group ID>`
+    
+    Ejemplo:
+    [p]join G-34256
+    
+    Los grupos se reinician diariamente para que los IDs no se junten en el sistema.
+  maps_nextmode: |
+    Este comando te permite consultar cuando tu modo favorito estará en la rotación y cuantas rotaciones debes esperar.
+	    
+    rm = Pez Dorado
+    sz = Pintazonas
+    tc = Torreón
+    cb = Asalto Almeja
+    
+    Aún en desarrollo, pero funciona.
+    
+    Ejemplo:
+    [p]nextmode tc league

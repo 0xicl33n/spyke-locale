@@ -111,7 +111,7 @@ en:
     [p]profile weapon W2 N-ZAP 85
   pf_locale: |
     Set your locale, for Spyke in another language!
-    Available locales: EN, JP
+    Available locales: EN, JP, ES, FR
     
     If your locale is not found Spyke will default to EN
     

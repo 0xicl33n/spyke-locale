@@ -1,4 +1,4 @@
 es:
-  map_is_none: Dame un mapa para buscar 
-  callout_unavailable: Lo siento, no tengo un mapa para esto 
-  title: El callout Normal para
+  map_is_none: ¡Necesito un mapa que buscar!
+  callout_unavailable: Lo siento, no tengo este mapa en mi registro.
+  title: Mapa registrado para

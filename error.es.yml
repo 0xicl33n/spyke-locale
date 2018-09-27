@@ -1,5 +1,5 @@
 es:
-  no_permission: No tienes el privilego para usar ese comando 
-  missing_required: te faltan los variables requeridos 
-  bad:  has dado un variable inválido 
-  reported: Un error a ocurrido con el comando `{}`. Esto ha automáticamente sido reportado para ti. 
+  no_permission: No estás autorizado para utilizar este comando.
+  missing_required: Te faltan argumentos.
+  bad: Has incluído un argumento inválido.
+  reported: Ha ocurrido un error con el comando `{}` . Esto ya ha sido reportado automáticamente.

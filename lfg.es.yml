@@ -1,0 +1,18 @@
+es:
+  lfg: Buscar un grupo
+  time_left: Tiempo restante
+  gid: ID de grupo
+  lfno: Jugadores requeridos
+  fc: Código de amigo del lider
+  mode: Modo de juego
+  players_large: ¡Amigo! Esos son demasiados jugadores.
+  players_small: ¡Amigo! Necesitas buscar al menos un jugador.
+  invalid_mode: Oye, solo puedo ayudarte a encontrar partidas de `league`, `scrim`, o `salmon` - ¡No te puedo ayudar con eso!
+  posted: Tu LFG ha sido registrado.
+  time_err: Cariño, por favor, ese formato es equivocado. Por favor inténtalo con el formato `Xh`, dónde `X` es el número de horas que quieres jugar.
+  group_full: El grupo está lleno.
+  #{0} es un nombre de jugador, {1} es su código de amigo and {2} es el rango que quieres que se una: |
+    ¡`{0}` quiere unirse a tu grupo!
+    
+    Su código de amigos es `{1}` y su rango es {2}
+  not_group: ¡Ese grupo no existe!

@@ -1,0 +1,9 @@
+es:
+  unset: unset
+  arg_long: Vamos, eso está muy largo...
+  arg_neg: Los números negativos no son válidos.
+  arg_nan: Vamos amigo, eso no es un número.
+  is_spyke: Hermano ¿Acaso estás bromeando?
+  not_in_db_self: ¡No te encuentras registrado! ¡Regístrate primero con `[p]help profile fc` !
+  not_in_db_others: ¡No está registrado! ¡Diles que se registren primero con `[p]help profile fc` !
+  user_not_found: Usuario no encontrado.

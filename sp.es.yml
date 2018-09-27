@@ -1,0 +1,26 @@
+es:
+  embed: Estadísticas de modo historia
+  title: Titulo
+  cp: Porcentaje Completado
+  sf: Pergaminos encontrados
+  oe: Tengo la octo expansión
+  hwo: Armas legendarias obtenidas
+  blt: Mejor tiempo de nivel
+  mc: Pastirecuerdos
+  thangs: Trastos
+  tp: Palillo de oro obtenido
+  title_set: tu título de modo historia ha sido registrado.
+  cp_large: ¡El porcentaje va hasta un máximo de 1000%!
+  cp_set: tu porcentaje completado ha sido registrado.
+  sf_large: ¡Sólo hay 28 pergaminos!
+  sf_set: tus pergaminos han sido registrado.
+  hwo_large: ¡Sólo hay 9 armas legendarias!
+  hwo_set: tus armas legendarias han sido registrado.
+  blt_set: tu mejor tiempo ha sido registrado
+  blt_time: ¡Ese no es un tiempo válido! ¡Recuerda que debe ir precedido por un 0!
+  mc_large: Sólo hay 80 niveles en la octo expansión...
+  mc_set: tus pastirecuerdos han sido registrado.
+  thangs_large: Sólo hay 4 trastos
+  thangs_set: tus trastos ha sido registrado.
+  tp_set: tu palillo de oro ha sido registrado.
+  tp_wrong: Esto es de sí o no, amigo...

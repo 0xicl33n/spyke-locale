@@ -1,67 +1,65 @@
 es:
   rank_rm: Pez dorado
   rank_sz: Pintazonas
-  rank_tc: Torre
-  rank_cb: Asalto Almeja
-  loadout: Loadout
-  ign: Nombre del juego
+  rank_tc: Torreón
+  rank_cb: Asalto almeja
+  loadout: Equipo loadout.ink .
+  ign: Nombre en el juego.
   lvl: Nivel
   fc: Código de amigo
   ranks: Rangos
-  power_team: Equipo
-  power_pair: Pareja
-  sr_title: Título de Don Oso, S.A.
-  fav_wep: Armas 
-  fav_map: Mapa Favorito
-  loadouts: Loadouts
+  power_team: Poder de liga por equipo
+  power_pair: Poder de liga por parejas
+  sr_title: Título Grizzco
+  fav_wep: Armas favoritas
+  fav_map: Mapas favoritos
+  loadouts: Equipos
   clan: Clan
-  splat: Equipo de Festival temático
-  footer_morti: El uno y verdadero Morti
-  footer_bonnie: Oh mira, Mi creador, Ellos son muy estupendo, ¿verdad? 
-  footer_star: Activo mantenedor responsable por las traducciones, buen chico, ¿eh? 
-  lvl_negative: Tu nivel no puede ser negativo
-  lvl_large:  Amigo, Nivel 99 es el máximo
-  lvl_tiererror: ¡¿Qué?!  S es el único nivel de prestigio que accepto
-  lvl_set: tu nivel se ha establecido a
-  rm_set: tu rango de pez dorado se ha establecido
-  tc_set: tu rango de torre se ha establecido
-  sz_set: tu rango de pintazonas se ha establecido 
-  cb_set: tu rango de asalto almeja se ha establecido
-  no_mode: ese modo de juego no existe 
-  no_rank: ese rango no existe
-  tz_err: Eso no es una zona horaria válida. Esto es sensible a mayúsculas y minúsculas. por favor, verifica https://hastebin.com/ugimufopab.vbs para obtener tu zona horaria adecuada
-  tz_set: Tu zona horaria a sido establecida.
-  pwr_low: No puedes estar debajo de uno 
-  pwr_acc: no puedes tener más de una cifra decimal
-  pwr_neg: Amigo, no puedes tener una energía negativa
-  pwr_big: Amigo, ¡eso es muy alto! ¡No hay manera que tu eres tan bueno!
-  pwr_team_set: tu energía en tu equipo más alta ha sido establecida a
-  pwr_pair_set: tu energía en una pareja más alta a sido establecida a
-  fc_example: Amigo, ¿Eres estúpido? ¡Eso es la clave de amigo de ejemplo!
-  fc_zero: Tu clave de amigo no puede ser cero.
-  fc_update: Tu clave de amigo a sido establecida, amor
-  fc_add: tú has sido añadido, gracias
-  fc_notfc: Lo siento amigo, solo acepto las claves de amigo...
-  ign_set: tu nombre del juego ha sido establecida a
-  clan_set: tu clan ha sido establecido a
-  not_map: Eso no es una mapa
-  favmap_set: Tu mapa favorito ha sido establecido a 
-  splat_set: Tu equipo del Festival temático ha sido establecida a 
-  not_splat: Eso no es un equipo del Festival temático válido
-  sr_set: Tu título de Don Oso, S.A. ha sido establecido a 
-  not_sr: Eso no es un título de Don Orso, S.A. válido 
-  l1_set: Tu primer loadout ha sido establecido 
-  l2_set: Tu segundo loadout ha sido establecido
-  l3_set: Tu tercero loadout ha sido establecido
-  not_loadout: Amigo no puedes engañar a Spyke. Eso no es un loadout.ink url
-  remove_help: Quieres sacarte de la base de datos. 
-  remove_suc: tu has sido sacado… lamento verte partir. o/
-  remove_fail: ¡Nunca estabas en la base de datos!
-  wep_error: Amigo,¡Anda ya! Eso no es una arma
-  w1_set: Tu primera arma ha sido establecida a 
-  w2_set: Tu segunda arma ha sido establecida a
-  w3_set: Tu tercera arma ha sido establecida a
-  locale_set: Tu idioma ha sido establecido a
-  locale_check: En este momento, Tu idioma es 
-  getfc_self: tu código de amigo es `{}`
-  getfc_others: su código de amigo es `{}`
+  splat: Equipo de Splatfest 
+  footer_morti: El único y verdadero Morti
+  footer_bonnie: Mira nomás, mi creadora. Es genial ¿verdad?
+  footer_star: Nuestro jefe de mantenimiento en la sección de traducciones. Buen tipo ¿no?
+  lvl_negative: ¡Tu nivel no puede ser negativo!
+  lvl_large: Amigo, 99 es el nivel máximo...
+  lvl_tiererror: ¡¿Qué?! ¡S es el único nivel que acepto!
+  lvl_set: tu nivel ha sido registrado como
+  rm_set: rango en pez dorado registrado
+  tc_set: rango en torreón registrado
+  sz_set: rango en pintazonas registrado
+  cb_set: rango en asalto almeja registrado
+  no_mode: ese modo de juego no existe
+  no_rank: Ese rango no existe
+  tz_err: Esa no es una zona horaria válida. La zona horaria distingue entre mayúsculas y minúsculas. Por favor revisa https://hastebin.com/ugimufopab.vbs para ver tu zona horaria!
+  tz_set: tu zona horaria ha sido registrada.
+  pwr_low: ¡No puedes estar por debajo de cero!
+  pwr_acc: ¡No puedes tener más de un decimal!
+  pwr_neg: Amigo... You can't have a negative power...
+  pwr_big: ¡Amigo, eso es muy alto! ¡No es posible que seas tan bueno!
+  pwr_team_set: tu más alto poder de liga en equipo ha sido registrado como
+  pwr_pair_set: tu más alto poder de pareja en equipo ha sido registrado como
+  fc_example: Amigo por favor... ¡Ese claramente es el ejemplo de código de amigo!
+  fc_zero: Tú código de amigo no puede ser cero.
+  fc_update: cariño, tu código de amigo ha sido actualizado.
+  fc_add: agregado, enhorabuena.
+  fc_notfc: Lo siento amigo, sólo acepto códigos de amigo...
+  ign_set: tu nombre de jugador ha sido registrado como
+  clan_set: tu clan ha sido registrado como
+  not_map: Eso no es un mapa
+  favmap_set: tu mapa favorito ha sido registrado como
+  splat_set: tu equipo de splatfest ha sido registrado como
+  not_splat: Ese no es un equipo válido para el splatfest.
+  sr_set: tu rango Grizzco ha sido registrado como
+  not_sr: ese no es un rango Grizzo válido
+  l1_set: tu primer equipo loadout.ink ha sido registrado como
+  l2_set: tu segundo equipo loadout.ink ha sido registrado como
+  l3_set: tu tercer equipo loadout.ink ha sido registrado como
+  not_loadout: Amigo, no puedes engañar al viejo Spyke. Esa no es una dirección loadout.ink ...
+  remove_help: Borrar registro de la base de datos.
+  remove_suc: Tus datos han sido borrados. ¡Esperamos verte nuevamente!
+  remove_fail: Nunca estuviste registrado.
+  wep_error: Amigo, esa ni siquiera es un arma.
+  w1_set: tu primer arma ha sido registrada como
+  w2_set: tu segunda arma ha sido registrada como
+  w3_set: tu tercer arma ha sido registrada como
+  locale_set: tu idioma ha sido registrado como
+  locale_check: tu idioma actual es
