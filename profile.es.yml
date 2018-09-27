@@ -8,8 +8,8 @@ es:
   lvl: Nivel
   fc: Código de amigo
   ranks: Rangos
-  power_team: Poder de liga por equipo
-  power_pair: Poder de liga por parejas
+  power_team: equipo
+  power_pair: parejas
   sr_title: Título Grizzco
   fav_wep: Armas favoritas
   fav_map: Mapas favoritos
