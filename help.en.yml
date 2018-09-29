@@ -109,6 +109,13 @@ en:
     Examples:
     [p]profile weapon W1 Splattershot Pro
     [p]profile weapon W2 N-ZAP 85
+
+  pf_char: |
+    Set your in game character to either squid or octo!
+    Examples:
+    [p]profile char octo
+    [p]profile char squid
+    
   pf_locale: |
     Set your locale, for Spyke in another language!
     Available locales: EN, JP, ES, FR
