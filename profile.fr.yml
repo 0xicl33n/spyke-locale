@@ -66,3 +66,5 @@ fr:
   locale_check: En ce moment, ta langue est
   getfc_self: Ton code ami est `{}`
   getfc_others: Leur code ami est `{}`
+  char: Ton personnage joueur a été régléé à
+  invalid_char: Mec, Je seulement accepte Squid (Calamar) ou Octo (Octaling)

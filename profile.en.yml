@@ -66,3 +66,5 @@ en:
   locale_check: your locale is currently
   getfc_self: Your friend code is `{}`
   getfc_others: Their friend code is `{}`
+  char: Your player character has been set to
+  invalid_char: Mate, thats not a valid character! "Squid" or "Octo" is the only thing I accept!!
