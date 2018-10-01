@@ -71,7 +71,7 @@ es:
     Si tu nivel tiene una estrella, añade S después de tu nivel:
     [p]profile level 50 S
   pf_fc: |
-	Registra tu FC con Spyke.
+	  Registra tu FC con Spyke.
     Ejemplo:
     [p]profile fc SW-5208-7719-6394
   pf_ign: |
@@ -83,11 +83,11 @@ es:
     Ejemplo:
     [p]profile clan Ink2Death
   pf_favmap: |
-	Ingresa tu mapa favorito.
+    Ingresa tu mapa favorito.
     Ejemplo:
     [p]profile favmap Kelp Dome
   pf_splat: |
-	Agrega a tu equipo de splatefest para que otros jugadores te encuentren con facilidad.
+	  Agrega a tu equipo de splatefest para que otros jugadores te encuentren con facilidad.
     Ejemplo:
     [p]profile splat Squid
   pf_sr: |
@@ -95,22 +95,22 @@ es:
     Ejemplo:
     [p]profile sr Profreshional
   pf_loadout: |
-	¡Muéstranos tus equipos de loadout.ink! Puedes tener hasta 3.
+	  ¡Muéstranos tus equipos de loadout.ink! Puedes tener hasta 3.
     Ejemplo:
     [p]profile loadout L1 https://loadout.ink/url-here
   pf_remove: Elimina tu perfil de la base de datos.
   pf_wep: |
-	Ingresa tus armas favoritas. Ahora puedes seleccionar hasta 3.
+	  Ingresa tus armas favoritas. Ahora puedes seleccionar hasta 3.
     Revisa `[p]weapons` para la lista de armas.
 
     Ejemplos:
     [p]profile weapon W1 Splattershot Pro
     [p]profile weapon W2 N-ZAP 85
   pf_locale: |
-	Selecciona tu idioma regional, para tener Spyje en otro idioma.
+	  Selecciona tu idioma regional, para tener Spyje en otro idioma.
     Idiomas disponibles: EN, JP
     
-	Si le idioma no está disponible, Spyke seleccionará EN.
+	  Si le idioma no está disponible, Spyke seleccionará EN.
     
     (Recuerda que muchas traducciones aún están en desarrollo, por lo que aún hay secciones sin traducir.)
     
@@ -129,36 +129,36 @@ es:
     Trastos = thangs
     Palillo de Oro obtenido = pick
     
-	Así que revisa `[p]help sp cp` o `[p]help sp hwo` para comenzar a agregar tus datos de modo campaña a tu perfil.
+	  Así que revisa `[p]help sp cp` o `[p]help sp hwo` para comenzar a agregar tus datos de modo campaña a tu perfil.
   sp_title: |
-	¡Registra tu título de modo historia! Revísalo en la App de Nintendo.
+	  ¡Registra tu título de modo historia! Revísalo en la App de Nintendo.
     
     Ejemplo:
     [p]sp title Dingleberries
   sp_cp: |
-	Este es tu porcentaje terminado. Puede ir hasta 1000%.
+	  Este es tu porcentaje terminado. Puede ir hasta 1000%.
 
     Ejemplo:
     [p]sp cp 150
     [p]sp cp 150%
   sp_sf: |
-	Este comando sirve para mostrar cuantos pergaminos has encontrado.
+	  Este comando sirve para mostrar cuantos pergaminos has encontrado.
     
     Ejemplo:
     [p]sp sf 4
   sp_hwo: |
-	Este es usado para mostrar cuantas armas legendarias has obtenido.
+	  Este es usado para mostrar cuantas armas legendarias has obtenido.
     Sólo hay 9 armas en el juego. ¡Si hay más házmelo saber!
 
     Ejemplo:
     [p]sp hwo 3
   sp_blt: |
-	Este comando es para establecer tu mejor tiempo. Utiliza el formato XX:XX 
+	  Este comando es para establecer tu mejor tiempo. Utiliza el formato XX:XX 
 
     Ejemplo:
     [p]sp blt 01:24
   sp_mc: |
-	Aquí podrás mostrarnos cuantos pastirecuerdos has obtenido.
+  Aquí podrás mostrarnos cuantos pastirecuerdos has obtenido.
 
     Ejemplo:
     [p]sp mc 50
@@ -179,14 +179,14 @@ es:
     
     Ejemplo:
     [p]lfg 3 4h league
-	Esto postea un mensaje LFG para tres personas, máximo 4 horas de ligas.
+	  Esto postea un mensaje LFG para tres personas, máximo 4 horas de ligas.
     Otras opciones son: Salmon, Scrim
   lfg_join: |
-	Te permite agregarte a los grupos LFG.
+	  Te permite agregarte a los grupos LFG.
         
     Toda entrada LFG tiene una ID associada.
 
-	Para unirte a un grupo y ponerte en contacto con su creador, teclea `[p]join <group ID>`
+	  Para unirte a un grupo y ponerte en contacto con su creador, teclea `[p]join <group ID>`
     
     Ejemplo:
     [p]join G-34256
