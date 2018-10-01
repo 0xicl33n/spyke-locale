@@ -68,7 +68,7 @@ es:
     
     Ejemplos:
     [p]profile level 50
-	  Si tu nivel tiene una estrella, añade S después de tu nivel:
+    Si tu nivel tiene una estrella, añade S después de tu nivel:
     [p]profile level 50 S
   pf_fc: |
 	Registra tu FC con Spyke.
