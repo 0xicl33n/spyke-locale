@@ -6,3 +6,4 @@ en:
   bot_permission: >
     I do not have the required permissions! Missing: ```{}```
   rip_command: This command is gone! You're looking for
+  disabled: This command is currently disabled - it is either broken or being improved. Please hold tight.
