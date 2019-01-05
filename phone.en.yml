@@ -1,0 +1,5 @@
+en:
+  phoned: >
+    {} has connected to your DM. You can type `disconnect` here at any time to end the call.
+  disconnected: You have been disconnected from {}.
+  disconnect_fail: You are not connected to anyone!
