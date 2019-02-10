@@ -8,10 +8,10 @@ en:
     birthday: I was created
     api: API
     api_value: >
-      `discord.py` version {}
+      `discord.py` {}
     db: Database driver
     db_value: >
-      `motor_asyncio` version {}
+      `motor_asyncio` {}
     linux: Linux kernel version
     pid: Process ID
     memory: Memory usage
