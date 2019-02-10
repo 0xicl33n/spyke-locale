@@ -8,7 +8,7 @@ en:
     birthday: I was created
     api: API
     api_value: >
-      `discord.py` (rewrite) version {}
+      `discord.py` version {}
     db: Database driver
     db_value: >
       `motor_asyncio` version {}
