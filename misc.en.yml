@@ -15,6 +15,7 @@ en:
     
     **You will be DMd when it's available.**
   order_fail: There is no gear with that name!
+  already_ordered: You have already ordered that gear!
   confused: Confused?
   surprised: Surprised? 
   missing_permissions: |
