@@ -35,4 +35,6 @@ en:
     donate: Donate
     paypal: PayPal
     lastrestart: Last restart was
+    cache: Cache info(H/M/S)
+    salmon: Salmon run channels
   
