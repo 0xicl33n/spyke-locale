@@ -12,15 +12,15 @@ en:
   commands: Commands
   subcommands: Subcommands
   page: Spyke Help Manual Page {}
-  no_command: No command called "{}" found.
-  command_not_found: Commands are case sensitive. Please check your spelling and try again.
+  command_not_found: No command called '{}' found.
   help: |
     Shows help documentation.
     [p]help: Shows the help manual.
     [p]help <command>: Show help for a command.
     [p]help <category>: Show commands and description for a category.
   #{0.name} is a command, do not translate this
-  no_subcommands: Command "{0.name}" has no subcommands.
+  no_subcommands: Command '{0.qualified_name}' has no subcommands.
+  subcommand_not_found: Command '{0.qualified_name}' has no subcommand named '{1}'.
   callout: |
     Get the normal callout map for a map you specify, can be in any order or any spelling of the name.
 
