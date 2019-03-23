@@ -6,9 +6,11 @@ en:
   #{0} is prefix here
   footer: Type {0}help <command> for more info on a command. You can also type {0}help <category> for more info on a category.
   desc: Spyke's commands
-  syntax: Syntax =
+  syntax: >
+    Syntax: {}
   no_category: No Category
-  part: pt.
+  part: >
+    {} pt. {}
   commands: Commands
   subcommands: Subcommands
   page: Spyke Help Manual Page {}
