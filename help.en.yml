@@ -24,7 +24,7 @@ en:
   callout: |
     Get the normal callout map for a map you specify, can be in any order or any spelling of the name.
 
-    Lets say you want to get Camp Triggerfish. Well you can either "[p]callout camp: or "[p]callout triggerfish", whichever is easier for you.
+    Let's say you want to get Camp Triggerfish. Well you can either "[p]callout camp: or "[p]callout triggerfish", whichever is easier for you.
 
     Example
 
