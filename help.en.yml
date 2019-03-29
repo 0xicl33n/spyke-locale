@@ -23,11 +23,13 @@ en:
     # {} is an emoji for `general`
     general: Confused? React with {} for more info
     welcome: Welcome to the interactive help.
-    explanation: This allows you to see pages of help interactively, by navigating with reactions. They are as follows:
+    explanation: >
+      This allows you to see pages of help interactively, by navigating with reactions. They are as follows:
     previous: Previously on page {}
     support:
       key: Support
-      value: For more help, join the Nintennuendo Support Server: https://discord.gg/q2j8HtB
+      value: >
+        For more help, join the Nintennuendo Support Server: https://discord.gg/q2j8HtB
     help_help: |
       Shows help documentation.
       [p]help: Shows the help manual.
