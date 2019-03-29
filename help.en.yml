@@ -1,7 +1,10 @@
 # {} or {0} stands in for something, usually a number :)
 en:
+  add_reactions: The bot needs the 'Add Reactions' Discord permission. Help cannot be given without it.
   manual: Spyke Help Manual
-  page_msg: There are {} help pages. Send a number to see the corresponding page. Send any other message to exit.
+  page_msg: There are {} help pages. Send a number to see the corresponding page.
+  timeout: Number entry timed out.
+  bad_page: Invalid page gien ({} > {})
   quit: Quit Help menu.
   #{0} is prefix here
   footer: Type {0}help <command> for more info on a command. You can also type {0}help <category> for more info on a category.
@@ -13,20 +16,51 @@ en:
     {} pt. {}
   commands: Commands
   subcommands: Subcommands
-  page: Spyke Help Manual Page {}
+  page: Page {} of {} ({} commands)
   command_not_found: No command called '{}' found.
-  help: |
-    Shows help documentation.
-    [p]help: Shows the help manual.
-    [p]help <command>: Show help for a command.
-    [p]help <category>: Show commands and description for a category.
-  #{0.name} is a command, do not translate this
+  no_help_given: This command does not have a helpstring.
+  help:
+    # {} is an emoji for `general`
+    general: Confused? React with {} for more info
+    welcome: Welcome to the interactive help.
+    explanation: This allows you to see pages of help interactively, by navigating with reactions. They are as follows:
+    previous: Previously on page {}
+    support:
+      key: Support
+      value: For more help, join the Nintennuendo Support Server: https://discord.gg/q2j8HtB
+    help_help: |
+      Shows help documentation.
+      [p]help: Shows the help manual.
+      [p]help <command>: Show help for a command.
+      [p]help <category>: Show commands and description for a category.
+    buttons:
+      what: What do these reactions do?
+      first: Jump to the first page
+      last: Jump to the last page
+      next: Advance by one page
+      previous: Return to the previous page
+      number: Jump to a page by number
+      help: Shows this message
+      stop: Quit the help session
+      bot_help: Shows how to use the bot
+    bot_help: |
+      An explanation of signatures:
+      **<argument>**
+      This means the argument is required.
+      **[argument]**
+      This means the argument is optional.
+      **[A|B]**
+      This means the it can be either A or B.
+      **[argument...]**
+      This means you can have multiple, or 0, arguments.
+      __You do not type in the brackets__
+  #{0.qualified_name} is a command, do not translate this
   no_subcommands: Command '{0.qualified_name}' has no subcommands.
   subcommand_not_found: Command '{0.qualified_name}' has no subcommand named '{1}'.
   callout: |
-    Get the normal callout map for a map you specify, can be in any order or any spelling of the name.
+    Get the normal callout map for a map you specify, does not have to be the exact or full name.
 
-    Let's say you want to get Camp Triggerfish. Well you can either "[p]callout camp: or "[p]callout triggerfish", whichever is easier for you.
+    Let's say you want to get Camp Triggerfish. Well you can either use `[p]callout camp`: or `[p]callout triggerfish`, whichever is easier for you.
 
     Example
 
@@ -84,7 +118,7 @@ en:
   pf_clan: |
     Set your clan if you have one.
     Example:
-    [p]profile clan Ink2Death
+    [p]profile clan Prepare2Dye
   pf_favmap: |
     Set your favourite map
     Example:
@@ -122,7 +156,7 @@ en:
     Set your locale, for Spyke in another language!
     Available locales: EN, JP, ES, FR
     
-    If your locale is not found Spyke will default to EN
+    If your locale is not found, or a key is missing, Spyke will default to EN
     
     Note that the translations are still WIP, many parts of Spyke are not yet translated.
     
