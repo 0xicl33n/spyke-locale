@@ -52,7 +52,7 @@ en:
       **[argument]**
       This means the argument is optional.
       **[A|B]**
-      This means the it can be either A or B.
+      This means that it can be either A or B.
       **[argument...]**
       This means you can have multiple, or 0, arguments.
       __You do not type in the brackets__
