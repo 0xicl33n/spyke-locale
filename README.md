@@ -1,5 +1,5 @@
 
-Download [this](http://spykebot.ink/locale_example_v2.zip) zip file
+Fork this repository
 
 **Do not change the keys**, the keys are like `rank_rm:`. Just replace the english with your text
 
@@ -28,4 +28,4 @@ jp:
 This format is called YAML. I highly recommend picking up a text editor that preserves my tabs and spacing. Notepad++ is good enough, if youre that invested in doing this of course. 
 
 
-To submit your translation, dm me the .zip file on discord, create a pull request, or upload them to pastebin
+To submit your translation, submit a pull request.
