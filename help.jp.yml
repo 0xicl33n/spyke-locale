@@ -1,116 +1,138 @@
-# {} or {0} stands in for something, usually a number :)
+# {} or {0} stands in for something, usually a number : >)
 jp:
-  manual: Spykeヘルプマニュアル
-  page_msg: "{}のヘルプページがあります。対応するページを見るために数を送りなさい。他のメッセージを送信して終了してください。"
-  quit: ヘルプメニューを終了します。
-  footer: コマンドの詳細を表示するには、[p] help <command>を入力してください。カテゴリの詳細については、{0} help <カテゴリ>と入力することもできます。
-  desc: Spykeのコマンド
-  syntax: 構文=
-  no_category: カテゴリーなし
-  part: pt
-  commands: コマンド
-  subcommands: サブコマンド
-  page: Spyke Help Manual Page {}
-  no_command: "{}"という名前のコマンドが見つかりませんでした。
-  command_not_found: コマンドは大文字と小文字を区別します。スペルを確認してもう一度やり直してください。
-  help: |
+  manual: >
+   ダウニー ヘルプマニュアル
+  page_msg: >
+   {}のヘルプページがあります。対応するページを見るために数を送りなさい。他のメッセージを送信して終了してください。
+  quit: >
+   ヘルプメニューを終了します。
+  footer: >
+   コマンドの詳細を表示するには、[p] help <command>
+  を入力してください。カテゴリの詳細については、{0} help <カテゴリ>
+  と入力することもできます。
+  desc: >
+   Spykeのコマンド
+  syntax: >
+   構文=
+  no_category: >
+   カテゴリーなし
+  part: >
+   pt
+  commands: >
+   コマンド
+  subcommands: >
+   サブコマンド
+  page: >
+   Spyke Help Manual Page {}
+  no_command: >
+   "{}"という名前のコマンドが見つかりませんでした。
+  command_not_found: >
+   コマンドは大文字と小文字を区別します。スペルを確認してもう一度やり直してください。
+  help: >
+   |
     ヘルプドキュメントを表示します。
-    [p]help: ヘルプマニュアルを表示します。
-    [p]help <command>: ヘルプマニュアルを表示します。
-    [p]help <category>: カテゴリのコマンドと説明を表示します。
+    [p]help: >
+     ヘルプマニュアルを表示します。
+    [p]help <command>
+    : >
+     ヘルプマニュアルを表示します。
+    [p]help <category>
+    : >
+     カテゴリのコマンドと説明を表示します。
   #{0.name} is a command, do not translate this
-  no_subcommands: コマンド "{0.name}"にサブコマンドはありません。
-  callout: |
+  no_subcommands: > 
+    コマンド "{0.name}"にサブコマンドはありません。
+  callout: > |
     指定したマップの通常の吹き出しマップを取得します。名前の順序やスペルは任意です。
 
     Camp Triggerfishを入手したいとしましょう。まあ、あなたは "[p] callout camp："または "[p] callout triggerfish"のどちらでもあなたにとってより簡単なことができます。
 
-    例:
+    例: 
     [p]callout arena
     [p]callout shipyard
     [p]callout fitness
-  pf_rank: |
+  pf_rank: > |
     あなたのプロフィールにランクを設定してください！これはかなり簡単です。
 
     tc =タワーコントロール
     rm = Rainmaker
     sz =スプラットゾーン
     cb =クラムブリッツ
-    例:
+    例: 
     [p]profile rank tc S+0
     And the X rank works like this:
     [p]profile rank tc X 300.4
-  pf_tz: |
+  pf_tz: > |
     これにより、salmon runコマンドを使用するときに住んでいる場所のタイムゾーンを設定できます。
         
     それはケースセンシティブです！
         
-    タイムゾーンコードについては[this]（http://starbright.dyndns.org/starwort/timezones.txt）リストをチェックしてください。
-  pf_pwr: |
+    タイムゾーンコードについては[this]（http: >//starbright.dyndns.org/starwort/timezones.txt）リストをチェックしてください。
+  pf_pwr: > |
     あなたの最高のリーグ力を誇示する！
     今両方のリーグタイプで！ （チームとペア）
         
-    例:
+    例: 
     [p]profile power team 1750
     [p]profile power pair 1750.9
-  profile: |
+  profile: > |
     FC の見事な置き換え！始めるには `[p] help profile fc`をチェックしてください。
     さらに詳しい情報については `[p] help profile rank`を試してください。
     あなたのプロフィールが機能するようになる前にあなたのFCを追加する必要があります！
     Spykeは動作していないと言う前に、 `[p] help profile fc`をチェックして、友達コードを追加してください。ありがとうございます。
-  pf_lvl: |
+  pf_lvl: > |
     Splatoon 2 であなたのレベルを設定してください
     
-    例:
+    例: 
     [p]profile level 50
-    あなたがスタープレーヤーであるならば、あなたのレベルの後に最後にSを加える:
+    あなたがスタープレーヤーであるならば、あなたのレベルの後に最後にSを加える: >
     [p]profile level 50 S
-  pf_fc: |
+  pf_fc: > |
     あなたのFCをspykeに登録してください。
-    例:
+    例: 
     [p]profile fc SW-5208-7719-6394
-  pf_ign: |
+  pf_ign: > |
     あなたのIn Game Nameを設定してください。
-    例:
+    例: 
     [p]profile ign MarieWaifu
-  pf_clan: |
+  pf_clan: > |
     クランがある場合はクランを設定します。
-    例:
+    例: 
     [p]profile clan Ink2Death
-  pf_favmap: |
+  pf_favmap: > |
     Set your favourite map
-    例:
+    例: 
     [p]profile favmap Kelp Dome
-  pf_splat: |
+  pf_splat: >
     あなたの現在または最後の感嘆符チームを設定して、一緒にプレイする相手を見つけましょう。
-    例:
+    例: 
     [p]profile splat Squid
-  pf_sr: |
+  pf_sr: >
     Grizzcoのタイトルを設定してください。 300/99から9999/99までも受け付けます
-    例:
+    例: 
     [p]profile sr Profreshional
-  pf_loadout: |
+  pf_loadout: >
     あなたのloadout.inkロードアウトを披露！
     最初の1つ（L1）がプロフィールに表示されます。
     それらの残りは!! loadoutsコマンドで表示できます
-    例:
+    例: 
     [p]profile loadout L1 https://loadout.ink/url-here
-  pf_remove: Remove yourself from the profile database.
-  pf_wep: |
+  pf_remove: > Remove yourself from the profile database.
+  pf_wep:  |
     あなたのプロフィールにあなたのお気に入りの武器をセットしてください。今3を受け入れます！
     Spykeが取る武器のリストについては `[p] weapons`をチェックしてください。
 
-    例:
+    例: 
     [p]profile weapon W1 Splattershot Pro
     [p]profile weapon W2 N-ZAP 85
 
-  pf_char: |
+  pf_char:  |
     あなたのゲーム内のキャラクターをイカかオクトに設定してください！
-    例:
+    例: 
     [p]profile char octo
     [p]profile char squid
     
-  pf_locale: |
+  pf_locale:  |
     別の言語でSpykeにロケールを設定してください。
     EN, JP, ES, FR 利用可能なロケール  
     
@@ -118,9 +140,9 @@ jp:
     
     Note that the translations are still WIP, many parts of Spyke are not yet translated.
     
-    例:
+    例: 
     [p]profile locale EN
-  sp: |
+  sp:  |
     これはあなたのプロフィールのシングルプレイヤー部分です！始めるには `[p] help sp`を使ってください。サブコマンドは省略されています。
 
     役職=役職
@@ -134,70 +156,70 @@ jp:
     黄金のつまようじ=ピック
     
     So check out `[p]help sp cp` or `[p]help sp hwo` to get started adding to your singleplayer profile.
-  sp_title: |
+  sp_title: > |
     Set your singleplayer title! Check from the nintendo app
     
-    例:
+    例: 
     [p]sp title Dingleberries
-  sp_cp: |
+  sp_cp:  |
     This is your completion percent, you can go up to 1000%
 
-    例:
+    例: 
     [p]sp cp 150
     [p]sp cp 150%
-  sp_sf: |
+  sp_sf: > |
     This is to show how many scrolls you've found!
     
-    例:
+    例: 
     [p]sp sf 4
-  sp_hwo: |
+  sp_hwo: > |
     This is used to show off how many hero weapons you've obtained
     There are only 9 in the game(? please correct me if I'm wrong)
 
-    例:
+    例: 
     [p]sp hwo 3
-  sp_blt: |
+  sp_blt: > |
     Set your bacon lettuce tomato!
-    I'm kidding, this is for your best level time. Use XX:XX format
+    I'm kidding, this is for your best level time. Use XX: >XX format
 
-    例:
-    [p]sp blt 01:24
-  sp_mc: |
+    例: 
+    [p]sp blt 01: >24
+  sp_mc: > |
     Use this to show off how many mem cakes you've obtained!
 
-    例:
+    例: 
     [p]sp mc 50
-  sp_thangs: |
+  sp_thangs: > |
     Set how many thangs you've obtained
 
-    例:
+    例: 
     [p]sp mc 4
-  sp_tp: |
+  sp_tp: > |
     Yes/No if you have the Golden Toothpick
 
-    例:
+    例: 
     [p]sp pick no
-  lfg: |
-    Allows you to look for a group publicly:
+  lfg: > |
+    Allows you to look for a group publicly: >
     
     [p]lfg <players needed> <time in xy format> <mode> [title for salmon run]
     
-    例:
+    例: 
     [p]lfg 3 4h league
     This posts an LFG message for 3 people, max 4 hours for league battle.
-    Other options for mode: Salmon, Scrim
-  lfg_join: |
+    Other options for mode: > Salmon, Scrim
+  lfg_join: > |
     Allows you to join a group found by LFG
     
     Every LFG post has an associated ID
     
     To join the group, and get contact with its creator, run `[p]join <group ID>`
     
-    例:
+    例: 
     [p]join G-34256
     
     Groups are reset each day so old IDs do not clog the system.
-  maps_nextmode: |
+  maps_nextmode: > |
     このコマンドを使うと、次に好きなモードがいつオンになるのか、そして何回転を待つ必要があるのか​​を確認できます。
     
     rm = Rainmaker
@@ -206,60 +228,60 @@ jp:
     cb =クラムブリッツ
     
     まだ多少WIPですが、うまくいきます。
-    例:
+    例: 
     [p]nextmode tc league
-  splat: |
+  splat: > |
     This command allows you to check the results of previous Splatfests.
 
     Either enter the name of one of the teams or the Splatfest number & region
     
-    例:
+    例: 
     [p]splatfest Squid
     [p]splatfest Mayo
     [p]splatfest 14 eu
     [p]splatfest 3 na
-  splatroles: |
+  splatroles: > |
     This command will generate roles for the current splatfest (requires Manage Roles permission)
     
-    Include `region`: 'eu', 'na', 'jp' or 'all' ('all' is default behaviour)
+    Include `region`: > 'eu', 'na', 'jp' or 'all' ('all' is default behaviour)
 
-    例:
+    例: 
     [p]splatfestroles eu
     [p]splatfestroles jp True
     [p]splatfestroles na no yes
     [p]splatfestroles all yes yes
-  oldsplatroles: |
+  oldsplatroles: > |
     This command will generate roles for all previous splatfests (requires Manage Roles permission)
     
-    Include `region`: 'eu', 'na', or 'jp'
+    Include `region`: > 'eu', 'na', or 'jp'
 
-    例:
+    例: 
     [p]oldsplatfestroles eu
     [p]oldsplatfestroles jp True
     [p]oldsplatfestroles na no yes
-  splatnet: This command will tell you the entire contents of the splatnet shop.
-  statreg: |
+  splatnet: > This command will tell you the entire contents of the splatnet shop.
+  statreg: > |
     This command allows you to register for [p]getstats.
-    To use this correctly, load your stat.ink page and copy the URL. It will look like `http://www.stat.ink/@Starwort`.
-    Copy the part after the @ and use that as the parameter for the command. So for the example above:
+    To use this correctly, load your stat.ink page and copy the URL. It will look like `http: >//www.stat.ink/@Starwort`.
+    Copy the part after the @ and use that as the parameter for the command. So for the example above: >
     [p]statreg Starwort
-  getstats: |
+  getstats: > |
     Get your stat.ink stats.
     You must first have registered with [p]statreg
     You may add a user as the parameter to get stats for someone else.
-    例:
+    例: 
     [p]getstats
     [p]getstats Starwort
     [p]getstats Starwort#6129
     [p]getstats 232948417087668235
     [p]getstats @Starwort#6129
-  devmail: |
+  devmail: > |
     Send the devs a message!
     This command allows feedback and suggestions, as well as manually reporting issues that aren't reported automatically.
     The devs will respond to you through DM so keep DMs open!
     
-    例:
+    例: 
     [p]devmail I think it would be neat to add feature x
     [p]devmail Heads up that command x is silently erroring!
     [p]devmail Thanks for making such a great bot guys!
-  about: Shows bot information.
+  about: > Shows bot information.
