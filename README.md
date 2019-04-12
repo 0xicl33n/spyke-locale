@@ -1,5 +1,11 @@
+1. Get a real text editor, a good one is [notepad++](https://notepad-plus-plus.org/)
+1. Fork this repository
+2. Download [the english example](english_example.zip)
+3. Rename each of your files `help.en.yml` -> `help.YOURLANG.yml`. 
 
-Fork this repository
+We use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for our codes (eg, se for swedish, de for german etc)
+
+4. Translate!
 
 **Do not change the keys**, the keys are like `rank_rm:`. Just replace the english with your text
 
@@ -25,7 +31,6 @@ jp:
   clan: 一族
   splat: フェス
 ```
-This format is called YAML. I highly recommend picking up a text editor that preserves my tabs and spacing. Notepad++ is good enough, if youre that invested in doing this of course. 
 
 
 To submit your translation, submit a pull request.
