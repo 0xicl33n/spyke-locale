@@ -1,0 +1,14 @@
+jp:
+  unset: 無し
+  arg_long: 長すぎる
+  arg_neg: 負にすることはできません
+  arg_nan: 数字ではない
+  is_spyke: プロフィールはありません！
+  not_in_db_self: あなたはデータベースにいません！ まず `[p] help profile fc`に登録してください。
+  not_in_db_others: データベースにはありません。 最初に `[p] help profile fc`に登録するように伝えてください。
+  user_not_found: ユーザーが見つかりませんでした。
+  err: エラーが発生しました。
+  mhm: >
+    はい。
+  smh: >
+    いいえ。

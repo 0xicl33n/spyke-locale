@@ -1,65 +1,70 @@
-jp:
-  rank_rm: ガチホコ
-  rank_sz: ガチエリア
-  rank_tc: ガチヤグラ
-  rank_cb: ガチアサリ
-  loadout: 服
-  ign: ゲームの名前
+jp: 
+  rank_rm: レインメーカー
+  rank_sz: スプラットゾーン
+  rank_tc: タワー制御
+  rank_cb: クラムブリッツ
+  loadout: ロードアウト
+  ign:  ゲーム内での名前
   lvl: レベル
-  fc: 書き込んどいたヨ
-  ranks: ガチ
+  fc: フレンドコード
+  ranks: ランク
   power_team: チーム
   power_pair: ペア
-  sr_title: サーモンラン
-  fav_wep: お気に入りの武器
-  fav_map: お気に入りの地図
+  sr_title: Grizzcoタイトル
+  fav_wep: 武器
+  fav_map: 好きな地図
   loadouts: ロードアウト
-  clan: 一族
-  splat: フェス
-  footer_morti: The one true Morti
-  footer_bonnie: Oh look, my creator. They're pretty great huh?
-  footer_star: Active maintainer responsible for translation backend. Nice guy, eh?
-  lvl_negative: Your level can't be negative!
-  lvl_large: Mate, level 99 is the maximum...
-  lvl_tiererror: U WOT MATE?! S is the only prestige level I accept!
-  lvl_set: オッケー、書き込んどいたヨ。＜ランク
-  rm_set: your Rainmaker rank has been set
-  tc_set: your Tower Control rank has been set
-  sz_set: your Splat Zones rank has been set
-  cb_set: your Clam Blitz rank has been set
-  no_mode: That game mode does not exist
-  no_rank: That rank does not exist
-  tz_err: That is not a valid timezone. This is CASE SENSITIVE! Please check https://hastebin.com/ugimufopab.vbs to get your proper timezone!
-  tz_set: your time zone has been set.
-  pwr_low: You cannot be below one!
-  pwr_acc: You cannot have more than one decimal place!
-  pwr_neg: Mate... You can't have a negative power...
-  pwr_big: Mate, that is far too high! There's no way you're that good!
-  pwr_team_set: your highest team power level has been set to
-  pwr_pair_set: your highest pair power level has been set to
-  fc_example: Mate please, are ya stupid? That's the example friend code!
-  fc_zero: Your friend code cannot be zero.
-  fc_update: your friend code has been updated, love.
-  fc_add: you have been added, cheers.
-  fc_notfc: Sorry mate, I only accept friend codes...
-  ign_set: your IGN has been set to
-  clan_set: your clan has been set to
-  not_map: That isn't a map
-  favmap_set: your favourite map has been set to
-  splat_set: your splatfest team has been set to
-  not_splat: That is not a valid splatfest team.
-  sr_set: your Grizzco title has been set to
-  not_sr: that is not a valid Grizzco title
-  l1_set: your first loadout has been set
-  l2_set: your second loadout has been set
-  l3_set: your third loadout has been set
-  not_loadout: Mate, you can't fool ol' Spyke. That's not a loadout.ink url...
-  remove_help: Remove yourself from the database
-  remove_suc: you have been removed... Sorry to see you go! o/
-  remove_fail: You were never in the database!
-  wep_error: Mate, c'mon that isn't a weapon.
-  w1_set: your first weapon has been set to
-  w2_set: your second weapon has been set to
-  w3_set: your third weapon has been set to
-  locale_set: your locale has been set to
-  locale_check: your locale is currently
+  clan: クラン
+  splat: Splatfestチーム
+  footer_morti: 一つの本当のモルティ
+  footer_bonnie: ああ、私の作成者。彼らはかなり素晴らしいね？
+  footer_star: 翻訳バックエンドを担当するアクティブメンテナ。ナイスガイ、え？
+  footer_suhail: バックエンドとフロントエンドの両方の翻訳を手伝ってくれるし、寄付者です！私は彼がなんて素晴らしいのか？
+  lvl_negative: あなたのレベルはマイナスにはなり得ない！
+  lvl_large: メイト、レベル99が最大です...
+  lvl_tiererror: U WOT MATE ?! Sは私が受け入れる唯一の名声レベルです！
+  lvl_set: あなたのレベルはに設定されています
+  rm_set: あなたのRainmakerランクが設定されました
+  tc_set: あなたのタワーコントロールランクが設定されました
+  sz_set: あなたのSplat Zonesランクが設定されました
+  cb_set: Clam Blitzのランクが設定されました
+  no_mode: そのゲームモードは存在しません
+  no_rank: そのランクは存在しません
+  tz_err: それは有効なタイムゾーンではありません。これは大文字と小文字を区別します！あなたの適切なタイムゾーンを得るためにhttps://hastebin.com/ugimufopab.vbsをチェックしてください！
+  tz_set: あなたのタイムゾーンが設定されました。
+  pwr_low: あなたは1より下になることはできません！
+  pwr_acc: 小数点以下2桁以上指定することはできません。
+  pwr_neg: メイト...あなたは否定的な力を持つことはできません...
+  pwr_big: メイト、それは高すぎる！あなたがそんなに良い方法はありません！
+  pwr_team_set: あなたの最高チームパワーレベルはに設定されています
+  pwr_pair_set: あなたの最高のペアパワーレベルはに設定されています
+  fc_example: メイトください、愚か者ですか？これが友達のコード例です！
+  fc_zero: あなたの友達コードはゼロにできません。
+  fc_update: 友達のコードが更新されました、愛。
+  fc_add: あなたは追加されました、歓声。
+  fc_notfc: 申し訳ありませんが、友達コードしか使えません。
+  ign_set: IGNがに設定されています
+  clan_set: あなたの氏族はに設定されています
+  not_map: 地図じゃない
+  favmap_set: あなたのお気に入りの地図はに設定されています
+  splat_set: あなたの感嘆符チームはに設定されています
+  not_splat: それは有効な感動的なチームではありません。
+  sr_set: Grizzcoのタイトルはに設定されています
+  not_sr: Grizzcoのタイトルではありません
+  l1_set: 最初のロードアウトが設定されました
+  l2_set: 2回目のロードアウトが設定されました
+  l3_set: 3回目のロードアウトが設定されました
+  not_loadout: メイト、あなたは 'スパイケをばかにすることはできません。それはloadout.ink URLではありません...
+  remove_help: データベースから自分を削除する
+  remove_suc: あなたは削除されました。 o /
+  remove_fail: あなたはデータベースにいなかった！
+  wep_error: メイト、武器ではないよ。
+  w1_set: あなたの最初の武器はに設定されています
+  w2_set: あなたの2つ目の武器はに設定されています
+  w3_set: 3番目の武器はに設定されています
+  locale_set: あなたのロケールはに設定されています
+  locale_check: あなたのロケールは現在
+  getfc_self: あなたの友達コードは `{}`です
+  getfc_others: 彼らの友達コードは `{}`です
+  char: あなたのプレイヤーキャラクターはに設定されています
+  invalid_char: メイト、それは有効な文字ではありません！ 「イカ」または「オクト」が私が受け入れる唯一のものです！

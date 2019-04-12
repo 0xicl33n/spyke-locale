@@ -1,0 +1,86 @@
+jp:
+  spyke_welcome: |
+    ちょっと、そこ！私はSpykeです！ Splatoon 2特有のボット。私にできることを見るためには、 `[p] help`とタイプしてください。
+    あなたのプロフィールを設定するには、 `[p] help profile`から始めましょう。
+    スプラットネットとマップストリームを設定するには、 `[p] help stream`をチェックしてください。
+    それでも手助けが必要な場合は、サポートサーバーにアクセスしてください。
+    https://discord.gg/q2j8HtB
+
+    あなたが私がしているものが好きなら私に行き続けるためにpatreonに寄付することを考えてください！
+    https://www.patreon.com/spykebot
+    
+  order_help: |
+    This command lets you queue up a piece of gear for splatnet. Spyke will send you a DM when the piece of gear you want is available in splatnet for you to buy
+    
+    Example
+    [p]order Annaki Yellow Cuff
+  order_created: |
+    Order created for **{}**.
+    
+    **You will be DMd when it's available.**
+  order_fail: There is no gear with that name!
+  already_ordered: You have already ordered that gear!
+  confused: Confused?
+  surprised: Surprised? 
+  missing_permissions: |
+    Spyke does not have all the permissions required for commands
+
+    Without these permissions, all commands will be withheld.
+
+    The required permissions for Spyke are:
+    ```
+    Embed Links
+    Read Message History
+    Attach Files
+    ```
+
+    The additional recommended permissions for Spyke are:
+    ```
+    Manage Messages
+    Add Reactions
+    ```
+
+    Currently missing required permissions:
+    ```
+    {0}
+    ```
+
+    Currently missing recommended permissions:
+    ```
+    {1}
+    ```
+
+    If the `Spyke` role (or any other applied role) has these permissions, confirm that no channel overrides are causing the issue.
+    If problems persist, join the support server: `q2j8HtB`
+  permission_embed: Embed Links
+  permission_history: Read Message History
+  permission_files: Attach Files
+  permission_messages: Manage Messages
+  permission_reactions: Add Reactions
+  permission_roles: Manage Roles
+  permission_emoji: Use External Emojis
+  no_missing: None :D
+  devdm: |
+    {}
+
+    *Sent by `{}`*
+    Respond to them by using `reply` in this DM.
+  devreply: Replied to {}.
+  devmail: Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!
+  telephone: Okay is it just me or am I confused why you would want to convert your Spyke profile into Telephone bot? Yeah that's what I thought type `exit` now
+  time:
+    day: day
+    days: days
+    week: week
+    weeks: weeks
+    month: month
+    months: months
+    year: year
+    years: years
+    ago: ago
+    minute: minute
+    minutes: minutes
+    hour: hour
+    hours: hours
+    second: second
+    seconds: seconds

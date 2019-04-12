@@ -1,0 +1,40 @@
+en: 
+  about:
+    title: スパイク統計
+    version:  バージョン
+    commit: コミット
+    shards: シャード
+    shard: シャード
+    birthday: 私は作成されました
+    api: API
+    api_value: >
+      discord.py {}
+    db: データベースドライバ
+    db_value: >
+      Motor {}
+    linux: Linuxカーネルのバージョン
+    pid: プロセスID
+    memory:  メモリ使用量
+    ping: ハートビートping
+    guilds: サーバー
+    profiles: プロファイル
+    splat: Splatnetチャンネル
+    maps: マップチャンネル
+    orders: Splatnetの注文追跡数
+    lfg: 現在のLFGグループ
+    avi: によるプロフィール写真
+    devs: 現在の開発者
+    links: リンク
+    invite:  私を誘って！
+    patreon: パトレオン
+    support: サポートサーバー
+    suggestions: \⁉️提案
+    docs:  ドキュメンテーション
+    pfdocs: プロファイル文書
+    keys: Spykeの翻訳を手伝ってください
+    donate: 寄付する
+    paypal: ペイパル
+    lastrestart: 前回の再起動は
+    cache: キャッシュ情報（H / M / S）
+    salmon: サーモンランチャンネル
+  

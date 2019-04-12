@@ -1,0 +1,20 @@
+jp:
+  #don't translate words in {curly braces}
+  unavailable: 今のところ地図の情報が手に入りません、ごめんなさい。
+  not_mode: 大井メイト！それは本当のモードではありません！
+  ttn: 回転するまでの残り時間
+  need_mode: メイト、あなたは私にルックアップするモードを与える必要があります...
+  need_style: メイト、あなたはランク付けされましたか、それともリーグが欲しいですか？あなたは私に言う必要があります...
+  header:  "{スタイル}の次の{モード}"
+  rot_until: 回転をマップする
+  time_until: までの時間
+  time_format: "{h} hours, {m} minutes and {s} seconds"
+  maps: Maps
+  mode_gone: That game mode has come and gone! You'll have to wait a bit before trying again.
+  mode: Game Mode
+  rn: Right Now
+  nextmode: Next Game Mode
+  nextmaps: Next Maps
+  league: League Maps
+  ranked: Ranked Maps
+  turf: Turf War Maps

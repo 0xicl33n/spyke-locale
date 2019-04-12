@@ -1,0 +1,27 @@
+jp:
+  lfg: グループを探す
+  time_left:  残り時間
+  gid: グループID
+  lfno: メンバーが必要
+  fc: リーダーの友達コード
+  mode:  ゲームモード
+  players_large: 大井メイトそれはあまりにも多くの人です！
+  players_small: メイト、あなたは少なくとも一人のプレイヤーを探すことを得た！
+  invalid_mode: メイト、私はあなたが「リーグ」、「スクリム」、または「サーモン」のマッチメークにしか手助けできない - 私はこれを手助けすることはできない。
+  posted: あなたのLFG記事が送信されました！
+  time_err: 愛してください、それは間違ったフォーマットです！ 「Xh」という形式でもう一度やり直してください。「X」は投稿が続く時間数です。
+  group_full: このグループはいっぱいです。
+  wants_to_join: >
+    `{0}` wants to join your group!
+  not_group: That group does not exist!
+  pf_sent: |
+    I have sent your profile to {0}.
+    Make sure to keep your DMs open as you will receive your result there!
+  accepted: You have accepted {0} into your group!
+  declined: You have denied {0} from being in your group!
+  decision_fail: Oi mate, what're you doin'? You don't even 'ave a group!
+  next_user: The next user to accept/decline is {0}
+  dm_accept: >
+    {0} accepted you into their group!
+  dm_decline: >
+    {0} denied you access to their group!

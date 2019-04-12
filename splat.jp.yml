@@ -1,0 +1,27 @@
+jp: 
+    region_missing: 見て私に感嘆符をください...
+    votes: 投票
+    solo_wins: ソロ勝
+    team_wins: チーム勝
+    winner: 勝者！
+    loser:  敗者！
+    no_name: Splatfestチームが存在することを知っているよ
+    by_error: あなたは2つの選択肢を持っています、 `{0}`と `{1}`
+    zero: 0番目のSplatfestはありません....
+    too_high: 未来が見えますか？ 'そのスプラットフェストはまだ起こっていないCos。
+    negative: メイト、冗談ですか？あなたは負の感嘆符番号を持つことはできません！
+    ongoing: Splatfestが進行中であるか、結果がまだ発表されていません。
+    made_roles: Splatfestの新しい役割ができました！最高のサイドが勝ちますように！
+    no_role_perms: 私は役割を果たす許可がありません。
+    already_done: あなたはすでにSplatfestの役割を持っているようです。
+    made_some: 私はいくつかの役割を作成しましたが、あなたはすでにこれらのSplatfest役割を持っているようです
+    pearl: パールのチーム
+    marina: マリーナのチーム
+    start:  始まる時間
+    end:  終了時間
+    team: チーム
+    results:  結果
+    timings: のためのタイミング
+    no_upcoming: この地域に今後開催されるSplatfestsはありません
+    regular: ノーマルクラウト
+    challenge: Pro Clout
