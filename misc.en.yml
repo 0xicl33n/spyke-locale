@@ -8,6 +8,15 @@ en:
 
     If you like what i do PLEASE consider donating on patreon to keep me going! 
     https://www.patreon.com/spykebot
+
+    ちょっと、そこ！私は ダウニー です！ Splatoon 2特有のボット。私にできることを見るためには、 `[p] help`とタイプしてください。
+    あなたのプロフィールを設定するには、 `[p] help profile`から始めましょう。
+    スプラットネットとマップストリームを設定するには、 `[p] help stream`をチェックしてください。
+    それでも手助けが必要な場合は、サポートサーバーにアクセスしてください。
+    
+    日本語を始めよう : [p] profile locale jp
+    
+    日本語はグーグル翻訳によって提供されます。日本語を話せば、私に連絡してください! `BonNnie#2600`。    
     
   order_help: |
     This command lets you queue up a piece of gear for splatnet. Spyke will send you a DM when the piece of gear you want is available in splatnet for you to buy
