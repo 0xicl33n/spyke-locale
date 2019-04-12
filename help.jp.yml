@@ -25,9 +25,9 @@ jp:
   page: >
     Spyke Help Manual Page {}
   no_command: >
-    "{}"という名前のコマンドが見つかりませんでした。
+    "{}"という名前のコマンドが見つかりませんでした。
   command_not_found: >
-    コマンドは大文字と小文字を区別します。スペルを確認してもう一度やり直してください。
+    コマンドは大文字と小文字を区別します。スペルを確認してもう一度やり直してください。
   help: |
     ヘルプドキュメントを表示します。
     [p]help: ヘルプマニュアルを表示します。
@@ -39,45 +39,45 @@ jp:
   callout: |
     指定したマップの通常の吹き出しマップを取得します。名前の順序やスペルは任意です。
 
-    Camp Triggerfishを入手したいとしましょう。まあ、あなたは "[p] callout camp："または "[p] callout triggerfish"のどちらでもあなたにとってより簡単なことができます。
+    Camp Triggerfishを入手したいとしましょう。まあ、あなたは "[p] callout camp："または "[p] callout triggerfish"のどちらでもあなたにとってより簡単なことができます。
 
-    例: 
+    例: 
     [p]callout arena
     [p]callout shipyard
     [p]callout fitness
   pf_rank: |
     あなたのプロフィールにランクを設定してください！これはかなり簡単です。
 
-    tc =タワーコントロール
-    rm = Rainmaker
-    sz =スプラットゾーン
-    cb =クラムブリッツ
+    tc =タワーコントロール
+    rm = Rainmaker
+    sz =スプラットゾーン
+    cb =クラムブリッツ
     例: 
     [p]profile rank tc S+0
     And the X rank works like this:
     [p]profile rank tc X 300.4
   pf_tz: |
     これにより、salmon runコマンドを使用するときに住んでいる場所のタイムゾーンを設定できます。
-        
-    それはケースセンシティブです！
-        
-    タイムゾーンコードについては[this]（http://starbright.dyndns.org/starwort/timezones.txt）リストをチェックしてください。
+        
+    それはケースセンシティブです！
+        
+    タイムゾーンコードについては[this]（http://starbright.dyndns.org/starwort/timezones.txt）リストをチェックしてください。
   pf_pwr: |
     あなたの最高のリーグ力を誇示する！
-    今両方のリーグタイプで！ （チームとペア）
-        
-    例: 
+    今両方のリーグタイプで！ （チームとペア）
+        
+    例: 
     [p]profile power team 1750
     [p]profile power pair 1750.9
   profile: |
     FC の見事な置き換え！始めるには `[p] help profile fc`をチェックしてください。
-    さらに詳しい情報については `[p] help profile rank`を試してください。
-    あなたのプロフィールが機能するようになる前にあなたのFCを追加する必要があります！
-    Spykeは動作していないと言う前に、 `[p] help profile fc`をチェックして、友達コードを追加してください。ありがとうございます。
+    さらに詳しい情報については `[p] help profile rank`を試してください。
+    あなたのプロフィールが機能するようになる前にあなたのFCを追加する必要があります！
+    Spykeは動作していないと言う前に、 `[p] help profile fc`をチェックして、友達コードを追加してください。ありがとうございます。
   pf_lvl: |
     Splatoon 2 であなたのレベルを設定してください
-    
-    例: 
+        
+    例: 
     [p]profile level 50
     あなたがスタープレーヤーであるならば、あなたのレベルの後に最後にSを加える: >
     [p]profile level 50 S
@@ -107,14 +107,14 @@ jp:
     [p]profile sr Profreshional
   pf_loadout: >
     あなたのloadout.inkロードアウトを披露！
-    最初の1つ（L1）がプロフィールに表示されます。
-    それらの残りは!! loadoutsコマンドで表示できます
+    最初の1つ（L1）がプロフィールに表示されます。
+    それらの残りは!! loadoutsコマンドで表示できます
     例: 
     [p]profile loadout L1 https://loadout.ink/url-here
   pf_remove: Remove yourself from the profile database.
   pf_wep: |
     あなたのプロフィールにあなたのお気に入りの武器をセットしてください。今3を受け入れます！
-    Spykeが取る武器のリストについては `[p] weapons`をチェックしてください。
+    Spykeが取る武器のリストについては `[p] weapons`をチェックしてください。
 
     例: 
     [p]profile weapon W1 Splattershot Pro
@@ -139,15 +139,15 @@ jp:
   sp:  |
     これはあなたのプロフィールのシングルプレイヤー部分です！始めるには `[p] help sp`を使ってください。サブコマンドは省略されています。
 
-    役職=役職
-    完了率= cp
-    見つかったスクロール= sf
-    入手したヒーローの武器= hwo
-    ベストレベルタイム= blt
-    オクト拡張= oe
-    Mem Cakes = mc
-    Thangs = thangs
-    黄金のつまようじ=ピック
+    役職=役職
+    完了率= cp
+    見つかったスクロール= sf
+    入手したヒーローの武器= hwo
+    ベストレベルタイム= blt
+    オクト拡張= oe
+    Mem Cakes = mc
+    Thangs = thangs
+    黄金のつまようじ=ピック
     
     So check out `[p]help sp cp` or `[p]help sp hwo` to get started adding to your singleplayer profile.
   sp_title:  |
@@ -215,13 +215,13 @@ jp:
     Groups are reset each day so old IDs do not clog the system.
   maps_nextmode: |
     このコマンドを使うと、次に好きなモードがいつオンになるのか、そして何回転を待つ必要があるのか​​を確認できます。
-    
-    rm = Rainmaker
-    sz =スプラットゾーン
-    tc =タワーコントロール
-    cb =クラムブリッツ
-    
-    まだ多少WIPですが、うまくいきます。
+        
+    rm = Rainmaker
+    sz =スプラットゾーン
+    tc =タワーコントロール
+    cb =クラムブリッツ
+        
+    まだ多少WIPですが、うまくいきます。
     例: 
     [p]nextmode tc league
   splat: |
