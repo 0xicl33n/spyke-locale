@@ -4,15 +4,15 @@
         "many": "Maps"
     },
     "pb": "Private Battle",
-    "pb_info": "'Ave a laugh with Private Battles",
+    "pb_info": "Setup your Private Battles",
     "mode": "Game Mode",
     "alpha": "Alpha Team",
     "bravo": "Bravo Team",
-    "player": "Bloke",
+    "player": "Player",
     "rw": "Random Weapon",
-    "requested_by": "Requested by me ol' pal %{name}",
-    "weapon_chosen": "Weapon ye chose",
-    "hns_title": "Hide 'n' Seek",
-    "hns_desc": "**'Ere're tha bloomin' rules**\nThe smaller team (or Alpha) 're hiders an' the larger team (or Bravo) 're seekers\n\n%{icon} if yer teams are uneven, the hidin' team gets a minute to hide (or 45 seconds on Moray Towers)\n%{icon} if yer teams 'ave the same  number o' blokes, ya get 45 seconds to hide (30 on Moray Towers\n%{icon} No subs o' specials 're allowed\n%{icon} No usin' the X button ter open up tha map. That includes super jumpin'.\n%{icon} The hiders win if the time runs out an' one of yer is still livin' and the seekers win if all of tha hiders die\n${icon} If a hider dies, they're out but a dead seeker can continue."
+    "requested_by": "Requested by %{name}",
+    "weapon_chosen": "Chosen Weapon",
+    "hns_title": "Hide and Seek",
+    "hns_desc": "**RULES:**\nAlpha or smaller team = hiders\nBeta or larger team = seekers\n{icon} 1min for uneven teams (or 45sec on Moray Towers)\n{icon} 45sec for even teams (or 30 on MT)\n{icon} No subs/specials\n{icon} No map (by extension no super jump)\n{icon} Hiders win if time is up without all of them having died\n{icon} Seekers win if all hiders die\n{icon} Hiding time deaths are excluded\n{icon} Any seeker that dies may continue\n{icon} Any hider that dies is out and may only return as a spectator"
     
 }

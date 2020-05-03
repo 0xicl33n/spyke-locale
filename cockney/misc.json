@@ -1,0 +1,7 @@
+{
+    "callout": "Default callout map for %{map}",
+    "meta": {
+      "no_rule": "Ya see, love, I only accept `xrank` and `league`. And what you just said? Not one of them. C'mon work with me here!",
+      "no_mode": "Check yerself cos that's not a mode."
+    }
+}

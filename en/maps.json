@@ -1,10 +1,10 @@
 {
-    "not_mode": "Oi mate! That's not a real mode!",
-    "not_style": "Hey love, that's not a style that exists.",
+    "not_mode": "That's not a real mode!",
+    "not_style": "That's not a style that exists.",
     "header": "Next %{mode} for %{style}",
-    "rot_until": "The number of rotations you's gonna wait",
-    "time_until": "Ya gotta wait",
-    "ttn": "Remainin' time 'til those maps rotate",
+    "rot_until": "The number of rotations until",
+    "time_until": "Time until",
+    "ttn": "Time until next rotation",
     "modes": {
         "cb": "Clam Blitz",
         "sz": "Splat Zones",
