@@ -1,4 +1,5 @@
 {
     "yea": "Yes",
-    "nah": "No"
+    "nah": "No",
+    "err": "An error occurred."
 }
