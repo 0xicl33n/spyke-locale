@@ -1,7 +1,0 @@
-{
-    "callout": "Default callout map for %{map}",
-    "meta": {
-      "no_rule": "That's not a rule I accept! I accept `xrank` or `league`",
-      "no_mode": "That's not a mode I accept!"
-    }
-}
