@@ -1,132 +1,132 @@
-{
+  {
   "callout": {
-    "help": "Get the normal callout map for a map you specify, does not have to be the exact or full name.\nLet's say you want to get Camp Triggerfish. Well you can either use `%{p}callout camp` or `%{p}callout triggerfish`, whichever is easier for you.",
-    "examples": "%{p}callout arena\n%{p}callout shipyard\n%{p}callout fitness"
+    "help": "Get the normal callout map for a map you specify, does not have to be the exact or full name.\nLet's say you want to get Camp Triggerfish. Well you can either use `{p}callout camp` or `{p}callout triggerfish`, whichever is easier for you.",
+    "examples": "{p}callout arena\n{p}callout shipyard\n{p}callout fitness"
   },
   "maps": {
     "help": "Get the maps and modes that are currently playable in Splatoon 2",
-    "examples": "%{p}maps"
+    "examples": "{p}maps"
   },
   "rotation": {
     "help": "Find out the time until the next rotation",
-    "examples": "%{p}rotation/%{p}ttn"
+    "examples": "{p}rotation/{p}ttn"
   },
   "next": {
     "tc": {
       "help": "Find out when Tower Control is next in rotation",
-      "examples": "%{p}next towercontrol\n%{p}next tc"
+      "examples": "{p}next towercontrol\n{p}next tc"
     },
     "rm": {
       "help": "Find out when Rainmaker is next in rotation",
-      "examples": "%{p}next rainmaker\n%{p}next rm"
+      "examples": "{p}next rainmaker\n{p}next rm"
     },
     "sz": {
       "help": "Find out when Splat Zones is next in rotation",
-      "examples": "%{p}next splatzones\n%{p}next sz"
+      "examples": "{p}next splatzones\n{p}next sz"
     },
     "cb": {
       "help": "Find out when Clam Bliz is next in rotation",
-      "examples": "%{p}next clamblitz\n%{p}next cb"
+      "examples": "{p}next clamblitz\n{p}next cb"
     }
   },
   "rw": {
     "help": "Generate a random weapon",
-    "examples": "%{p}rw\n%{p}randomweapon"
+    "examples": "{p}rw\n{p}randomweapon"
   },
   "pb": {
     "normal": {
       "help": "Setup a private battle!",
-      "examples": "%{p}pb\n%{p}privatebattle"
+      "examples": "{p}pb\n{p}privatebattle"
     },
     "no_turf": {
       "help": "Setup a private battle! (Turf War excluded)",
-      "examples": "%{p}pb no_turf\n%{p}privatebattle no_turf"
+      "examples": "{p}pb no_turf\n{p}privatebattle no_turf"
     }
   },
   "brands": {
     "help": "View the brands in Splatoon 2 and their favoured and unfavoured abilities",
-    "examples": "%{p}brands"
+    "examples": "{p}brands"
   },
   "hideandseek": {
     "help": "View the rules of hide and seek",
-    "examples": "%{p}hideandseek\n%{p}hns\n%{p}hs"
+    "examples": "{p}hideandseek\n{p}hns\n{p}hs"
   },
   "rewardgear": {
     "help": "View the current reward gear",
-    "examples": "%{p}rewardgear"
+    "examples": "{p}rewardgear"
   },
   "issalmonon": {
     "help": "Check if salmon is currently running",
-    "examples": "%{p}issalmonon"
+    "examples": "{p}issalmonon"
   },
   "salmon": {
     "help": "View the current Salmon Run schedule",
-    "examples": "%{p}salmon"
+    "examples": "{p}salmon"
   },
   "splatfest": {
     "help": "Get the splatfest results by name",
-    "examples": "%{p}splatfest Chaos\n%{p}splat Werewolf\n%{p}splatfest Mayo_v2"
+    "examples": "{p}splatfest Chaos\n{p}splat Werewolf\n{p}splatfest Mayo_v2"
   },
   "nextsplatfest": {
     "help": "Get the upcoming splatfest by region",
-    "examples": "%{p}nextsplatfest eu\n%{p}next splatfest jp\n%{p}nextsplatfest na"
+    "examples": "{p}nextsplatfest eu\n{p}next splatfest jp\n{p}nextsplatfest na"
   },
   "lastsplatfest": {
     "help": "Get the most recent splatfest by region",
-    "examples": "%{p}lastsplatfest eu\n%{p}last splatfest jp\n%{p}lastsplatfest na"
+    "examples": "{p}lastsplatfest eu\n{p}last splatfest jp\n{p}lastsplatfest na"
   },
   "splatfestroles": {
     "help": "Add to your server the roles for the upcoming splatfest.\nLeave region blank for all regions.\nRequires Manages Roles permission",
-    "examples": "%{p}splatfestroles\n%{p}splatroles na\n%{p}splatfestroles jp"
+    "examples": "{p}splatfestroles\n{p}splatroles na\n{p}splatfestroles jp"
   },
   "oldsplatfestroles": {
     "help": "Add to your server the roles for all the previous splatfests.\nLeave region blank for all regions\nRequires Manages Roles permission",
-    "examples": "%{p}oldsplatfestroles\n%{p}oldsplatroles na\n%{p}oldsplatfestroles jp"
+    "examples": "{p}oldsplatfestroles\n{p}oldsplatroles na\n{p}oldsplatfestroles jp"
   },
   "meta": {
     "help": "See the usage stats for weapons in the previous month for `xrank` or `league` - specify a game mode for specific information",
-    "examples": "%{p}meta xrank\n%{p}meta league rainmaker\n%{p}meta xrank clam blitz"
+    "examples": "{p}meta xrank\n{p}meta league rainmaker\n{p}meta xrank clam blitz"
   },
   "splatnet": {
     "help": "View what's in the SplatNet shop!",
-    "examples": "%{p}splatnet"
+    "examples": "{p}splatnet"
   },
   "about": {
     "help": "Find out more info about the bot!",
-    "examples": "%{p}about"
+    "examples": "{p}about"
   },
   "shards": {
     "help": "Find out about how our bot is sharded!",
-    "examples": "%{p}shards"
+    "examples": "{p}shards"
   },
   "devmail": {
-    "help": "Send a message straight to the developers of Spyke!\nThis command allows you to send feedback and suggestions, alongside manually reporting any issues or bugs\nHowever for easy access to a conversation, join our support server (`%{p}support`)\nPlease don't use it as a way to say hi. If you wanna say hi to us, please join the support server",
-    "examples":"%{p}devmail Hey! this command seems to be erroring\n%{p}devmail I think it'd be great to add this feature\n%{p}Thanks for making a great bot guys!"
+    "help": "Send a message straight to the developers of Spyke!\nThis command allows you to send feedback and suggestions, alongside manually reporting any issues or bugs\nHowever for easy access to a conversation, join our support server (`{p}support`)\nPlease don't use it as a way to say hi. If you wanna say hi to us, please join the support server",
+    "examples":"{p}devmail Hey! this command seems to be erroring\n{p}devmail I think it'd be great to add this feature\n{p}Thanks for making a great bot guys!"
   },
   "invite": {
     "help": "Invite the bot to your server!",
-    "examples": "%{p}invite"
+    "examples": "{p}invite"
   },
   "support": {
     "help": "Join our support server!",
-    "examples": "%{p}invite"
+    "examples": "{p}invite"
   },
   "ping": {
     "help": "Use this to double-check the bot's working. The higher the number, the slower the bot will take to respond, usually meaning Discord or our servers are down. Sorry if there's any connection issues!",
-    "examples": "%{p}ping"
-  }
+    "examples": "{p}ping"
+  },
   "reply": {
     "help": "Respond to a DM that a developer has sent you",
-    "examples": "%{p}reply thank you!\n%{p} got it, thanks"
+    "examples": "{p}reply thank you!\n{p} got it, thanks"
   },
   "prefix": {
    "set": {
      "help":"Sets the server's custom prefix (the original will still work).\nRequires the Manage Server permission. To use spaces in your prefix quote it.\nYou can even use a space at the end of the prefix.",
-     "examples": "%{p}prefix set splat!\n%{p}prefix set \"splat \"",
+     "examples": "{p}prefix set splat!\n{p}prefix set \"splat \""
    },
    "remove": {
      "help": "Removes the server's custom prefix.\nRequires the Manage Server permission",
-     "examples": "%{p}prefix remove"
+     "examples": "{p}prefix remove"
    }
   }
 }

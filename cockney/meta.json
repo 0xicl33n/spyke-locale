@@ -10,9 +10,9 @@
     "bravo": "Bravo Team",
     "player": "Bloke",
     "rw": "Random Weapon",
-    "requested_by": "Requested by me ol' pal %{name}",
+    "requested_by": "Requested by me ol' pal {name}",
     "weapon_chosen": "Weapon ye chose",
     "hns_title": "Hide 'n' Seek",
-    "hns_desc": "**'Ere're tha bloomin' rules**\nThe smaller team (or Alpha) 're hiders an' the larger team (or Bravo) 're seekers\n\n%{icon} if yer teams are uneven, the hidin' team gets a minute to hide (or 45 seconds on Moray Towers)\n%{icon} if yer teams 'ave the same  number o' blokes, ya get 45 seconds to hide (30 on Moray Towers\n%{icon} No subs o' specials 're allowed\n%{icon} No usin' the X button ter open up tha map. That includes super jumpin'.\n%{icon} The hiders win if the time runs out an' one of yer is still livin' and the seekers win if all of tha hiders die\n${icon} If a hider dies, they're out but a dead seeker can continue."
-    
+    "hns_desc": "**'Ere're tha bloomin' rules**\nThe smaller team (or Alpha) 're hiders an' the larger team (or Bravo) 're seekers\n\n{icon} if yer teams are uneven, the hidin' team gets a minute to hide (or 45 seconds on Moray Towers)\n{icon} if yer teams 'ave the same  number o' blokes, ya get 45 seconds to hide (30 on Moray Towers\n{icon} No subs o' specials 're allowed\n{icon} No usin' the X button ter open up tha map. That includes super jumpin'.\n{icon} The hiders win if the time runs out an' one of yer is still livin' and the seekers win if all of tha hiders die\n${icon} If a hider dies, they're out but a dead seeker can continue."
+
 }
