@@ -65,7 +65,7 @@
   },
   "splatfest": {
     "help": "Get the splatfest results by name",
-    "examples": "{p}splatfest Chaos\n{p}splat Werewolf\n{p}splatfest Mayo_v2"
+    "examples": "{p}splatfest Chaos\n{p}splat Werewolf\n{p}splatfest Mayo (2020)"
   },
   "nextsplatfest": {
     "help": "Get the upcoming splatfest by region",
@@ -128,5 +128,9 @@
      "help": "Removes the server's custom prefix.\nRequires the Manage Server permission",
      "examples": "{p}prefix remove"
    }
+  },
+  "examples": {
+    "one": "Example:",
+    "many": "Examples:"
   }
 }
