@@ -22,5 +22,6 @@
     },
     "error": {
         "not_logged_in": "You are not logged into Nintendo Switch Online! Please use `{p}nso add` to log in."
-    }
+    },
+    "saved": "Your token has been saved."
 }

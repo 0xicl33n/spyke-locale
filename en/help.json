@@ -129,8 +129,89 @@
      "examples": "{p}prefix remove"
    }
   },
+  "profile": {
+    "main": {
+      "help": "View someone's or create your own profile!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** profile's subcommands have changed to `{p}profile set` - this is to streamline the backend of adding different sections to your profile.",
+      "examples": "{p}profile\n{p}profile @MyFriend#2453\n{p}p Timmy"
+    },
+    "set": {
+      "main": {
+        "help": "Set up the different sections of your profile!",
+        "examples": "{p}profile set tc S+4\n{p}p set locale en\n{p}p set level 50"
+      },
+      "char": {
+        "help": "Set your in-game character to either a Squid or an Octo(pus)!",
+        "examples": "{p}profile set char squid\n{p}p set char octo"
+      },
+      "clan": {
+        "help": "Set your clan or team name!",
+        "examples": "{p}profile set clan Prepare2Dye\n{p}p set clan MyFriendsAndI"
+      },
+      "favmap": {
+        "help": "Set your favourite map!",
+        "examples": "{p}profile set favmap Kelp Dome\n{p}p set favmap Moray Towers"
+      },
+      "fc": {
+        "help": "Set your friend code",
+        "examples": "{p}profile set fc SW-0123-4567-8901\n{p}p set fc 472382838492"
+      },
+      "ign": {
+        "help": "Set your in game name",
+        "examples": "{p}profile set ign Thomas\n{p}p set ign OffTheHookStan"
+      },
+      "l1": {
+        "help": "Set your first loadout\nThis is the one displayed on your main profile and is also displayed on the `{p}loadouts` command.\n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
+        "examples": "{p}profile set l1 https://selicia.github.io/en_US/#0000000000000000000000000"
+      },
+      "l2": {
+        "help": "Set your second loadout\nThis is displayed on the `{p}loadouts` command. \n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
+        "examples": "{p}profile set l2 https://selicia.github.io/en_US/#0000000000000000000000000"
+      },
+      "l3": {
+        "help": "Set your third loadout\nThis is displayed on the `{p}loadouts` command. \n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
+        "examples": "{p}profile set l3 https://selicia.github.io/en_US/#0000000000000000000000000"
+      },
+      "level": {
+        "help": "Set your level in Splatoon 2\nIf you have prestiged, add a space and an S on the end after your level",
+        "examples": "{p}profile set level 50\n{p}p set lvl 50 S"
+      },
+      "locale": {
+        "help": "Change your locale and set Spyke to a different language\n\nCurrent locales available: EN\nIf for some reason your locale is missing a specific message, it will default to English.\n\nNote that we only support a few lanugages. To help get Spyke translated in a language you know, contact us via `{p}devmail`.",
+        "examples": "{p}profile set locale en\n{p}p set locale EN"
+      },
+      "splat": {
+        "help": "Set your splatfest team to find others to play with.\nSet it to an old Splatfest to remember a legacy.",
+        "examples": "{p}profile set splat Squid\n{p}p set splatfest Octo"
+      },
+      "sr": {
+        "help": "Set your salmon run rank!",
+        "examples": "{p}profile set sr Profreshional\n{p}p set salmon Overachiever"
+      },
+      "tz": {
+        "help": "Set your time zone!\nThis automatically converts any commands that use a time into your time zone for conveniency.\nSee [this link](http://starbright.dyndns.org/starwort/timezones.txt) for a list of all available timezones",
+        "examples": "{p}profile set tz America/New_York\n{p}p set tz PST8PDT"
+      },
+      "tc": {
+        "help": "Set your rank for Tower Control\n Add your X Power number at the end if applicable",
+        "examples": "{p}profile set tc A\n{p}p set tc S+9\n{p}p set tc X 1823.9"
+      },
+      "sz": {"help": "Set your rank for Splat Zones\n Add your X Power number at the end if applicable",
+        "examples": "{p}profile set sz A\n{p}p set sz S+9\n{p}p set sz X 1823.9"
+      },
+      "rm": {"help": "Set your rank for Rainmakerl\n Add your X Power number at the end if applicable",
+        "examples": "{p}profile set rm A\n{p}p set rm S+9\n{p}p set rm X 1823.9"
+      },
+      "cb": {"help": "Set your rank for Clam Blitz\n Add your X Power number at the end if applicable",
+        "examples": "{p}profile set cb A\n{p}p set cb S+9\n{p}p set cb X 1823.9"
+      }
+    }
+  },
   "examples": {
     "one": "Example:",
     "many": "Examples:"
+  },
+  "aliases": {
+    "one": "Alias:",
+    "many": "Aliases:"
   }
 }
