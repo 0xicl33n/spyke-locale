@@ -1,0 +1,15 @@
+{
+    "error": {
+        "no_gear": "That's not a piece of gear I recognise!",
+        "timeout": "Message timed out.",
+        "no_skill": "That's not a skill I recognise!"
+    },
+    "chosen_gear": "Chosen Gear: {gear}",
+    "chosen_skill": "Chosen Skill: {skill}",
+    "choose_skill": "Choose a specific skill you'd like this gear to have for you to order it. Type `{none}` for any skill",
+    "success": {
+        "nso": "Successfully ordered. Since you have NSO, it will automatically be ordered for you.",
+        "logged_out": "Successfully ordered. You have NSO but you're not logged in. If you are still logged out when the gear arrives, Spyke will DM it to you. If you log in, Spyke will automatically order it for you.",
+        "ordered": "Successfully ordered. Spyke will DM you when it's available."
+    }
+}
