@@ -129,6 +129,30 @@
      "examples": "{p}prefix remove"
    }
   },
+  "nso": {
+    "main": {
+      "help": "Commands that interact with Nintendo Switch Online\n\nRequires a patreon subscription to use.",
+      "examples": "{p}nso"
+    },
+    "login": {
+      "help": "Login to Nintendo Switch Online\nThis will guide you through the process of Nintendo Switch Online",
+      "examples": "{p}nso login"
+    },
+    "update": {
+      "help": "Pull your profile from Nintendo Switch Online and automatically update Spyke's profile to match\nThis will pull MOST of the data, but not all of it. You can check after to see what still needs changing.\n\n**CAUTION:** This is irreversible",
+      "examples": "{p}nso update"
+    },
+    "stats": {
+      "main": {
+        "help": "View stats pulled form Nintendo Switch Online that don't appear on your profile!",
+        "examples": "{p}nso stats sp\n{p}nso stats salmon"
+      },
+      "sp": {
+        "help": "View your times for each weapon for the entirety of the Octo Valley campaign.".,
+        "examples": "{p}nso stats sp"
+      }
+    }
+  }
   "profile": {
     "main": {
       "help": "View someone's or create your own profile!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** profile's subcommands have changed to `{p}profile set` - this is to streamline the backend of adding different sections to your profile.",
