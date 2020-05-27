@@ -148,11 +148,11 @@
         "examples": "{p}nso stats sp\n{p}nso stats salmon"
       },
       "sp": {
-        "help": "View your times for each weapon for the entirety of the Octo Valley campaign.".,
+        "help": "View your times for each weapon for the entirety of the Octo Valley campaign.",
         "examples": "{p}nso stats sp"
       }
     }
-  }
+  },
   "profile": {
     "main": {
       "help": "View someone's or create your own profile!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** profile's subcommands have changed to `{p}profile set` - this is to streamline the backend of adding different sections to your profile.",
