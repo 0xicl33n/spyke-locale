@@ -278,6 +278,10 @@
       }
     }
   },
+  "order": {
+    "help": "Order a piece of gear from SplatNet!\n\nThis command lets you queue up a piece of gear for SplatNet.\nIf you have unlocked Nintendo Switch Online support (through Patreon), this will be automatically ordered for you to be picked up by Murch.\nIf not, Spyke will DM you when the piece of gear you want is available in SplatNet for you to buy.",
+    "examples": "{p}order Backwards Cap\n{p}order Annaki Yellow Cuff\n{p}order White Striped LS"
+  }
   "examples": {
     "one": "Example:",
     "many": "Examples:"

@@ -11,5 +11,7 @@
         "nso": "Successfully ordered. Since you have NSO, it will automatically be ordered for you.",
         "logged_out": "Successfully ordered. You have NSO but you're not logged in. If you are still logged out when the gear arrives, Spyke will DM it to you. If you log in, Spyke will automatically order it for you.",
         "ordered": "Successfully ordered. Spyke will DM you when it's available."
-    }
+    },
+    "now": "Your requested gear is now in rotation!",
+    "nso_now": "Ordered your gear through NSO."
 }
