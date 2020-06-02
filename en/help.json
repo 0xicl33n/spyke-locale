@@ -230,6 +230,53 @@
       }
     }
   },
+  "loadouts": {
+    "help": "View your loadouts saved to your profile!\nThere are three loadouts which can be set by using:\n`{p}profile set L1/L2/L3 <url>`",
+    "examples": "{p}loadouts"
+  },
+  "sp": {
+    "main": {
+      "help": "View someone's or create your own singleplayer profile!\nThis is different to profile because it focuses on your single player stats from both Octo Canyon and Octo Expansion!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** sp's subcommands have changed to `{p}sp set` - this is to streamline the backend of adding different sections to your singleplayer profile.",
+      "examples": "{p}sp\n{p}singleplayer @MyFriend#2453\n{p}sp Timmy"
+    },
+    "set": {
+      "main": {
+        "help": "Set up the different sections of your singleplayer profile!",
+        "examples": "{p}sp set mem 70\n{p}singleplayer set toothpick Yes\n{p}sp set title Master of Ink"
+      },
+      "mem": {
+        "help": "Set your mem cake count in Octo Expansion",
+        "examples": "{p}sp set mem 78\n{p}singleplayer set mc 80\n{p}sp set memcake 60"
+      },
+      "blt": {
+        "help": "Set your overall best level time",
+        "examples": "{p}sp set blt 04:58\n{p}singleplayer set bestleveltime 05:40\n{p}sp set blt 03:03"
+      },
+      "title": {
+        "help": "Set your singleplayer title\nThis can be seen from the Nintendo Switch Online app",
+        "examples": "{p}sp set title Master of Ink\n{p}singleplayer set title Master of Ink"
+      },
+      "cp": {
+        "help": "Set your completion percent\nThis can be found in the Nintendo Switch Online app",
+        "examples": "{p}sp set cp 324%\n{p}singleplayer set completion 564\n{p}sp set cp 400"
+      },
+      "scrolls": {
+        "help": "Set your sunken scroll count in Octo Canyon",
+        "examples": "{p}sp set scrolls 20\n{p}singleplayer set scrollcount 15\n{p}sp set sunkenscrolls 10"
+      },
+      "thangs": {
+        "help": "Set your thang count in Octo Expansion",
+        "examples": "{p}sp set thangs 3\n{p}singleplayer set thangs 2\n{p}sp set thang 1"
+      },
+      "hwo": {
+        "help": "Set your Hero Weapon count in Octo Canyon",
+        "examples": "{p}sp set hwo 3\n{p}singleplayer set heroweapons 4\n{p}sp set hw 1"
+      },
+      "toothpick": {
+        "help": "Set your Golden Toothpick status\nYou receive your Golden Toothpick when ||you beat Inner Agent 3||",
+        "examples": "{p}sp set toothpick No\n{p}singleplayer set pick Yes"
+      }
+  },
   "examples": {
     "one": "Example:",
     "many": "Examples:"
