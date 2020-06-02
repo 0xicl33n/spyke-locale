@@ -276,6 +276,7 @@
         "help": "Set your Golden Toothpick status\nYou receive your Golden Toothpick when ||you beat Inner Agent 3||",
         "examples": "{p}sp set toothpick No\n{p}singleplayer set pick Yes"
       }
+    }
   },
   "examples": {
     "one": "Example:",
