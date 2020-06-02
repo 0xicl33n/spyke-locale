@@ -11,5 +11,6 @@
         "tc": "Tower Control",
         "rm": "Rainmaker",
         "tw": "Turf War"
-    }
+    },
+    "mode": "Game Mode"
 }

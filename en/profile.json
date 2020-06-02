@@ -1,6 +1,6 @@
 {
-    "old_command": "It seems like you're trying to use an old command. We recently changed the commands. To set specific stuff in your profile, see {p}help profile set",
-    "sp_old_command": "It seems like you're trying to use an old command. We recently changed the commands. To set specific stuff in your singleplayer profile, see {p}help sp set",
+    "old_command": "It seems like you're trying to use an old command. We recently changed the commands. To set specific stuff in your profile, see `{p}help profile set`",
+    "sp_old_command": "It seems like you're trying to use an old command. We recently changed the commands. To set specific stuff in your singleplayer profile, see `{p}help sp set`",
     "added": {
         "fc": "Your friend code has been set.",
         "favmap": "Your favourite map has been set.",
@@ -43,7 +43,10 @@
         "thangs": "Your thang count has to be between 1 and 4.",
         "toothpick": "Your Golden Toothpick status has to be either a Yes or No.",
         "cp": "Your Completion Percentage has to be between 0% and 1000%.",
-        "scrolls": "Your Sunken Scroll count has to be between 0 and 28."
+        "scrolls": "Your Sunken Scroll count has to be between 0 and 28.",
+        "profile": "I can't find that user!",
+        "sp": "I can't find that user!",
+        "loadouts": "I can't find that user!"
     },
     "unset": "Unset"
 }
