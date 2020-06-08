@@ -281,7 +281,21 @@
   "order": {
     "help": "Order a piece of gear from SplatNet!\n\nThis command lets you queue up a piece of gear for SplatNet.\nIf you have unlocked Nintendo Switch Online support (through Patreon), this will be automatically ordered for you to be picked up by Murch.\nIf not, Spyke will DM you when the piece of gear you want is available in SplatNet for you to buy.",
     "examples": "{p}order Backwards Cap\n{p}order Annaki Yellow Cuff\n{p}order White Striped LS"
-  }
+  },
+  "stream": {
+    "main": {
+      "help": "Add or Remove channels from streams. These streams autopost information regularly so that you're always updated on new things",
+      "examples": "{p}stream add splatnet\n{p}stream remove maps\n{p}stream remove salmon"
+    },
+    "add": {
+      "help": "Add a channel to the stream. Enter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to be updated on",
+      "examples": "{p}stream add splatnet\n{p}stream add maps\n{p}stream add salmon"
+    },
+    "remove": {
+      "help": "Remove a channel from the stream. Enter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to no longer receive updates on",
+      "examples": "{p}stream remove splatnet\n{p}stream remove maps\n{p}stream remove salmon"
+    }
+  },
   "examples": {
     "one": "Example:",
     "many": "Examples:"

@@ -3,5 +3,10 @@
     "meta": {
       "no_rule": "That's not a rule I accept! I accept `xrank` or `league`",
       "no_mode": "That's not a mode I accept!"
+    },
+    "stream": {
+      "no_kind": "That's not a stream i have! I currently only have `maps`, `splatnet` and `salmon`",
+      "added": "Added this channel to the streams",
+      "removed": "Removed this channel from the streams"
     }
 }
