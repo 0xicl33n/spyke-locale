@@ -1,0 +1,12 @@
+{
+    "callout": "La carte callout par défaut pour {map}",
+    "meta": {
+      "no_rule": "Ce n'est pas une règle que j'accepte. J'accepte `xrank` ou `league`",
+      "no_mode": "Ce n'est pas un mode que j'accepte."
+    },
+    "stream": {
+      "no_kind": "Je n'ai pas ce flot. J'ai seulement `maps` (cartes), `splatnet` (le magasin Céphalochic) et `salmon` (Salmon Run)",
+      "added": "J'ai ajouté cette chaîne aux flots",
+      "removed": "J'ai enlevé cette cchaîne des flots"
+    }
+}

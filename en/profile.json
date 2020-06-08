@@ -38,7 +38,7 @@
         "sz": "That's not a valid rank!",
         "mem": "Your Mem Cake count has to be between 0 and 80.",
         "blt": "Your Best Level Time has to be in the format XX:XX",
-        "title": "Your singleplayer title has been set.",
+        "title": "Your singleplayer title isn't valid.",
         "hwo": "Your Hero Weapon count has to be between 1 and 9",
         "thangs": "Your thang count has to be between 1 and 4.",
         "toothpick": "Your Golden Toothpick status has to be either a Yes or No.",

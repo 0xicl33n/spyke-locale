@@ -1,0 +1,16 @@
+{
+    "not_mode": "Ce n'est pas un véritable mode!",
+    "not_style": "Ce n'est pas un style qui existe!",
+    "header": "La prochaine {mode} pour {style}",
+    "rot_until": "Le nombre de rotations jusqu'à ce que le mode se passe",
+    "time_until": "Le temps jusqu'à ce que le mode se passe",
+    "ttn": "Le temps jusqu'à la rotation prochaine",
+    "modes": {
+        "cb": "Pluie de palourdes",
+        "sz": "Défense de zone",
+        "tc": "Expédition risquée",
+        "rm": "Mission Bazookarpe",
+        "tw": "Guerre de territoire"
+    },
+    "mode": "Mode de Jeu"
+}

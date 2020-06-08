@@ -1,0 +1,26 @@
+{
+    "winner": "Gagnant!",
+    "loser": "Perdant!",
+    "votes": "Votes",
+    "solo_wins": "Victories en solo",
+    "team_wins": "Victories en équipe",
+    "regular": "Contribution Normale",
+    "challenge": "Contribution Pro",
+    "no_upcoming": "Il n'y a pas de Festival prochain pour cette région.",
+    "pearl": "L'Équipe de Pearl",
+    "marina": "L'Équipe de Marina",
+    "team": "L'Équipe de",
+    "start": "Heure de début",
+    "end": "Heure de fin",
+    "results": "Résultats",
+    "now": "Maintenant",
+    "timings": "Horaires pour",
+    "no_name": "Ce Festival n'existe pas",
+    "ongoing": "Ce Festival est en cours ou les résultats n'est pas sortie.",
+    "region_missing": "Desole, Je ne sais pas cette région",
+    "made_roles": "Créé tous les rôles.",
+    "already_done": "Heu... Il semble que tu as tous les rôles...",
+    "made_some": "Je n'ai pas créé tous les rôles car tu as déjà certains entre d'eux. Voici les rôles déjà créés:",
+    "no_role_perms": "Je n'ai pas le droit de créer des rôles!"
+
+}

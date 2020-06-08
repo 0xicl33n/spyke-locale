@@ -1,0 +1,18 @@
+{
+    "maps": {
+        "one": "Carte",
+        "many": "Cartes"
+    },
+    "pb": "Match privé",
+    "pb_info": "Créer tes matchs privés",
+    "mode": "Mode de jeu",
+    "alpha": "L'Équipe Alpha",
+    "bravo": "L'Équipe Bravo",
+    "player": "Joueur",
+    "rw": "Arme Randomisée",
+    "requested_by": "Demandé par {name}",
+    "weapon_chosen": "Arme Choisie",
+    "hns_title": "Cache-cache",
+    "hns_desc": "**RÈGLES:**\nL'équipe alpha ou plus petite = cacheur\nL'équipe bravo ou plus grande = chercuer\n{icon} 1min si les équipes sont inégales (ou 45sec sur Tours Girelle)\n{icon} 45sec si les équipes sont égales (ou 30 sur TG)\n{icon} Pas d'armes secondaires ou spéciales\n{icon} Pas d'utiliser la carte (et pas de super sauter)\n{icon} Les cacheurs gagnent si le temps ne s'écoule sans tous les cacheurs étant morts\n{icon} Les chercheurs gagnent si tous les cacheures meurent\n{icon} Les morts qui se sont passés quand les cacheurs cache ne compte pas\n{icon} Les chercheurs qui meurent peuvent continuer\n{icon} Les cachers qui meurent sont éliminé et peuvent seulement devenir spectateur."
+
+}
