@@ -48,5 +48,13 @@
         "sp": "I can't find that user!",
         "loadouts": "I can't find that user!"
     },
-    "unset": "Unset"
+    "unset": "Unset",
+    "fc": {
+      "you": "Your friend code is {fc}",
+      "they": "Their friend code is {fc}"
+    },
+    "no_prof": {
+      "you": "You don't have a profile! Set an attribute using {p}profile set",
+      "they": "They don't have a profile! Tell them to set an attribute using {p}profile set"
+    }
 }
