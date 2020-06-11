@@ -9,8 +9,8 @@
     "choose_skill": "Choisis le bonus que tu voudrais que cette pièce d'affaire ait pour le commander. Tape `{none}` (rien) pour aucun bonus.",
     "success": {
         "nso": "Commandé avec succès. Elle va être automatiquement commandée pour toi parce que tu as débloqué les commands de NSO",
-        "logged_out": "Commandé avec succès. Tu as débloqué les commands de NSO mais tu n'es pas connecté(e). Si tu te connecte avant que la pièce devienne dispobible, Spyke va automatiquement la commander pour toi. Sinon, Spyke va t'envoyer un message privé.",
-        "ordered": "Commandé avec succès. Spyke va t'envoyer un message privé quand elle devient disponible."
+        "logged_out": "Commandé avec succès. Tu as débloqué les commands de NSO mais tu n'es pas connecté(e). Si tu te connecte avant que la pièce devienne dispobible, Kipik va automatiquement la commander pour toi. Sinon, Kipik va t'envoyer un message privé.",
+        "ordered": "Commandé avec succès. Kipik va t'envoyer un message privé quand elle devient disponible."
     },
     "now": "Ta pièce d'affaire demandée est disponible!",
     "nso_now": "Je l'ai commandée via NSO. Rend visite à Tipik!"

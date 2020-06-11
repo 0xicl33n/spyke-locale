@@ -1,1 +1,235 @@
-{}
+{
+  "callout": {
+    "help": "Recevoir la carte callout pour un stage spécifié. On ne doit pas utiliser le nom exact\nS'il te plaît, utilise la version anglaise."
+  },
+  "maps": {
+    "help": "Recevoir les stages et modes qui sont jouables maintenant dans Splatoon 2"
+  },
+  "rotation": {
+    "help": "Apprendre le temps jusqu'à ce que la rotation prochaine se passe" 
+  },
+  "next": {
+    "tc": {
+      "help": "Apprendre quand Éxpedition risquée est dans la rotation" 
+    },
+    "rm": {
+      "help": "Apprendre quand Mission Bazookarpe est dans la rotation" 
+    },
+    "sz": {
+      "help": "Apprendre quand Défense de zone est dans la rotation" 
+    },
+    "cb": {
+      "help": "Apprendre quand Pluie de palourdes est dans la rotation" 
+    }
+  },
+  "rw": {
+    "help": "Générer une arme randomisée" 
+  },
+  "pb": {
+    "normal": {
+      "help": "Créer un match privé!" 
+    },
+    "no_turf": {
+      "help": "Créer un match privé! (sans Guerre de territoire)" 
+    }
+  },
+  "brands": {
+    "help": "Voir les marques dans Splatoon 2 et leur bonus favorisés et défavorisés" 
+  },
+  "hideandseek": {
+    "help": "Voir les règles de Cache-cache" 
+  },
+  "rewardgear": {
+    "help": "Voir la pièce d'affaire de Salmon Run" 
+  },
+  "issalmonon": {
+    "help": "Verifier si Salmon Run est en cours" 
+  },
+  "salmon": {
+    "help": "Voir les horaires de Salmon Run" 
+  },
+  "splatfest": {
+    "help": "Voir les résultats d'un Festival en tapant le nom" 
+  },
+  "nextsplatfest": {
+    "help": "Voir le prochain Festival par région" 
+  },
+  "lastsplatfest": {
+    "help": "Voir le dernier Festival par région" 
+  },
+  "splatfestroles": {
+    "help": "Créer les rôles pour le procahin Festival\nNe tape rien d'autre pour toutes les régions\nCeci exige la permission Gérer les rôles"
+  },
+  "oldsplatfestroles": {
+    "help": "Créer les rôles pour tous les Festivals.\nLeave region blank for all regions\nCeci exige la permission Gérer les rôle" 
+  },
+  "meta": {
+    "help": "Voir les statistiques d'utilisation pour les armes dans le dernier mois pour `xrank` ou `league` - Specifie un mode de jeu pour information précise"
+  },
+  "splatnet": {
+    "help": "Voir ce qu'il y a dans le magasin de Céphalochic" 
+  },
+  "about": {
+    "help": "En savoir plus sur le bot!" 
+  },
+  "shards": {
+    "help": "Apprendre comment notre bot est shardé" 
+  },
+  "devmail": {
+    "help": "Envoyer un message directment aux développeurs de Kipik\n Cette commande te permet d'envoyer du feedback et les suggestions et aussi de faire un rapport sur les problèmes ou les bugs potentiels\nCependant, pour l'accés facile à une conversation, rejoindre notre serveur de soutien (`{p}support`)\nS'il te plaît, n'utilise pas comme un façon de nous saluer. Si tu veux nous saluer, rejoindre notre server de soutien."
+  },
+  "invite": {
+    "help": "Inviter le bot à ton serveur!" 
+  },
+  "support": {
+    "help": "Rejoindre notre server de soutien!" 
+  },
+  "ping": {
+    "help": "Utilise cela pour verifier que le bot marche. Plus le nombre est élevé, plus le bot prend du temps pour repondre; ceci souvent signifie que notre serveurs ou de Discord est en panne. Pardon s'il y a des problèmes de la connexion!"
+  },
+  "reply": {
+    "help": "Répondre à un message privé envoyé par un développeur"
+  },
+  "prefix": {
+   "set": {
+     "help":"Régler le prefixe de ce serveur (l'original va encore marcher).\nCeci exige la permission Gérer le serveur. Pour utiliser une espace, encerle-le anvcec les guillements anglais (\"\").\nTu peux même utiliser une espace à la fin de ton prefixe." 
+   },
+   "remove": {
+     "help": "Enlever le prefixe de ce serveur\nCeci exige la permission Gérer le serveur" 
+   }
+  },
+  "nso": {
+    "main": {
+      "help": "Les commandes qui interagissent avec Nintendo Switch En Line\n\nCeci exige un abonnement de Patreon." 
+    },
+    "login": {
+      "help": "Te connecter à Nintendo Switch En Ligne\nCeci va te guider sur la procédure de te connecter"
+    },
+    "update": {
+      "help": "Récupérer ton profil de Nintendo Switch En Ligne et mettre automatiquement à jour ton profil de Kipik pour les assortir\nCeci va récupérer LA PLUPART de donées mais pas tout. Tu peux vérifier ce qui a encore besoin d'être changé après\n\n**ATTENTION:**: Ceci est irreversible" 
+    },
+    "stats": {
+      "main": {
+        "help": "Voir les statistiques récupérées de Nintendo Switch Online qui n'apparaissent pas dans ton profil!" 
+      },
+      "sp": {
+        "help": "Voir les temps pour chauque arme dans le campagne Octacanyon en entier" 
+      }
+    }
+  },
+  "profile": {
+    "main": {
+      "help": "Voir le profil de quelqu'un ou créer ton propre!\nPour créer ton profil, régle au moins un des attributs\nPour voir le profil de quelqu'un d'autre, @mentione-le ou tape son identifiant.\nPour voir ton propre profil, ne mentionne personne.\n**VEUILLE NOTE:** les souscommandes de profile a été changées pour `{p}profile set` - Ceci a été fait pour dégraiiser le moteur d'ajouter les différents aspets de ton profil."
+    },
+    "set": {
+      "main": {
+        "help": "Régler les aspets différents de ton profile!" 
+      },
+      "favmap": {
+        "help": "Régler ton stage favori" 
+      },
+      "fc": {
+        "help": "Régler ton code d'ami" 
+      },
+      "ign": {
+        "help": "Régler ton nom de jeu" 
+      },
+      "l1": {
+        "help": "Régler ton premier loadout\nCe loadout est celui qui est montré dans ton profile et aussi dans la commande `{p}loadouts`.\n\nUtilise https://selicia.github.io/ pour ajouter tes loadouts\nNOTE: le site susdit aussi a un bouton \"Intégration Kipik\" pour ajouter rapidement ton loadout à Kipik."
+      },
+
+      "l2": {
+        "help": "Régler ton deuxième loadout\nCe loadout est celui qui est montré dans la commande `{p}loadouts`.\n\nUtilise https://selicia.github.io/ pour ajouter tes loadouts\nNOTE: le site susdit aussi a un bouton \"Intégration Kipik\" pour ajouter rapidement ton loadout à Kipik."
+      },
+      "l3": {
+        "help":  "Régler ton troisième loadout\nCe loadout est celui qui est montré dans la commande `{p}loadouts`.\n\nUtilise https://selicia.github.io/ pour ajouter tes loadouts\nNOTE: le site susdit aussi a un bouton \"Intégration Kipik\" pour ajouter rapidement ton loadout à Kipik."
+      },
+      "level": {
+        "help": "Régler ton niveau dans Splatoon 2\nSi tu as prestigé, ajouter uen espace et un S à la fin."
+      },
+      "locale": {
+        "help": "Changer ta langue\n\nLes langues disponible actuellement: EN, FR\n\nSi tu est le/la propriétaire d'un serveur, le pseudonyme de Kipik va se transformer en le nom de Kipik en nouvelle langue.\n\nSi, bizarrement, ta langue rate un message specifique, Kipik l'envoyerai en anglais\n\nNote que nous ne soutenons que peu de langues. Pour aider avec les traductions de Kipip dans une autre langue que tu sais, contacte-nous via `{p}devmail`."
+      },
+      "splat": {
+        "help": "Régler ton équipe de Festival pour trouver les autres avec qui tu peux jouer. Le régler à une ancienne équipe pour te rappeler un héritage." 
+      },
+      "sr": {
+        "help": "Régler ton titre de Salmon Run" 
+      },
+      "tz": {
+        "help": "Régler ton fuseau horarie\nCeci transforme automatiquement aucun command qui utilise le temps en ton fuseau horaire pour un avantage.\nVoir [ce lien](http://spykebot.ink/timezones) pour une liste de tous les fuseaux horaires disponibles."
+      },
+      "tc": {
+        "help": "Régler ton rang pour Éxpedition risqué\nAjoute ta puissance X à la fin si applicable"
+      },
+      "sz": {
+          "help": "Régler ton rang de Défense de zone\nAjoute ta puissance X à la fin si applicable" 
+      },
+      "rm": {
+          "help": "Régler ton rang de Mission Bazookarpe\nAjoute ta puissance X à la fin si applicable"
+      },
+      "cb": {
+          "help": "Régler ton rang de Pluie de palourdes\nAjoute ta puissance X à la fin si applicable" 
+      }
+    }
+  },
+  "loadouts": {
+    "help": "Voir tes loadouts sauvegardés dans ton profil\nIl y en a trois qui peuvent être réglés en utilisant:\n`{p}profile set L1/L2/l3 <URL>`"
+  },
+  "sp": {
+    "main": {
+      "help": "Voir le profil de campagne solo de quelqu'un ou créer ton propre!\nCeci est différent de ton profil car il se concentre sur tes statistiques d'Octovallée et Octo Expansion.\nPour créer ton profil, régle au moins un des attributs\nPour voir le profil de quelqu'un d'autre, @mentione-le ou tape son identifiant.\nPour voir ton propre profil, ne mentionne personne.\n**VEUILLE NOTE:** les souscommandes de sp a été changées pour `{p}sp set` - Ceci a été fait pour dégraiiser le moteur d'ajouter les différents aspets de ton profil de campagne solo"
+    },
+    "set": {
+      "main": {
+        "help": "Régler les aspets différents de ton profile de campane solo!" 
+      },
+      "mem": {
+        "help": "Régler ton compte de Souvenirs Patapoulpes dans Octo Expansion" 
+      },
+      "blt": {
+        "help": "Régler ton meilleur temps niveau" 
+      },
+      "title": {
+        "help": "Régler ton titre de campagne solo\nOn peut le voir dans l'appli Nintendo Switch En Ligne" 
+      },
+      "cp": {
+        "help": "Régler ton pourcentage d'achèvement\nOn peut le voir dans l'appli Nintendo Switch En Ligne" 
+      },
+      "scrolls": {
+        "help": "Régler ton compte de documents" 
+      },
+      "thangs": {
+        "help": "Régler ton compte de Machins" 
+      },
+      "hwo": {
+        "help": "Régler ton compte d'armes héroïque dans OctaCanyon" 
+      },
+      "toothpick": {
+        "help": "Régler ton état de la collecte de le cure-dent d'or\nOn reçoit le cure-dent d'or quand ||on a battu l'adversaire imaginaire||" 
+      }
+    }
+  },
+  "order": {
+    "help": "Commander une pièce d'affaire de Céphalochic!\n\nCetee commande te permet de choisire une pièce d'affaire de le magasin de Céphalochic\nSi tu as débloqué les commandes de NSO (via Patreon), ceci va être automatiquement commandé pour toi pour que tu puisse passer le prendre de Tipik.\nSinon, Kipik va t'envoyer un message privés quand la pièce devient disponible dans le magasin pour que tu puisse l'acheter."
+  },
+  "stream": {
+    "main": {
+      "help": "Ajouter les chaînes aux flots ou en les enlever.\nCes flots postent automatiquement l'information régulièrement pour que tu sois mis(e) au courant."
+    },
+    "add": {
+      "help": "Ajouter une chaînes aux flots.\nInscrit une type - `maps` (stages), `splatnet` (le magasin Céphalochic) ou `salmon` (Salmon Run) pour spécifier quel aspet du jeu que tu voudrais être mis(e) au courant"
+    },
+    "remove": {
+      "help": "Enlever une chaînes des flots.\nInscrit une type - `maps` (stages), `splatnet` (le magasin Céphalochic) ou `salmon` (Salmon Run) pour spécifier quel aspet du jeu que tu ne voudrais plus être mis(e) au courant."
+    }
+  },
+  "examples": {
+    "one": "Exemple:",
+    "many": "Exemples:"
+  },
+  "aliases": {
+    "one": "Alias:",
+    "many": "Alias:"
+  }
+}

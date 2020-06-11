@@ -163,14 +163,6 @@
         "help": "Set up the different sections of your profile!",
         "examples": "{p}profile set tc S+4\n{p}p set locale en\n{p}p set level 50"
       },
-      "char": {
-        "help": "Set your in-game character to either a Squid or an Octo(pus)!",
-        "examples": "{p}profile set char squid\n{p}p set char octo"
-      },
-      "clan": {
-        "help": "Set your clan or team name!",
-        "examples": "{p}profile set clan Prepare2Dye\n{p}p set clan MyFriendsAndI"
-      },
       "favmap": {
         "help": "Set your favourite map!",
         "examples": "{p}profile set favmap Kelp Dome\n{p}p set favmap Moray Towers"
@@ -200,7 +192,7 @@
         "examples": "{p}profile set level 50\n{p}p set lvl 50 S"
       },
       "locale": {
-        "help": "Change your locale and set Spyke to a different language\n\nCurrent locales available: EN\nIf for some reason your locale is missing a specific message, it will default to English.\n\nNote that we only support a few lanugages. To help get Spyke translated in a language you know, contact us via `{p}devmail`.",
+        "help": "Change your locale and set Spyke to a different language\n\nCurrent locales available: EN, FR\n\nIf you are the owner of a server, Spyke's nickame will change to Spyke's name in the new language. If for some reason your locale is missing a specific message, it will default to English.\n\nNote that we only support a few lanugages. To help get Spyke translated in a language you know, contact us via `{p}devmail`.",
         "examples": "{p}profile set locale en\n{p}p set locale EN"
       },
       "splat": {
@@ -208,24 +200,27 @@
         "examples": "{p}profile set splat Squid\n{p}p set splatfest Octo"
       },
       "sr": {
-        "help": "Set your salmon run rank!",
+        "help": "Set your salmon run title!",
         "examples": "{p}profile set sr Profreshional\n{p}p set salmon Overachiever"
       },
       "tz": {
-        "help": "Set your time zone!\nThis automatically converts any commands that use a time into your time zone for conveniency.\nSee [this link](http://starbright.dyndns.org/starwort/timezones.txt) for a list of all available timezones",
+        "help": "Set your time zone!\nThis automatically converts any commands that use a time into your time zone for conveniency.\nSee [this link](http://spykebot.ink/timezones-) for a list of all available timezones",
         "examples": "{p}profile set tz America/New_York\n{p}p set tz PST8PDT"
       },
       "tc": {
         "help": "Set your rank for Tower Control\n Add your X Power number at the end if applicable",
         "examples": "{p}profile set tc A\n{p}p set tc S+9\n{p}p set tc X 1823.9"
       },
-      "sz": {"help": "Set your rank for Splat Zones\n Add your X Power number at the end if applicable",
+      "sz": {
+        "help": "Set your rank for Splat Zones\n Add your X Power number at the end if applicable",
         "examples": "{p}profile set sz A\n{p}p set sz S+9\n{p}p set sz X 1823.9"
       },
-      "rm": {"help": "Set your rank for Rainmakerl\n Add your X Power number at the end if applicable",
+      "rm": {
+        "help": "Set your rank for Rainmaker\n Add your X Power number at the end if applicable",
         "examples": "{p}profile set rm A\n{p}p set rm S+9\n{p}p set rm X 1823.9"
       },
-      "cb": {"help": "Set your rank for Clam Blitz\n Add your X Power number at the end if applicable",
+      "cb": {
+        "help": "Set your rank for Clam Blitz\n Add your X Power number at the end if applicable",
         "examples": "{p}profile set cb A\n{p}p set cb S+9\n{p}p set cb X 1823.9"
       }
     }
@@ -284,15 +279,15 @@
   },
   "stream": {
     "main": {
-      "help": "Add or Remove channels from streams. These streams autopost information regularly so that you're always updated on new things",
+      "help": "Add or Remove channels from streams.\nThese streams autopost information regularly so that you're always updated on new things",
       "examples": "{p}stream add splatnet\n{p}stream remove maps\n{p}stream remove salmon"
     },
     "add": {
-      "help": "Add a channel to the stream. Enter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to be updated on",
+      "help": "Add a channel to the stream.\nEnter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to be updated on",
       "examples": "{p}stream add splatnet\n{p}stream add maps\n{p}stream add salmon"
     },
     "remove": {
-      "help": "Remove a channel from the stream. Enter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to no longer receive updates on",
+      "help": "Remove a channel from the stream.\nEnter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to no longer receive updates on",
       "examples": "{p}stream remove splatnet\n{p}stream remove maps\n{p}stream remove salmon"
     }
   },

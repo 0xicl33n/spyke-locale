@@ -11,7 +11,7 @@
         "wall_of_text": "*Montrer l'information.*\n\nCe cookie s'appelle `iksm_session` et il permet l'utilisation des services de Nintendo Switch En Ligne pour Splatoon 2.\nEn plus, cette procédure produit tes cookies `_gtoken` et `_park_session`, qui sont utilisés pour les services en ligne pour Animal Crossing: New Horizons par notre autre bot, **Gyroid#4173**\n\nCes cookies sont normalement générés automatiquement par l'appli de Nintendo Switch En Ligne et ils sont stockés dans ses données.\n\n**Veuille noter:** À cause du fait que l'API de Nintendo Switch En Ligne soit compliquée, nous devons utiliser une API externe pour accéder tes données dans le jeu. Cette requête est protégée est on ne donne que l'information minimale et vitale.\n\n Nous sommes ouvertes à toutes tes questions en ce qui concerne les services qu'on utilise (Contacte-nous par `!!devmail`) et tu peux annuler cette procédure si tu le souhaite.\n\n**__Confidentialité__**\nNi nous ni l'API qu'on utilise ont accés à ton identifiant et mot de passe. Nous ne recevons que des valuers hachées (qui ne contient pas d'information significative).\nLa seule information qui nous sauvegardons dans notre base de données est le cookies `iksm_session`, `_gtoken`, `_park_session` et `session_token` qui peuvent **uniquement** être créés par l'API de Nintendo. Ceux-ci ne peuvent être utilise ni pour t'identifier ni pour fournier accés à ton compte en dehors de les services de Nintendo Switch En Ligne qui les utilisent.\n\n***Pour plus de renseignements, visite notre site web: https://spykebot.ink/privacy/nso*** (disponible seulement en anglais en ce moment)"
     },
     "consent": {
-        "notice": "Inscrit `J'accepte` (sensible à la casse) pour confirmer ton consentement à Argonaut Industries (les créateurs de Spyke) à nous permettre d'utiliser ton jeton pour accéder tes statitstiques dans le jeu et pour confirmer que tu es informé(e) de l'information que nous recevons de cette procédure\n.Inscrit quelque chose d'autre pour annuler la génération de ton jeton\n\nCe message va expirer dans 2 minutes.",
+        "notice": "Inscrit `J'accepte` (sensible à la casse) pour confirmer ton consentement à Argonaut Industries (les créateurs de Kipik) à nous permettre d'utiliser ton jeton pour accéder tes statitstiques dans le jeu et pour confirmer que tu es informé(e) de l'information que nous recevons de cette procédure\n.Inscrit quelque chose d'autre pour annuler la génération de ton jeton\n\nCe message va expirer dans 2 minutes.",
         "response": "J'accepte",
         "accepted": "Merci pour ton consentement. Procéder de générer tes jetons.",
         "declined": "Annuler la génération des jetons."
@@ -23,12 +23,12 @@
     },
     "error": {
         "not_logged_in": "Tu n'es pas connecté(e) à Nintendo Switch En Ligne! Utilise `{p}nso add` pour te connecter.",
-        "not_patron": "Les commandes de Nintendo Switch En Ligne réclaime que tu as abonné à notre Patreon.\n\nAbonne ici: https://patreon.com/spykebot\n\nSi tu as déjà abonné, fais-le-nous savoir et nous t'ajouterons tout de suite."
+        "not_patron": "Les commandes de Nintendo Switch En Ligne réclaiment que tu as abonné à notre Patreon.\n\nAbonne ici: https://patreon.com/spykebot\n\nSi tu as déjà abonné, fais-le-nous savoir et nous t'ajouterons tout de suite."
     },
     "saved": "Ton jeton a été sauvegardé.",
     "sp": {
         "clear_rate": "Taux d'effacement:",
-        "stage": "Carte",
+        "stage": "Stage",
         "boss": "Patron"
     }
 }

@@ -1,7 +1,7 @@
 {
     "maps": {
-        "one": "Carte",
-        "many": "Cartes"
+        "one": "Stage",
+        "many": "Stages"
     },
     "pb": "Match privé",
     "pb_info": "Créer tes matchs privés",

@@ -1,9 +1,9 @@
 {
     "old_command": "Il semble que tu essaies d'utiliser un ancien commande. Nous avons changé récemment les commands. Pour régler les chose dans ton profil, vois `{p}help profile set`",
-    "sp_old_command": "Il semble que tu essaies d'utiliser un ancien commande. Nous avons changé récemment les commands. Pour régler les chose dans ton profil solo, vois `{p}help sp set`",
+    "sp_old_command": "Il semble que tu essaies d'utiliser une ancienne commande. Nous avons changé récemment les commands. Pour régler les chose dans ton profil solo, vois `{p}help sp set`",
     "added": {
         "fc": "Ton code d'ami a été réglé.",
-        "favmap": "Ta carte favorite a été réglée.",
+        "favmap": "Ton stage favori a été réglée.",
         "ign": "Ton nom de jeu a été réglé",
         "level": "Ton niveau a été réglé.",
         "locale": "Ta langue a été réglée.",
@@ -25,7 +25,7 @@
     },
     "error": {
         "fc": "Ton code d'ami devrait être dans le format SW-XXXX-XXXX-XXXX.",
-        "favmap": "Ca carte n'existe pas!",
+        "favmap": "Ce stage n'existe pas!",
         "ign": "Ton nom de jeu devrait être entre 1 et 10 lettres.",
         "level": "Ton niveau devrait être entre 1 et 99! Pour monter ton prestige, ajoute ` S` à la fin.",
         "locale": "Cette langue n'existe pas encore.",
