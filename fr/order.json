@@ -14,5 +14,7 @@
         "ordered": "Commandé avec succès. Kipik va t'envoyer un message privé quand elle devient disponible."
     },
     "now": "Ta pièce d'affaire demandée est disponible!",
-    "nso_now": "Je l'ai commandée via NSO. Rend visite à Tipik!"
+    "nso_now": "Je l'ai commandée via NSO. Rend visite à Tipik!",
+    "listing": "{gear} avec {skill}",
+    "any_skill": "n'importe quel bonus"
 }

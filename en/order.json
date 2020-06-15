@@ -14,5 +14,7 @@
         "ordered": "Successfully ordered. Spyke will DM you when it's available."
     },
     "now": "Your requested gear is now in rotation!",
-    "nso_now": "Ordered your gear through NSO."
+    "nso_now": "Ordered your gear through NSO.",
+    "listing": "{gear} with {skill}",
+    "any_skill": "any skill"
 }
