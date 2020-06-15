@@ -2,7 +2,8 @@
     "error": {
         "no_gear": "Je ne reconnais pas cette pièce d'affaire",
         "timeout": "Le message a expiré",
-        "no_skill": "Je ne reconnais pas ce bonus."
+        "no_skill": "Je ne reconnais pas ce bonus.",
+        "already_ordered": "Tu as déjà commandé cette pièce d'affaire avec ce bonus!"
     },
     "chosen_gear": "La pièce d'affaire choisie: {gear}",
     "chosen_skill": "Le bonus choisi: {skill}",

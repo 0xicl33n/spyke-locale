@@ -2,7 +2,8 @@
     "error": {
         "no_gear": "That's not a piece of gear I recognise!",
         "timeout": "Message timed out.",
-        "no_skill": "That's not a skill I recognise!"
+        "no_skill": "That's not a skill I recognise!",
+        "already_ordered": "You've already ordered that gear with this skill!"
     },
     "chosen_gear": "Chosen Gear: {gear}",
     "chosen_skill": "Chosen Skill: {skill}",
