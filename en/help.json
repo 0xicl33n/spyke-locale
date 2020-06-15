@@ -120,6 +120,10 @@
     "examples": "{p}reply thank you!\n{p} got it, thanks"
   },
   "prefix": {
+    "main": {
+      "help": "Use this commands to set and remove the custom prefix for Spyke!",
+      "examples": "{p}prefix set splat!\n{p}prefix remove"
+    },
    "set": {
      "help":"Sets the server's custom prefix (the original will still work).\nRequires the Manage Server permission. To use spaces in your prefix quote it.\nYou can even use a space at the end of the prefix.",
      "examples": "{p}prefix set splat!\n{p}prefix set \"splat \""
@@ -276,6 +280,10 @@
   "order": {
     "help": "Order a piece of gear from SplatNet!\n\nThis command lets you queue up a piece of gear for SplatNet.\nIf you have unlocked Nintendo Switch Online support (through Patreon), this will be automatically ordered for you to be picked up by Murch.\nIf not, Spyke will DM you when the piece of gear you want is available in SplatNet for you to buy.",
     "examples": "{p}order Backwards Cap\n{p}order Annaki Yellow Cuff\n{p}order White Striped LS"
+  },
+  "orders": {
+    "help": "View your ordered gear!\n\nSee `!!help order` for instructions on how to order gear.",
+    "examples": "{p}orders"
   },
   "stream": {
     "main": {

@@ -91,6 +91,9 @@
     "help": "Répondre à un message privé envoyé par un développeur"
   },
   "prefix": {
+    "main": {
+      "help": "Utilise ces commandes pour régler et enlever le prefixe de ce serveur pour Kipik!"
+    },
    "set": {
      "help":"Régler le prefixe de ce serveur (l'original va encore marcher).\nCeci exige la permission Gérer le serveur. Pour utiliser une espace, encerle-le anvcec les guillements anglais (\"\").\nTu peux même utiliser une espace à la fin de ton prefixe." 
    },
@@ -212,6 +215,9 @@
   },
   "order": {
     "help": "Commander une pièce d'affaire de Céphalochic!\n\nCetee commande te permet de choisire une pièce d'affaire de le magasin de Céphalochic\nSi tu as débloqué les commandes de NSO (via Patreon), ceci va être automatiquement commandé pour toi pour que tu puisse passer le prendre de Tipik.\nSinon, Kipik va t'envoyer un message privés quand la pièce devient disponible dans le magasin pour que tu puisse l'acheter."
+  },
+  "orders": {
+    "help": "Voir tes pièces d'affaires commandées!\n\nVois `!!help order` pour apprendre comment tu peux commander les pièces"
   },
   "stream": {
     "main": {

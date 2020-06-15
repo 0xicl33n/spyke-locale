@@ -8,5 +8,11 @@
       "no_kind": "That's not a stream i have! I currently only have `maps`, `splatnet` and `salmon`",
       "added": "Added this channel to the streams",
       "removed": "Removed this channel from the streams"
+    },
+    "prefix": {
+      "too_long": "That prefix is too long! The max is 10",
+      "set": "Your server's custom prefix has been set.",
+      "removed": "Your server's custom prefix has been removed.",
+      "never_set": "Your server didn't had a custom prefix!"
     }
 }
