@@ -48,5 +48,13 @@
         "sp": "Je ne peux pas trover cet utilisateur!",
         "loadouts": "Je ne peux pas trover cet utilisateur!"
     },
-    "unset": "Unset"
+    "unset": "Unset",
+    "fc": {
+        "you": "Ton code d'ami est {fc}",
+        "they": "Son code d'ami est {fc}"
+      },
+    "no_prof": {
+        "you": "Tu n'as pas de profil! Régle un attribut en utilisant {p}profile set",
+        "they": "They don't have a profile! Dis-le de régler un attribut en utilisant {p}profile set"
+    }
 }
