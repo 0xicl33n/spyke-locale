@@ -22,12 +22,14 @@
     },
     "error": {
         "not_logged_in": "You are not logged into Nintendo Switch Online! Please use `{p}nso add` to log in.",
-        "not_patron": "Nintendo Switch Online commands require you to be subscribed to our patreon.\n\nSubscribe here: https://patreon.com/spykebot\n\nIf you have already subscribed, let us know and we'll add you immediately"
+        "not_patron": "Nintendo Switch Online commands require you to be subscribed to our patreon.\n\nSubscribe here: https://patreon.com/spykebot\n\nIf you have already subscribed, let us know and we'll add you immediately",
+        "not_current_gear": "This gear isn't available right now in Splatnet! Use `{p}splatnet` to see what there is or use `{p}order` to order for future reference."
     },
     "saved": "Your token has been saved.",
     "sp": {
         "clear_rate": "Clear rate:",
         "stage": "Stage",
         "boss": "Boss"
-    }
+    },
+    "ordered": "I've ordered it for you. Go see Murch!"
 }
