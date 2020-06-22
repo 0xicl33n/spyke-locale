@@ -14,5 +14,8 @@
       "set": "Your server's custom prefix has been set.",
       "removed": "Your server's custom prefix has been removed.",
       "never_set": "Your server didn't had a custom prefix!"
-    }
+    },
+    "devmail": "Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!",
+    "devdm": "You've received a message from `{author}`, one of the developers of Spyke!\n\n{message}\n\nTo reply, use the `reply` command in this DM.",
+    "devreply": "Replied to {to}"
 }

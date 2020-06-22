@@ -54,7 +54,7 @@
       "they": "Their friend code is {fc}"
     },
     "no_prof": {
-      "you": "You don't have a profile! Set an attribute using {p}profile set",
-      "they": "They don't have a profile! Tell them to set an attribute using {p}profile set"
+      "you": "You don't have a profile! Set an attribute using `{p}profile set`",
+      "they": "They don't have a profile! Tell them to set an attribute using `{p}profile set`"
     }
 }

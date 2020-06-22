@@ -54,7 +54,7 @@
         "they": "Son code d'ami est {fc}"
       },
     "no_prof": {
-        "you": "Tu n'as pas de profil! Régle un attribut en utilisant {p}profile set",
-        "they": "They don't have a profile! Dis-le de régler un attribut en utilisant {p}profile set"
+        "you": "Tu n'as pas de profil! Régle un attribut en utilisant `{p}profile set`",
+        "they": "Il/Elle n'a pas de profil! Dis-le/la de régler un attribut en utilisant `{p}profile set`"
     }
 }

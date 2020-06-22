@@ -7,12 +7,15 @@
     "stream": {
       "no_kind": "Je n'ai pas ce flot. J'ai seulement `maps` (stages), `splatnet` (le magasin Céphalochic) et `salmon` (Salmon Run)",
       "added": "J'ai ajouté cette chaîne aux flots",
-      "removed": "J'ai enlevé cette cchaîne des flots"
+      "removed": "J'ai enlevé cette chaîne des flots"
     },
     "prefix": {
       "too_long": "Ce prefixe est trop long! Le maximum est 10 lettres",
       "set": "Le prefixe de ton serveur est réglé.",
       "removed": "Le prefixe de ton serveur est enlevé.",
       "never_set": "Ton serveur n'avait pas un prefixe!"
-    }
+    },
+    "devmail": "Ton message a été envoyé aux developeurs! Ils répondront bientôt. Patinte un instant et assure-toi que tu peux recevoir les message privés par Kipik!",
+    "devdm": "Tu as reçu un message de `{author}`, un des developeurs de Kipik!\n\n{message}\nPour répondre, utilise la commande `reply` dans cette chaîne.",
+    "devreply": "Répondu à {to}"
 }
