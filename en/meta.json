@@ -11,7 +11,6 @@
     "player": "Player",
     "rw": "Random Weapon",
     "requested_by": "Requested by {name}",
-    "weapon_chosen": "Chosen Weapon",
     "hns_title": "Hide and Seek",
     "hns_desc": "**RULES:**\nAlpha or smaller team = hiders\nBeta or larger team = seekers\n{icon} 1min for uneven teams (or 45sec on Moray Towers)\n{icon} 45sec for even teams (or 30 on MT)\n{icon} No subs/specials\n{icon} No map (by extension no super jump)\n{icon} Hiders win if time is up without all of them having died\n{icon} Seekers win if all hiders die\n{icon} Hiding time deaths are excluded\n{icon} Any seeker that dies may continue\n{icon} Any hider that dies is out and may only return as a spectator"
 

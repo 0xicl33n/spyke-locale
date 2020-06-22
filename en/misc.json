@@ -17,5 +17,12 @@
     },
     "devmail": "Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!",
     "devdm": "You've received a message from `{author}`, one of the developers of Spyke!\n\n{message}\n\nTo reply, use the `reply` command in this DM.",
-    "devreply": "Replied to {to}"
+    "devreply": "Replied to {to}",
+    "chosen": {
+      "gear": "Chosen Gear: {gear}",
+      "skill": "Chosen Skill: {skill}",
+      "map": "Chosen Map: {map}",
+      "team": "Chosen Team: {team}",
+      "weapon": "Chosen Weapon"
+    }
 }

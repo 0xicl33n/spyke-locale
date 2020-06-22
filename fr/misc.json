@@ -17,5 +17,13 @@
     },
     "devmail": "Ton message a été envoyé aux developeurs! Ils répondront bientôt. Patinte un instant et assure-toi que tu peux recevoir les message privés par Kipik!",
     "devdm": "Tu as reçu un message de `{author}`, un des developeurs de Kipik!\n\n{message}\nPour répondre, utilise la commande `reply` dans cette chaîne.",
-    "devreply": "Répondu à {to}"
+    "devreply": "Répondu à {to}",
+    "chosen": {
+      "gear": "La pièce d'affaire choisie: {gear}",
+      "skill": "Le bonus choisi: {skill}",
+      "map": "Le stage choisi: {map}",
+      "team": "L'equipe choisie: {team}",
+      "weapon": "L'arme choisie"
+    }
+    
 }

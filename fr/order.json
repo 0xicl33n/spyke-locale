@@ -5,8 +5,6 @@
         "no_skill": "Je ne reconnais pas ce bonus.",
         "already_ordered": "Tu as déjà commandé cette pièce d'affaire avec ce bonus!"
     },
-    "chosen_gear": "La pièce d'affaire choisie: {gear}",
-    "chosen_skill": "Le bonus choisi: {skill}",
     "choose_skill": "Choisis le bonus que tu voudrais que cette pièce d'affaire ait pour le commander. Tape `{none}` (rien) pour aucun bonus.",
     "success": {
         "nso": "Commandé avec succès. Elle va être automatiquement commandée pour toi parce que tu as débloqué les commands de NSO",

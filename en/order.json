@@ -5,8 +5,6 @@
         "no_skill": "That's not a skill I recognise!",
         "already_ordered": "You've already ordered that gear with this skill!"
     },
-    "chosen_gear": "Chosen Gear: {gear}",
-    "chosen_skill": "Chosen Skill: {skill}",
     "choose_skill": "Choose a specific skill you'd like this gear to have for you to order it. Type `{none}` for any skill",
     "success": {
         "nso": "Successfully ordered. Since you have NSO, it will automatically be ordered for you.",
