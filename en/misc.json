@@ -1,28 +1,29 @@
 {
-    "callout": "Default callout map for {map}",
-    "meta": {
-      "no_rule": "That's not a rule I accept! I accept `xrank` or `league`",
-      "no_mode": "That's not a mode I accept!"
-    },
-    "stream": {
-      "no_kind": "That's not a stream i have! I currently only have `maps`, `splatnet` and `salmon`",
-      "added": "Added this channel to the streams",
-      "removed": "Removed this channel from the streams"
-    },
-    "prefix": {
-      "too_long": "That prefix is too long! The max is 10",
-      "set": "Your server's custom prefix has been set.",
-      "removed": "Your server's custom prefix has been removed.",
-      "never_set": "Your server didn't had a custom prefix!"
-    },
-    "devmail": "Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!",
-    "devdm": "You've received a message from `{author}`, one of the developers of Spyke!\n\n{message}\n\nTo reply, use the `reply` command in this DM.",
-    "devreply": "Replied to {to}",
-    "chosen": {
-      "gear": "Chosen Gear: {gear}",
-      "skill": "Chosen Skill: {skill}",
-      "map": "Chosen Map: {map}",
-      "team": "Chosen Team: {team}",
-      "weapon": "Chosen Weapon"
-    }
+  "callout": "Default callout map for {map}",
+  "meta": {
+    "no_rule": "That's not a rule I accept! I accept `xrank` or `league`",
+    "no_mode": "That's not a mode I accept!"
+  },
+  "stream": {
+    "no_kind": "That's not a stream i have! I currently only have `maps`, `splatnet` and `salmon`",
+    "added": "Added this channel to the streams",
+    "removed": "Removed this channel from the streams"
+  },
+  "prefix": {
+    "too_long": "That prefix is too long! The max is 10",
+    "set": "Your server's custom prefix has been set.",
+    "removed": "Your server's custom prefix has been removed.",
+    "never_set": "Your server didn't had a custom prefix!"
+  },
+  "devmail": "Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!",
+  "devdm": "You've received a message from `{author}`, one of the developers of Spyke!\n\n{message}\n\nTo reply, use the `reply` command in this DM.",
+  "devreply": "Replied to {to}",
+  "chosen": {
+    "gear": "Chosen Gear: {gear}",
+    "skill": "Chosen Skill: {skill}",
+    "map": "Chosen Map: {map}",
+    "team": "Chosen Team: {team}",
+    "weapon": "Chosen Weapon"
+  },
+  "spyke_welcome": "Hey there! I'm Spyke! The bot designed for Splatoon 2!\nTo see what I can do, type `{p}help`\nTo set up your profile, see `{p}help profile`\nTo set up autoposts for the current map rotation, splatnet gear and salmon run rotation, see `{p}help stream`\nIf you still need help, join our support server!\n{support}\n\nIf you like what I do, please consider donating on our patreon!\n{patreon}"
 }

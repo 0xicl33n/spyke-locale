@@ -1,310 +1,312 @@
   {
-  "callout": {
-    "help": "Get the normal callout map for a map you specify, does not have to be the exact or full name.\nLet's say you want to get Camp Triggerfish. Well you can either use `{p}callout camp` or `{p}callout triggerfish`, whichever is easier for you.",
-    "examples": "{p}callout arena\n{p}callout shipyard\n{p}callout fitness"
-  },
-  "maps": {
-    "help": "Get the maps and modes that are currently playable in Splatoon 2",
-    "examples": "{p}maps"
-  },
-  "rotation": {
-    "help": "Find out the time until the next rotation",
-    "examples": "{p}rotation/{p}ttn"
-  },
-  "next": {
-    "tc": {
-      "help": "Find out when Tower Control is next in rotation",
-      "examples": "{p}next towercontrol\n{p}next tc"
+    "callout": {
+      "help": "Get the normal callout map for a map you specify, does not have to be the exact or full name.\nLet's say you want to get Camp Triggerfish. Well you can either use `{p}callout camp` or `{p}callout triggerfish`, whichever is easier for you.",
+      "examples": "{p}callout arena\n{p}callout shipyard\n{p}callout fitness"
     },
-    "rm": {
-      "help": "Find out when Rainmaker is next in rotation",
-      "examples": "{p}next rainmaker\n{p}next rm"
+    "maps": {
+      "help": "Get the maps and modes that are currently playable in Splatoon 2",
+      "examples": "{p}maps"
     },
-    "sz": {
-      "help": "Find out when Splat Zones is next in rotation",
-      "examples": "{p}next splatzones\n{p}next sz"
+    "rotation": {
+      "help": "Find out the time until the next rotation",
+      "examples": "{p}rotation/{p}ttn"
     },
-    "cb": {
-      "help": "Find out when Clam Bliz is next in rotation",
-      "examples": "{p}next clamblitz\n{p}next cb"
-    }
-  },
-  "rw": {
-    "help": "Generate a random weapon",
-    "examples": "{p}rw\n{p}randomweapon"
-  },
-  "pb": {
-    "normal": {
-      "help": "Setup a private battle!",
-      "examples": "{p}pb\n{p}privatebattle"
-    },
-    "no_turf": {
-      "help": "Setup a private battle! (Turf War excluded)",
-      "examples": "{p}pb no_turf\n{p}privatebattle no_turf"
-    }
-  },
-  "brands": {
-    "help": "View the brands in Splatoon 2 and their favoured and unfavoured abilities",
-    "examples": "{p}brands"
-  },
-  "hideandseek": {
-    "help": "View the rules of hide and seek",
-    "examples": "{p}hideandseek\n{p}hns\n{p}hs"
-  },
-  "rewardgear": {
-    "help": "View the current reward gear",
-    "examples": "{p}rewardgear"
-  },
-  "issalmonon": {
-    "help": "Check if salmon is currently running",
-    "examples": "{p}issalmonon"
-  },
-  "salmon": {
-    "help": "View the current Salmon Run schedule",
-    "examples": "{p}salmon"
-  },
-  "splatfest": {
-    "help": "Get the splatfest results by name",
-    "examples": "{p}splatfest Chaos\n{p}splat Werewolf\n{p}splatfest Mayo (2020)"
-  },
-  "nextsplatfest": {
-    "help": "Get the upcoming splatfest by region",
-    "examples": "{p}nextsplatfest eu\n{p}next splatfest jp\n{p}nextsplatfest na"
-  },
-  "lastsplatfest": {
-    "help": "Get the most recent splatfest by region",
-    "examples": "{p}lastsplatfest eu\n{p}last splatfest jp\n{p}lastsplatfest na"
-  },
-  "splatfestroles": {
-    "help": "Add to your server the roles for the upcoming splatfest.\nLeave region blank for all regions.\nRequires Manages Roles permission",
-    "examples": "{p}splatfestroles\n{p}splatroles na\n{p}splatfestroles jp"
-  },
-  "oldsplatfestroles": {
-    "help": "Add to your server the roles for all the previous splatfests.\nLeave region blank for all regions\nRequires Manages Roles permission",
-    "examples": "{p}oldsplatfestroles\n{p}oldsplatroles na\n{p}oldsplatfestroles jp"
-  },
-  "meta": {
-    "help": "See the usage stats for weapons in the previous month for `xrank` or `league` - specify a game mode for specific information",
-    "examples": "{p}meta xrank\n{p}meta league rainmaker\n{p}meta xrank clam blitz"
-  },
-  "splatnet": {
-    "help": "View what's in the SplatNet shop!",
-    "examples": "{p}splatnet"
-  },
-  "about": {
-    "help": "Find out more info about the bot!",
-    "examples": "{p}about"
-  },
-  "shards": {
-    "help": "Find out about how our bot is sharded!",
-    "examples": "{p}shards"
-  },
-  "devmail": {
-    "help": "Send a message straight to the developers of Spyke!\nThis command allows you to send feedback and suggestions, alongside manually reporting any issues or bugs\nHowever for easy access to a conversation, join our support server (`{p}support`)\nPlease don't use it as a way to say hi. If you wanna say hi to us, please join the support server",
-    "examples":"{p}devmail Hey! this command seems to be erroring\n{p}devmail I think it'd be great to add this feature\n{p}Thanks for making a great bot guys!"
-  },
-  "invite": {
-    "help": "Invite the bot to your server!",
-    "examples": "{p}invite"
-  },
-  "support": {
-    "help": "Join our support server!",
-    "examples": "{p}invite"
-  },
-  "ping": {
-    "help": "Use this to double-check the bot's working. The higher the number, the slower the bot will take to respond, usually meaning Discord or our servers are down. Sorry if there's any connection issues!",
-    "examples": "{p}ping"
-  },
-  "reply": {
-    "help": "Respond to a DM that a developer has sent you",
-    "examples": "{p}reply thank you!\n{p} got it, thanks"
-  },
-  "prefix": {
-    "main": {
-      "help": "Use this commands to set and remove the custom prefix for Spyke!",
-      "examples": "{p}prefix set splat!\n{p}prefix remove"
-    },
-   "set": {
-     "help":"Sets the server's custom prefix (the original will still work).\nRequires the Manage Server permission. To use spaces in your prefix quote it.\nYou can even use a space at the end of the prefix.",
-     "examples": "{p}prefix set splat!\n{p}prefix set \"splat \""
-   },
-   "remove": {
-     "help": "Removes the server's custom prefix.\nRequires the Manage Server permission",
-     "examples": "{p}prefix remove"
-   }
-  },
-  "nso": {
-    "main": {
-      "help": "Commands that interact with Nintendo Switch Online\n\nRequires a patreon subscription to use.",
-      "examples": "{p}nso"
-    },
-    "login": {
-      "help": "Login to Nintendo Switch Online\nThis will guide you through the process of Nintendo Switch Online",
-      "examples": "{p}nso login"
-    },
-    "update": {
-      "help": "Pull your profile from Nintendo Switch Online and automatically update Spyke's profile to match\nThis will pull MOST of the data, but not all of it. You can check after to see what still needs changing.\n\n**CAUTION:** This is irreversible",
-      "examples": "{p}nso update"
-    },
-    "stats": {
-      "main": {
-        "help": "View stats pulled form Nintendo Switch Online that don't appear on your profile!",
-        "examples": "{p}nso stats sp\n{p}nso stats salmon"
-      },
-      "sp": {
-        "help": "View your times for each weapon for the entirety of the Octo Valley campaign.",
-        "examples": "{p}nso stats sp"
-      }
-    }
-  },
-  "profile": {
-    "main": {
-      "help": "View someone's or create your own profile!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** profile's subcommands have changed to `{p}profile set` - this is to streamline the backend of adding different sections to your profile.",
-      "examples": "{p}profile\n{p}profile @MyFriend#2453\n{p}p Timmy"
-    },
-    "set": {
-      "main": {
-        "help": "Set up the different sections of your profile!",
-        "examples": "{p}profile set tc S+4\n{p}p set locale en\n{p}p set level 50"
-      },
-      "favmap": {
-        "help": "Set your favourite map!",
-        "examples": "{p}profile set favmap Kelp Dome\n{p}p set favmap Moray Towers"
-      },
-      "fc": {
-        "help": "Set your friend code",
-        "examples": "{p}profile set fc SW-0123-4567-8901\n{p}p set fc 472382838492"
-      },
-      "ign": {
-        "help": "Set your in game name",
-        "examples": "{p}profile set ign Thomas\n{p}p set ign OffTheHookStan"
-      },
-      "l1": {
-        "help": "Set your first loadout\nThis is the one displayed on your main profile and is also displayed on the `{p}loadouts` command.\n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
-        "examples": "{p}profile set l1 https://selicia.github.io/en_US/#0000000000000000000000000"
-      },
-      "l2": {
-        "help": "Set your second loadout\nThis is displayed on the `{p}loadouts` command. \n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
-        "examples": "{p}profile set l2 https://selicia.github.io/en_US/#0000000000000000000000000"
-      },
-      "l3": {
-        "help": "Set your third loadout\nThis is displayed on the `{p}loadouts` command. \n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
-        "examples": "{p}profile set l3 https://selicia.github.io/en_US/#0000000000000000000000000"
-      },
-      "level": {
-        "help": "Set your level in Splatoon 2\nIf you have prestiged, add a space and an S on the end after your level",
-        "examples": "{p}profile set level 50\n{p}p set lvl 50 S"
-      },
-      "locale": {
-        "help": "Change your locale and set Spyke to a different language\n\nCurrent locales available: EN, FR\n\nIf you are the owner of a server, Spyke's nickame will change to Spyke's name in the new language. If for some reason your locale is missing a specific message, it will default to English.\n\nNote that we only support a few lanugages. To help get Spyke translated in a language you know, contact us via `{p}devmail`.",
-        "examples": "{p}profile set locale en\n{p}p set locale EN"
-      },
-      "splat": {
-        "help": "Set your splatfest team to find others to play with.\nSet it to an old Splatfest to remember a legacy.",
-        "examples": "{p}profile set splat Squid\n{p}p set splatfest Octo"
-      },
-      "sr": {
-        "help": "Set your salmon run title!",
-        "examples": "{p}profile set sr Profreshional\n{p}p set salmon Overachiever"
-      },
-      "tz": {
-        "help": "Set your time zone!\nThis automatically converts any commands that use a time into your time zone for conveniency.\nSee [this link](http://spykebot.ink/timezones-) for a list of all available timezones",
-        "examples": "{p}profile set tz America/New_York\n{p}p set tz PST8PDT"
-      },
+    "next": {
       "tc": {
-        "help": "Set your rank for Tower Control\n Add your X Power number at the end if applicable",
-        "examples": "{p}profile set tc A\n{p}p set tc S+9\n{p}p set tc X 1823.9"
-      },
-      "sz": {
-        "help": "Set your rank for Splat Zones\n Add your X Power number at the end if applicable",
-        "examples": "{p}profile set sz A\n{p}p set sz S+9\n{p}p set sz X 1823.9"
+        "help": "Find out when Tower Control is next in rotation",
+        "examples": "{p}next towercontrol\n{p}next tc"
       },
       "rm": {
-        "help": "Set your rank for Rainmaker\n Add your X Power number at the end if applicable",
-        "examples": "{p}profile set rm A\n{p}p set rm S+9\n{p}p set rm X 1823.9"
+        "help": "Find out when Rainmaker is next in rotation",
+        "examples": "{p}next rainmaker\n{p}next rm"
+      },
+      "sz": {
+        "help": "Find out when Splat Zones is next in rotation",
+        "examples": "{p}next splatzones\n{p}next sz"
       },
       "cb": {
-        "help": "Set your rank for Clam Blitz\n Add your X Power number at the end if applicable",
-        "examples": "{p}profile set cb A\n{p}p set cb S+9\n{p}p set cb X 1823.9"
+        "help": "Find out when Clam Bliz is next in rotation",
+        "examples": "{p}next clamblitz\n{p}next cb"
       }
-    }
-  },
-  "loadouts": {
-    "help": "View your loadouts saved to your profile!\nThere are three loadouts which can be set by using:\n`{p}profile set L1/L2/L3 <url>`",
-    "examples": "{p}loadouts"
-  },
-  "sp": {
-    "main": {
-      "help": "View someone's or create your own singleplayer profile!\nThis is different to profile because it focuses on your single player stats from both Octo Canyon and Octo Expansion!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** sp's subcommands have changed to `{p}sp set` - this is to streamline the backend of adding different sections to your singleplayer profile.",
-      "examples": "{p}sp\n{p}singleplayer @MyFriend#2453\n{p}sp Timmy"
     },
-    "set": {
+    "rw": {
+      "help": "Generate a random weapon",
+      "examples": "{p}rw\n{p}randomweapon"
+    },
+    "pb": {
+      "normal": {
+        "help": "Setup a private battle!",
+        "examples": "{p}pb\n{p}privatebattle"
+      },
+      "no_turf": {
+        "help": "Setup a private battle! (Turf War excluded)",
+        "examples": "{p}pb no_turf\n{p}privatebattle no_turf"
+      }
+    },
+    "brands": {
+      "help": "View the brands in Splatoon 2 and their favoured and unfavoured abilities",
+      "examples": "{p}brands"
+    },
+    "hideandseek": {
+      "help": "View the rules of hide and seek",
+      "examples": "{p}hideandseek\n{p}hns\n{p}hs"
+    },
+    "rewardgear": {
+      "help": "View the current reward gear",
+      "examples": "{p}rewardgear"
+    },
+    "issalmonon": {
+      "help": "Check if salmon is currently running",
+      "examples": "{p}issalmonon"
+    },
+    "salmon": {
+      "help": "View the current Salmon Run schedule",
+      "examples": "{p}salmon"
+    },
+    "splatfest": {
+      "help": "Get the splatfest results by name",
+      "examples": "{p}splatfest Chaos\n{p}splat Werewolf\n{p}splatfest Mayo (2020)"
+    },
+    "nextsplatfest": {
+      "help": "Get the upcoming splatfest by region",
+      "examples": "{p}nextsplatfest eu\n{p}next splatfest jp\n{p}nextsplatfest na"
+    },
+    "lastsplatfest": {
+      "help": "Get the most recent splatfest by region",
+      "examples": "{p}lastsplatfest eu\n{p}last splatfest jp\n{p}lastsplatfest na"
+    },
+    "splatfestroles": {
+      "help": "Add to your server the roles for the upcoming splatfest.\nLeave region blank for all regions.\nRequires Manages Roles permission",
+      "examples": "{p}splatfestroles\n{p}splatroles na\n{p}splatfestroles jp"
+    },
+    "oldsplatfestroles": {
+      "help": "Add to your server the roles for all the previous splatfests.\nLeave region blank for all regions\nRequires Manages Roles permission",
+      "examples": "{p}oldsplatfestroles\n{p}oldsplatroles na\n{p}oldsplatfestroles jp"
+    },
+    "meta": {
+      "help": "See the usage stats for weapons in the previous month for `xrank` or `league` - specify a game mode for specific information",
+      "examples": "{p}meta xrank\n{p}meta league rainmaker\n{p}meta xrank clam blitz"
+    },
+    "splatnet": {
+      "help": "View what's in the SplatNet shop!",
+      "examples": "{p}splatnet"
+    },
+    "about": {
+      "help": "Find out more info about the bot!",
+      "examples": "{p}about"
+    },
+    "shards": {
+      "help": "Find out about how our bot is sharded!",
+      "examples": "{p}shards"
+    },
+    "devmail": {
+      "help": "Send a message straight to the developers of Spyke!\nThis command allows you to send feedback and suggestions, alongside manually reporting any issues or bugs\nHowever for easy access to a conversation, join our support server (`{p}support`)\nPlease don't use it as a way to say hi. If you wanna say hi to us, please join the support server",
+      "examples": "{p}devmail Hey! this command seems to be erroring\n{p}devmail I think it'd be great to add this feature\n{p}Thanks for making a great bot guys!"
+    },
+    "invite": {
+      "help": "Invite the bot to your server!",
+      "examples": "{p}invite"
+    },
+    "support": {
+      "help": "Join our support server!",
+      "examples": "{p}invite"
+    },
+    "ping": {
+      "help": "Use this to double-check the bot's working. The higher the number, the slower the bot will take to respond, usually meaning Discord or our servers are down. Sorry if there's any connection issues!",
+      "examples": "{p}ping"
+    },
+    "reply": {
+      "help": "Respond to a DM that a developer has sent you",
+      "examples": "{p}reply thank you!\n{p} got it, thanks"
+    },
+    "prefix": {
       "main": {
-        "help": "Set up the different sections of your singleplayer profile!",
-        "examples": "{p}sp set mem 70\n{p}singleplayer set toothpick Yes\n{p}sp set title Master of Ink"
+        "help": "Use this commands to set and remove the custom prefix for Spyke!",
+        "examples": "{p}prefix set splat!\n{p}prefix remove"
       },
-      "mem": {
-        "help": "Set your mem cake count in Octo Expansion",
-        "examples": "{p}sp set mem 78\n{p}singleplayer set mc 80\n{p}sp set memcake 60"
+      "set": {
+        "help": "Sets the server's custom prefix (the original will still work).\nRequires the Manage Server permission. To use spaces in your prefix quote it.\nYou can even use a space at the end of the prefix.",
+        "examples": "{p}prefix set splat!\n{p}prefix set \"splat \""
       },
-      "blt": {
-        "help": "Set your overall best level time",
-        "examples": "{p}sp set blt 04:58\n{p}singleplayer set bestleveltime 05:40\n{p}sp set blt 03:03"
-      },
-      "title": {
-        "help": "Set your singleplayer title\nThis can be seen from the Nintendo Switch Online app",
-        "examples": "{p}sp set title Master of Ink\n{p}singleplayer set title Master of Ink"
-      },
-      "cp": {
-        "help": "Set your completion percent\nThis can be found in the Nintendo Switch Online app",
-        "examples": "{p}sp set cp 324%\n{p}singleplayer set completion 564\n{p}sp set cp 400"
-      },
-      "scrolls": {
-        "help": "Set your sunken scroll count in Octo Canyon",
-        "examples": "{p}sp set scrolls 20\n{p}singleplayer set scrollcount 15\n{p}sp set sunkenscrolls 10"
-      },
-      "thangs": {
-        "help": "Set your thang count in Octo Expansion",
-        "examples": "{p}sp set thangs 3\n{p}singleplayer set thangs 2\n{p}sp set thang 1"
-      },
-      "hwo": {
-        "help": "Set your Hero Weapon count in Octo Canyon",
-        "examples": "{p}sp set hwo 3\n{p}singleplayer set heroweapons 4\n{p}sp set hw 1"
-      },
-      "toothpick": {
-        "help": "Set your Golden Toothpick status\nYou receive your Golden Toothpick when ||you beat Inner Agent 3||",
-        "examples": "{p}sp set toothpick No\n{p}singleplayer set pick Yes"
+      "remove": {
+        "help": "Removes the server's custom prefix.\nRequires the Manage Server permission",
+        "examples": "{p}prefix remove"
       }
-    }
-  },
-  "order": {
-    "help": "Order a piece of gear from SplatNet!\n\nThis command lets you queue up a piece of gear for SplatNet.\nIf you have unlocked Nintendo Switch Online support (through Patreon), this will be automatically ordered for you to be picked up by Murch.\nIf not, Spyke will DM you when the piece of gear you want is available in SplatNet for you to buy.",
-    "examples": "{p}order Backwards Cap\n{p}order Annaki Yellow Cuff\n{p}order White Striped LS"
-  },
-  "orders": {
-    "help": "View your ordered gear!\n\nSee `!!help order` for instructions on how to order gear.",
-    "examples": "{p}orders"
-  },
-  "stream": {
-    "main": {
-      "help": "Add or Remove channels from streams.\nThese streams autopost information regularly so that you're always updated on new things",
-      "examples": "{p}stream add splatnet\n{p}stream remove maps\n{p}stream remove salmon"
     },
-    "add": {
-      "help": "Add a channel to the stream.\nEnter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to be updated on",
-      "examples": "{p}stream add splatnet\n{p}stream add maps\n{p}stream add salmon"
+    "nso": {
+      "main": {
+        "help": "Commands that interact with Nintendo Switch Online\n\nRequires a patreon subscription to use.",
+        "examples": "{p}nso"
+      },
+      "login": {
+        "help": "Login to Nintendo Switch Online\nThis will guide you through the process of Nintendo Switch Online",
+        "examples": "{p}nso login"
+      },
+      "update": {
+        "help": "Pull your profile from Nintendo Switch Online and automatically update Spyke's profile to match\nThis will pull MOST of the data, but not all of it. You can check after to see what still needs changing.\n\n**CAUTION:** This is irreversible",
+        "examples": "{p}nso update"
+      },
+      "stats": {
+        "main": {
+          "help": "View stats pulled form Nintendo Switch Online that don't appear on your profile!",
+          "examples": "{p}nso stats sp\n{p}nso stats salmon"
+        },
+        "sp": {
+          "help": "View your times for each weapon for the entirety of the Octo Valley campaign.",
+          "examples": "{p}nso stats sp"
+        }
+      }
     },
-    "remove": {
-      "help": "Remove a channel from the stream.\nEnter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to no longer receive updates on",
-      "examples": "{p}stream remove splatnet\n{p}stream remove maps\n{p}stream remove salmon"
-    }
-  },
-  "examples": {
-    "one": "Example:",
-    "many": "Examples:"
-  },
-  "aliases": {
-    "one": "Alias:",
-    "many": "Aliases:"
+    "profile": {
+      "main": {
+        "help": "View someone's or create your own profile!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** profile's subcommands have changed to `{p}profile set` - this is to streamline the backend of adding different sections to your profile.",
+        "examples": "{p}profile\n{p}profile @MyFriend#2453\n{p}p Timmy"
+      },
+      "set": {
+        "main": {
+          "help": "Set up the different sections of your profile!",
+          "examples": "{p}profile set tc S+4\n{p}p set locale en\n{p}p set level 50"
+        },
+        "favmap": {
+          "help": "Set your favourite map!",
+          "examples": "{p}profile set favmap Kelp Dome\n{p}p set favmap Moray Towers"
+        },
+        "fc": {
+          "help": "Set your friend code",
+          "examples": "{p}profile set fc SW-0123-4567-8901\n{p}p set fc 472382838492"
+        },
+        "ign": {
+          "help": "Set your in game name",
+          "examples": "{p}profile set ign Thomas\n{p}p set ign OffTheHookStan"
+        },
+        "l1": {
+          "help": "Set your first loadout\nThis is the one displayed on your main profile and is also displayed on the `{p}loadouts` command.\n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
+          "examples": "{p}profile set l1 https://selicia.github.io/en_US/#0000000000000000000000000"
+        },
+        "l2": {
+          "help": "Set your second loadout\nThis is displayed on the `{p}loadouts` command. \n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
+          "examples": "{p}profile set l2 https://selicia.github.io/en_US/#0000000000000000000000000"
+        },
+        "l3": {
+          "help": "Set your third loadout\nThis is displayed on the `{p}loadouts` command. \n\nUse https://selicia.github.io/ to add your loadouts\nNOTE: the site above also has a \"Spyke integration\" button, which you can click and quick add your loadout to Spyke.",
+          "examples": "{p}profile set l3 https://selicia.github.io/en_US/#0000000000000000000000000"
+        },
+        "level": {
+          "help": "Set your level in Splatoon 2\nIf you have prestiged, add a space and an S on the end after your level",
+          "examples": "{p}profile set level 50\n{p}p set lvl 50 S"
+        },
+        "locale": {
+          "help": "Change your locale and set Spyke to a different language\n\nCurrent locales available: EN, FR\n\nIf you are the owner of a server, Spyke's nickame will change to Spyke's name in the new language. If for some reason your locale is missing a specific message, it will default to English.\n\nNote that we only support a few lanugages. To help get Spyke translated in a language you know, contact us via `{p}devmail`.",
+          "examples": "{p}profile set locale en\n{p}p set locale EN"
+        },
+        "splat": {
+          "help": "Set your splatfest team to find others to play with.\nSet it to an old Splatfest to remember a legacy.",
+          "examples": "{p}profile set splat Squid\n{p}p set splatfest Octo"
+        },
+        "sr": {
+          "help": "Set your salmon run title!",
+          "examples": "{p}profile set sr Profreshional\n{p}p set salmon Overachiever"
+        },
+        "tz": {
+          "help": "Set your time zone!\nThis automatically converts any commands that use a time into your time zone for conveniency.\nSee [this link](http://spykebot.ink/timezones-) for a list of all available timezones",
+          "examples": "{p}profile set tz America/New_York\n{p}p set tz PST8PDT"
+        },
+        "tc": {
+          "help": "Set your rank for Tower Control\n Add your X Power number at the end if applicable",
+          "examples": "{p}profile set tc A\n{p}p set tc S+9\n{p}p set tc X 1823.9"
+        },
+        "sz": {
+          "help": "Set your rank for Splat Zones\n Add your X Power number at the end if applicable",
+          "examples": "{p}profile set sz A\n{p}p set sz S+9\n{p}p set sz X 1823.9"
+        },
+        "rm": {
+          "help": "Set your rank for Rainmaker\n Add your X Power number at the end if applicable",
+          "examples": "{p}profile set rm A\n{p}p set rm S+9\n{p}p set rm X 1823.9"
+        },
+        "cb": {
+          "help": "Set your rank for Clam Blitz\n Add your X Power number at the end if applicable",
+          "examples": "{p}profile set cb A\n{p}p set cb S+9\n{p}p set cb X 1823.9"
+        }
+      }
+    },
+    "loadouts": {
+      "help": "View your loadouts saved to your profile!\nThere are three loadouts which can be set by using:\n`{p}profile set L1/L2/L3 <url>`",
+      "examples": "{p}loadouts"
+    },
+    "sp": {
+      "main": {
+        "help": "View someone's or create your own singleplayer profile!\nThis is different to profile because it focuses on your single player stats from both Octo Canyon and Octo Expansion!\nTo create your own profile, set at least one of the attributes!\nTo view someone else's profile, @mention them or type in their username.\nTo view your own profile, don't mention anyone\n**PLEASE NOTE:** sp's subcommands have changed to `{p}sp set` - this is to streamline the backend of adding different sections to your singleplayer profile.",
+        "examples": "{p}sp\n{p}singleplayer @MyFriend#2453\n{p}sp Timmy"
+      },
+      "set": {
+        "main": {
+          "help": "Set up the different sections of your singleplayer profile!",
+          "examples": "{p}sp set mem 70\n{p}singleplayer set toothpick Yes\n{p}sp set title Master of Ink"
+        },
+        "mem": {
+          "help": "Set your mem cake count in Octo Expansion",
+          "examples": "{p}sp set mem 78\n{p}singleplayer set mc 80\n{p}sp set memcake 60"
+        },
+        "blt": {
+          "help": "Set your overall best level time",
+          "examples": "{p}sp set blt 04:58\n{p}singleplayer set bestleveltime 05:40\n{p}sp set blt 03:03"
+        },
+        "title": {
+          "help": "Set your singleplayer title\nThis can be seen from the Nintendo Switch Online app",
+          "examples": "{p}sp set title Master of Ink\n{p}singleplayer set title Master of Ink"
+        },
+        "cp": {
+          "help": "Set your completion percent\nThis can be found in the Nintendo Switch Online app",
+          "examples": "{p}sp set cp 324%\n{p}singleplayer set completion 564\n{p}sp set cp 400"
+        },
+        "scrolls": {
+          "help": "Set your sunken scroll count in Octo Canyon",
+          "examples": "{p}sp set scrolls 20\n{p}singleplayer set scrollcount 15\n{p}sp set sunkenscrolls 10"
+        },
+        "thangs": {
+          "help": "Set your thang count in Octo Expansion",
+          "examples": "{p}sp set thangs 3\n{p}singleplayer set thangs 2\n{p}sp set thang 1"
+        },
+        "hwo": {
+          "help": "Set your Hero Weapon count in Octo Canyon",
+          "examples": "{p}sp set hwo 3\n{p}singleplayer set heroweapons 4\n{p}sp set hw 1"
+        },
+        "toothpick": {
+          "help": "Set your Golden Toothpick status\nYou receive your Golden Toothpick when ||you beat Inner Agent 3||",
+          "examples": "{p}sp set toothpick No\n{p}singleplayer set pick Yes"
+        }
+      }
+    },
+    "order": {
+      "help": "Order a piece of gear from SplatNet!\n\nThis command lets you queue up a piece of gear for SplatNet.\nIf you have unlocked Nintendo Switch Online support (through Patreon), this will be automatically ordered for you to be picked up by Murch.\nIf not, Spyke will DM you when the piece of gear you want is available in SplatNet for you to buy.",
+      "examples": "{p}order Backwards Cap\n{p}order Annaki Yellow Cuff\n{p}order White Striped LS"
+    },
+    "orders": {
+      "help": "View your ordered gear!\n\nSee `!!help order` for instructions on how to order gear.",
+      "examples": "{p}orders"
+    },
+    "stream": {
+      "main": {
+        "help": "Add or Remove channels from streams.\nThese streams autopost information regularly so that you're always updated on new things",
+        "examples": "{p}stream add splatnet\n{p}stream remove maps\n{p}stream remove salmon"
+      },
+      "add": {
+        "help": "Add a channel to the stream.\nEnter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to be updated on",
+        "examples": "{p}stream add splatnet\n{p}stream add maps\n{p}stream add salmon"
+      },
+      "remove": {
+        "help": "Remove a channel from the stream.\nEnter a kind (maps, splatnet or salmon) for specification on which part of the game you'd like to no longer receive updates on",
+        "examples": "{p}stream remove splatnet\n{p}stream remove maps\n{p}stream remove salmon"
+      }
+    },
+    "examples": {
+      "one": "Example:",
+      "many": "Examples:"
+    },
+    "aliases": {
+      "one": "Alias:",
+      "many": "Aliases:"
+    },
+    "no_help_given": "This command does not have a helpstring.",
+    "quit": "Quit help menu"
   }
-}

@@ -1,29 +1,29 @@
 {
-    "callout": "La carte callout par défaut pour {map}",
-    "meta": {
-      "no_rule": "Ce n'est pas une règle que j'accepte. J'accepte `xrank` ou `league`",
-      "no_mode": "Ce n'est pas un mode que j'accepte."
-    },
-    "stream": {
-      "no_kind": "Je n'ai pas ce flot. J'ai seulement `maps` (stages), `splatnet` (le magasin Céphalochic) et `salmon` (Salmon Run)",
-      "added": "J'ai ajouté cette chaîne aux flots",
-      "removed": "J'ai enlevé cette chaîne des flots"
-    },
-    "prefix": {
-      "too_long": "Ce prefixe est trop long! Le maximum est 10 lettres",
-      "set": "Le prefixe de ton serveur est réglé.",
-      "removed": "Le prefixe de ton serveur est enlevé.",
-      "never_set": "Ton serveur n'avait pas un prefixe!"
-    },
-    "devmail": "Ton message a été envoyé aux developeurs! Ils répondront bientôt. Patinte un instant et assure-toi que tu peux recevoir les message privés par Kipik!",
-    "devdm": "Tu as reçu un message de `{author}`, un des developeurs de Kipik!\n\n{message}\nPour répondre, utilise la commande `reply` dans cette chaîne.",
-    "devreply": "Répondu à {to}",
-    "chosen": {
-      "gear": "La pièce d'affaire choisie: {gear}",
-      "skill": "Le bonus choisi: {skill}",
-      "map": "Le stage choisi: {map}",
-      "team": "L'equipe choisie: {team}",
-      "weapon": "L'arme choisie"
-    }
-    
+  "callout": "La carte callout par défaut pour {map}",
+  "meta": {
+    "no_rule": "Ce n'est pas une règle que j'accepte. J'accepte `xrank` ou `league`",
+    "no_mode": "Ce n'est pas un mode que j'accepte."
+  },
+  "stream": {
+    "no_kind": "Je n'ai pas ce flot. J'ai seulement `maps` (stages), `splatnet` (le magasin Céphalochic) et `salmon` (Salmon Run)",
+    "added": "J'ai ajouté cette chaîne aux flots",
+    "removed": "J'ai enlevé cette chaîne des flots"
+  },
+  "prefix": {
+    "too_long": "Ce prefixe est trop long! Le maximum est 10 lettres",
+    "set": "Le prefixe de ton serveur est réglé.",
+    "removed": "Le prefixe de ton serveur est enlevé.",
+    "never_set": "Ton serveur n'avait pas un prefixe!"
+  },
+  "devmail": "Ton message a été envoyé aux developeurs! Ils répondront bientôt. Patinte un instant et assure-toi que tu peux recevoir les message privés par Kipik!",
+  "devdm": "Tu as reçu un message de `{author}`, un des developeurs de Kipik!\n\n{message}\nPour répondre, utilise la commande `reply` dans cette chaîne.",
+  "devreply": "Répondu à {to}",
+  "chosen": {
+    "gear": "La pièce d'affaire choisie: {gear}",
+    "skill": "Le bonus choisi: {skill}",
+    "map": "Le stage choisi: {map}",
+    "team": "L'equipe choisie: {team}",
+    "weapon": "L'arme choisie"
+  },
+  "spyke_welcome": "Coucou! Je m'apelle Kipik! Je suis le bot qui est dessiné pour Splatoon 2\nPour voir ce que je peux faire, tape `{p}help`\nPour régler les aspects de ton profil, vois `{p}help profile`\nPour régler les messages automatiques pour la rotation des stages, les choses dans le magasin de Céphalochic ou la rotation de Salmon Run, vois `{p}help steam`\nSi t'as encore besoin d'aide, rejoindre à notre serveur de soutien!\n{support}\nSi tu aime ce que je fais, envisage de devenir un patron!\n{patreon}"
 }
