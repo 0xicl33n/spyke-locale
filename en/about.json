@@ -1,0 +1,21 @@
+{
+    "version": "Version",
+    "commit": "Commit",
+    "api": "API",
+    "api_value": "discord.py v{v}",
+    "shards": "Shards",
+    "shard": "Current Shard",
+    "guilds": "Guilds",
+    "maps": "Mapstreams",
+    "splat": "Splatnetstreams",
+    "salmon": "Salmonstreams",
+    "profiles": "Profiles",
+    "links": "Links",
+    "invite": "Invite Spyke",
+    "support": "Support Server",
+    "docs": "Documentation",
+    "donate": "Donate",
+    "patreon": "Patreon",
+    "paypal": "PayPal",
+    "lastrestart": "Last Restart"
+}

@@ -25,5 +25,8 @@
     "team": "L'equipe choisie: {team}",
     "weapon": "L'arme choisie"
   },
-  "spyke_welcome": "Coucou! Je m'apelle Kipik! Je suis le bot qui est dessiné pour Splatoon 2\nPour voir ce que je peux faire, tape `{p}help`\nPour régler les aspects de ton profil, vois `{p}help profile`\nPour régler les messages automatiques pour la rotation des stages, les choses dans le magasin de Céphalochic ou la rotation de Salmon Run, vois `{p}help steam`\nSi t'as encore besoin d'aide, rejoindre à notre serveur de soutien!\n{support}\nSi tu aime ce que je fais, envisage de devenir un patron!\n{patreon}"
+  "spyke_welcome": "Coucou! Je m'apelle Kipik! Je suis le bot qui est dessiné pour Splatoon 2\nPour voir ce que je peux faire, tape `{p}help`\nPour régler les aspects de ton profil, vois `{p}help profile`\nPour régler les messages automatiques pour la rotation des stages, les choses dans le magasin de Céphalochic ou la rotation de Salmon Run, vois `{p}help steam`\nSi t'as encore besoin d'aide, rejoindre à notre serveur de soutien!\n{support}\nSi tu aime ce que je fais, envisage de devenir un patron!\n{patreon}",
+  "invite": "Inviter Kipik à ton serveur",
+  "support": "Rejoindre au serveur de soutien",
+  "click_here": "Clique ici"
 }

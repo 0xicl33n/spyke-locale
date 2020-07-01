@@ -1,0 +1,21 @@
+{
+    "version": "Version",
+    "commit": "Commit",
+    "api": "API",
+    "api_value": "discord.py v{v}",
+    "shards": "Fragments",
+    "shard": "Fragment Actuel",
+    "guilds": "Serveurs",
+    "maps": "Flots des stages",
+    "splat": "Flots du magasin Céphalochic",
+    "salmon": "Flots de Salmon Run",
+    "profiles": "Profils",
+    "links": "Lien",
+    "invite": "Inviter Kipik",
+    "support": "Serveur de Soutien",
+    "docs": "Documentation",
+    "donate": "Faire un Don",
+    "patreon": "Patreon",
+    "paypal": "PayPal",
+    "lastrestart": "Rédemarrage le Plus Récent"
+}

@@ -25,5 +25,8 @@
     "team": "Chosen Team: {team}",
     "weapon": "Chosen Weapon"
   },
-  "spyke_welcome": "Hey there! I'm Spyke! The bot designed for Splatoon 2!\nTo see what I can do, type `{p}help`\nTo set up your profile, see `{p}help profile`\nTo set up autoposts for the current map rotation, splatnet gear and salmon run rotation, see `{p}help stream`\nIf you still need help, join our support server!\n{support}\n\nIf you like what I do, please consider donating on our patreon!\n{patreon}"
+  "spyke_welcome": "Hey there! I'm Spyke! The bot designed for Splatoon 2!\nTo see what I can do, type `{p}help`\nTo set up your profile, see `{p}help profile`\nTo set up autoposts for the current map rotation, splatnet gear and salmon run rotation, see `{p}help stream`\nIf you still need help, join our support server!\n{support}\n\nIf you like what I do, please consider donating on our patreon!\n{patreon}",
+  "invite": "Invite Spyke to your server",
+  "support": "Join our support server",
+  "click_here": "Click here"
 }
