@@ -3,13 +3,16 @@
         "no_gear": "That's not a piece of gear I recognise!",
         "timeout": "Message timed out.",
         "no_skill": "That's not a skill I recognise!",
-        "already_ordered": "You've already ordered that gear with this skill!"
+        "already_ordered": "You've already ordered that gear with this skill!",
+        "no_gear_to_remove": "You have no gear ordered that matches those conditions!"
     },
     "choose_skill": "Choose a specific skill you'd like this gear to have for you to order it. Type `{none}` for any skill",
+    "choose_skill_remove": "You have this gear ordered with multiple skills. Choose the skill to remove that gear-skill combo from your orders.",
     "success": {
         "nso": "Successfully ordered. Since you have NSO, it will automatically be ordered for you.",
         "logged_out": "Successfully ordered. You have NSO but you're not logged in. If you are still logged out when the gear arrives, Spyke will DM it to you. If you log in, Spyke will automatically order it for you.",
-        "ordered": "Successfully ordered. Spyke will DM you when it's available."
+        "ordered": "Successfully ordered. Spyke will DM you when it's available.",
+        "removed": "Your order was successfully removed."
     },
     "now": "Your requested gear is now in rotation!",
     "nso_now": "Ordered your gear through NSO.",

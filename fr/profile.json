@@ -8,6 +8,9 @@
         "level": "Ton niveau a été réglé.",
         "locale": "Ta langue a été réglée.",
         "splat": "Ton équipe de Festival a été réglée.",
+        "l1": "Ton premier loadout a été réglé.",
+        "l2": "Ton deuxième loadout a été réglé.",
+        "l3": "Ton trosième loadout a été réglé.",
         "sr": "Ton titre de Salmon Run a été réglé.",
         "tz": "Ton fuseau horaire a été réglé.",
         "tc": "Ton rang d'Éxpedition risquée a été réglé.",
@@ -30,6 +33,9 @@
         "level": "Ton niveau devrait être entre 1 et 99! Pour monter ton prestige, ajoute ` S` à la fin.",
         "locale": "Cette langue n'existe pas encore.",
         "splat": "Cet équipe de Festivale n'existe pas!",
+        "l1": "Nous n'acceptons que les URLs valides de https://selicia.github.io",
+        "l2": "Nous n'acceptons que les URLs valides de https://selicia.github.io",
+        "l3": "Nous n'acceptons que les URLs valides de https://selicia.github.io",
         "sr": "Ce titre de Salmon Run n'est pas valable",
         "tz": "Ce n'est pas un fuseau horaire! Pour une liste de ceux-ci, vois {URL}",
         "tc": "Ce rang n'est pas valable!",
@@ -56,5 +62,6 @@
     "no_prof": {
         "you": "Tu n'as pas de profil! Régle un attribut en utilisant `{p}profile set`",
         "they": "Il/Elle n'a pas de profil! Dis-le/la de régler un attribut en utilisant `{p}profile set`"
-    }
+    },
+    "someones_loadouts": "Les loadouts de {someone}"
 }

@@ -1,0 +1,9 @@
+{
+    "maintenance": "Cette commande est en maintenance. Désolé pour les inconvénients que ceci a causés!",
+    "no_permission": "Tu n'as pas de droit d'utiliser cette commande.",
+    "missing_argument": "Tu rates un paramètre obligatoire!",
+    "bad": "Tu as donné un paramètre invalide!",
+    "disabled": "Cette commande est actuellement désactivée.",
+    "cooldown": "Cette commande a un délai de réutilisation. Réessaie dans {secs} secondes.",
+    "reported": "Une erreur s'est produite avec la commande {cmd}. Ceci a été automatiquement couvert pour toi."
+}

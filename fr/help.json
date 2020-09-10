@@ -176,7 +176,15 @@
     }
   },
   "loadouts": {
-    "help": "Voir tes loadouts sauvegardés dans ton profil\nIl y en a trois qui peuvent être réglés en utilisant:\n`{p}profile set L1/L2/l3 <URL>`"
+    "main": {
+      "help": "Voir tes loadouts sauvegardés dans ton profil\nIl y en a trois qui peuvent être réglés en utilisant:\n`{p}profile set L1/L2/l3 <URL>`\n@mentionne quelqu'un pour voir ses loadouts"
+    },
+    "url": {
+      "help": "Voir les URLS de tes loadouts sauvegardés dans ton profil!"
+    }
+  },
+  "getfc": {
+    "help": "Voir ton code d'ami ou voir celui de quelqu'un d'autre par le/la @mentionner"
   },
   "sp": {
     "main": {
@@ -213,10 +221,15 @@
     }
   },
   "order": {
-    "help": "Commander une pièce d'affaire de Céphalochic!\n\nCetee commande te permet de choisire une pièce d'affaire de le magasin de Céphalochic\nSi tu as débloqué les commandes de NSO (via Patreon), ceci va être automatiquement commandé pour toi pour que tu puisse passer le prendre de Tipik.\nSinon, Kipik va t'envoyer un message privés quand la pièce devient disponible dans le magasin pour que tu puisse l'acheter."
+    "main": {
+      "help": "Commander une pièce d'affaire de Céphalochic!\n\nCetee commande te permet de choisire une pièce d'affaire de le magasin de Céphalochic\nSi tu as débloqué les commandes de NSO (via Patreon), ceci va être automatiquement commandé pour toi pour que tu puisse passer le prendre de Tipik.\nSinon, Kipik va t'envoyer un message privés quand la pièce devient disponible dans le magasin pour que tu puisse l'acheter."
+    },
+    "remove": {
+      "help": "Enlever une pièce d'affaire que tu as récemment commandée!"
+    }
   },
   "orders": {
-    "help": "Voir tes pièces d'affaires commandées!\n\nVois `!!help order` pour apprendre comment tu peux commander les pièces"
+    "help": "Voir tes pièces d'affaire commandées!\n\nVois `!!help order` pour apprendre comment tu peux commander les pièces"
   },
   "stream": {
     "main": {
@@ -228,6 +241,9 @@
     "remove": {
       "help": "Enlever une chaînes des flots.\nInscrit une type - `maps` (stages), `splatnet` (le magasin Céphalochic) ou `salmon` (Salmon Run) pour spécifier quel aspet du jeu que tu ne voudrais plus être mis(e) au courant."
     }
+  },
+  "wiki": {
+    "help": "Rechercer quelque chose sur Inkipedia et recevoir le premier résultat"
   },
   "examples": {
     "one": "Exemple:",

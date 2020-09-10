@@ -1,0 +1,9 @@
+{
+    "maintenance": "This command is under maintenance. Sorry for any inconvenience caused!",
+    "no_permission": "You don't have permission to use that command.",
+    "missing_argument": "You're missing a required argument!",
+    "bad": "You have given an invalid argument!",
+    "disabled": "This command is currently disabled.",
+    "cooldown": "This command is currently on cooldown. Try again in {secs} seconds.",
+    "reported": "An error occurred with the {cmd} command. This has been automatically reported for you."    
+}

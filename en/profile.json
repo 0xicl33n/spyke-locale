@@ -8,6 +8,9 @@
         "level": "Your level has been set.",
         "locale": "Your locale has been set.",
         "splat": "Your splatfest team has been set.",
+        "l1": "Your first loadout has been set.",
+        "l2": "Your second loadout has been set.",
+        "l3": "Your third loadout has been set.",
         "sr": "Your salmon run title has been set.",
         "tz": "Your time zone has been set.",
         "tc": "Your Tower Control rank has been set.",
@@ -30,6 +33,9 @@
         "level": "Your level has to be between 1 and 99! To set a prestige, add ` S` on the end.",
         "locale": "That locale doesn't exist yet, sorry.",
         "splat": "That's not a valid splatfest team!",
+        "l1": "Please use a valid loadout from https://selicia.github.io",
+        "l2": "Please use a valid loadout from https://selicia.github.io",
+        "l3": "Please use a valid loadout from https://selicia.github.io",
         "sr": "That's not a valid Salmon Run title",
         "tz": "That's not a valid Time Zone! For a list of timezones, see {URL}",
         "tc": "That's not a valid rank!",
@@ -56,5 +62,6 @@
     "no_prof": {
       "you": "You don't have a profile! Set an attribute using `{p}profile set`",
       "they": "They don't have a profile! Tell them to set an attribute using `{p}profile set`"
-    }
+    },
+    "someones_loadouts": "{someone}'s loadouts"
 }
