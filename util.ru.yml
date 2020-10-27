@@ -1,0 +1,40 @@
+ru:
+  about:
+    title: Статистика Спайка
+    version: Версия
+    commit: Зафиксировать
+    shards: Осколки
+    shard: Осколок
+    birthday: Я был создан
+    api: API
+    api_value: >
+      discord.py {}
+    db: Драйвер базы данных
+    db_value: >
+      Motor {}
+    linux: Версия ядра Linux
+    pid: ID процесса
+    memory: Памяти использовано
+    ping: Пинг пульса
+    guilds: Сервера
+    profiles: Профили
+    splat: Каналы СплатНета 
+    maps: Каналы карт
+    orders: Заказы СплатНет отслеживаются
+    lfg: Текущие LFG группы
+    avi: Картинка профиля от
+    devs: Текущие разработчики 
+    links: Ссылки
+    invite: Пригласи меня! 
+    patreon: Патреон
+    support: Сервера поддержки 
+    suggestions: \⁉️ Предложения
+    docs: Документация 
+    pfdocs: Документация профиля
+    keys: Помогли перевести Спайка
+    donate: Донат
+    paypal: PayPal
+    lastrestart: Последний рестарт был
+    cache: Информация о кэше(H/M/S)
+    salmon: Каналы Salmon run 
+  
