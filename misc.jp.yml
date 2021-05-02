@@ -1,86 +1,86 @@
 jp:
   spyke_welcome: |
-    ちょっと、そこ！私はSpykeです！ Splatoon 2特有のボット。私にできることを見るためには、 `[p] help`とタイプしてください。
-    あなたのプロフィールを設定するには、 `[p] help profile`から始めましょう。
-    スプラットネットとマップストリームを設定するには、 `[p] help stream`をチェックしてください。
-    それでも手助けが必要な場合は、サポートサーバーにアクセスしてください。
-    https://discord.gg/q2j8HtB
+    こんにちは！私は、スプラトゥーン２のボット、ダウニーです。何ができるかを見るためには、 `[p]help`を使って下さい。
+    プロファイルをセットするためには、`[p]help profile `を使って下さい。
+    ゲソタウンとマップのストリームをセットするためには、`[p]help stream` を使って下さい。
+    まだ助けが必要ならば、サポートサーバーに来てください。
+    https://discord.gg/q2j8HtB
 
-    あなたが私がしているものが好きなら私に行き続けるためにpatreonに寄付することを考えてください！
+    何をやってるかが気に入ったならば、どうかご寄附をお願いします。
     https://www.patreon.com/spykebot
     
   order_help: |
     This command lets you queue up a piece of gear for splatnet. Spyke will send you a DM when the piece of gear you want is available in splatnet for you to buy
+    このコマンドは、ゲソタウンからギアを見つけてきます。見つかったら、ダウニーがDMを送ります。
     
-    Example
+    例：
     [p]order Annaki Yellow Cuff
   order_created: |
-    Order created for **{}**.
+    **{}** のオーダーを作りました。
     
-    **You will be DMd when it's available.**
-  order_fail: There is no gear with that name!
-  already_ordered: You have already ordered that gear!
-  confused: Confused?
-  surprised: Surprised? 
+    **在庫が見つかったら DMを送ります。**
+  order_fail: その名前のギアがありません。
+  already_ordered: もうそのギアはオーダーされています。
+  confused: 混乱しましたか?
+  surprised: びっくりしましたか? 
   missing_permissions: |
-    Spyke does not have all the permissions required for commands
+    ダウニーが必要な権限を持っていません。権限が足されるまで、コマンドは、使えません。
 
-    Without these permissions, all commands will be withheld.
-
-    The required permissions for Spyke are:
+    ダウニーに必要な権限は:
     ```
-    Embed Links
-    Read Message History
-    Attach Files
+    埋め込みリンク
+    メッセージ履歴を読む
+    ファイルを添付
     ```
 
-    The additional recommended permissions for Spyke are:
+    ダウニーの奨励の権限は:
     ```
-    Manage Messages
-    Add Reactions
+    メッセージの管理
+    リアクションの追加
     ```
 
-    Currently missing required permissions:
+    今ない必要な権限:
     ```
     {0}
     ```
 
-    Currently missing recommended permissions:
+    奨励の権限がありません:
     ```
     {1}
     ```
 
-    If the `Spyke` role (or any other applied role) has these permissions, confirm that no channel overrides are causing the issue.
-    If problems persist, join the support server: `q2j8HtB`
-  permission_embed: Embed Links
-  permission_history: Read Message History
-  permission_files: Attach Files
-  permission_messages: Manage Messages
-  permission_reactions: Add Reactions
-  permission_roles: Manage Roles
-  permission_emoji: Use External Emojis
-  no_missing: None :D
+    `Spyke` のロール (あるいは、ほかの付いているロール) が、このロールを持っている場合、チャンネルオーバーライドがこの問題を起こしていないか調べて下さい。
+    問題が続くようでしたら、サポートサーバーをジョインして下さい。 `q2j8HtB`
+  permission_embed: 埋め込みリンク
+  permission_history: メッセージ履歴を読む
+  permission_files: ファイルを添付
+  permission_messages: メッセージの管理
+  permission_reactions: リアクションの追加
+  permission_roles: ロールの管理
+  permission_emoji: 絵文字の管理
+  no_missing: 無し:)
   devdm: |
     {}
 
-    *Sent by `{}`*
-    Respond to them by using `reply` in this DM.
-  devreply: Replied to {}.
-  devmail: Your message has been sent to the devs! They will likely respond shortly. Hold on tight and make sure Spyke can DM you!
-  telephone: Okay is it just me or am I confused why you would want to convert your Spyke profile into Telephone bot? Yeah that's what I thought type `exit` now
+    *`{}` によって送られました。*
+    DM内で `reply` で、返答できます。
+  devreply: '{} に返答しました。'
+  devmail: メッセージをデベロッパーに送られました。少ししたら、返事がたぶん帰ってきます。少し待つ間に、ダウニーがDMできるか確認しといてください。
+  telephone: 僕だけかもしれませんが、何故プロファイルを電話ボットに変えたいかが謎です。うん、そうだよね。そう思ってた。今すぐ 'exit' とタイプして下さい。
+            
   time:
-    day: day
-    days: days
-    week: week
-    weeks: weeks
-    month: month
-    months: months
-    year: year
-    years: years
-    ago: ago
-    minute: minute
-    minutes: minutes
-    hour: hour
-    hours: hours
-    second: second
-    seconds: seconds
+    day: 日
+    days: 日
+    week: 週
+    weeks: 週
+    month: 月
+    months: ヶ月
+    year: 年
+    years: 年
+    ago: 後
+    minute: 分
+    minutes: 分間
+    hour: 時間
+    hours: 時間
+    second: 秒
+    seconds: 秒
