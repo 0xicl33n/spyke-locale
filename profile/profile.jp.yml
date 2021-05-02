@@ -1,221 +1,70 @@
 jp:
-  profile_help: |
-    ちゅーーす。プロフィール帳の使い方を知りたいならまずは !!help profile コマンドを使ってみてネ。
-  
-    ランクについて詳しい情報を知りたいなら !!help profile rank もチェックしてくれよナ。
-  
-    あ、プロフィール帳を使う為には最初にフレンドコードを登録する必要があるからネ。
-  
-    オレがサボってると思う前に `!!help profile fc` をチェックしてコードを登録してナ。まいどありー。
-  level_help: |
-    
-    スプラトゥーンでの今のランクを入力できるヨ。
-    Example:
-    !!profile level 50
-    もしオマエが★プレイヤーなら、数字の後に S を足してくれナ。
-    !!profile level 50 S
-  level_set: オッケー、書き込んどいたヨ。＜ランク
-
-  level_error1: マイナスの数字は入れられないんだワ..
-
-  level_error2: それ数字じゃないでショ。
-
-  level_error3: 99が最大ランクだよネ。
-
-  level_error4: 数字の後にS以外のアルファベットは書き込めないんだワ。
-
-  weapon_help: |
-    お気に入りのブキを教えてネー。 3つまで登録できるヨ。
-    !!weapons を使えば現時点で登録できるブキの一覧が取得できるっショ？
-    Example:
-    !!profile weapon W1 Splattershot Pro
-    !!profile weapon W2 N-ZAP 85"
-  w1: 登録したヨ。＜おきにいりのブキ（１）：
-  w2: 登録したヨ。＜おきにいりのブキ（２）：
-  w3: 登録したヨ。＜おきにいりのブキ（３）：
-
-  wep_error: ん…？それは存在しないブキじゃね？
-
-
-  rank_help: | 
-  
-    ガチマッチごとのウデマエを登録できるヨ。各コマンドは以下を参考にしてネ。
-    ガチヤグラ = tc
-    ガチホコ　 = rm
-    ガチエリア = sz
-    ガチアサリ = cb
-    Example:
-    !!profile rank tc S+0
-  rank_set: 登録したヨ。：
-  rank_error1: そんなランクはないっしょ。
-  rank_error2: そのガチマッチは無くネ？tc、rm、sz、cbのどれかを入力してナ。
-
-
-  league_power_help: | 
-    リーグマッチでのリーグパワー最高値を入力してナ。
-    チーム（team）とペア（pair）の両方のタイプを登録できるヨ。小数点以下も頼むワ。
-    Example:
-    !!profile power team 1750.0
-    !!profile power pair 1750.0
-    
-  team_power: 登録したヨ。＜リーグパワー最高値（チーム）：
-  pair_power: 登録したヨ。＜リーグパワー最高値（ペア）：
-
-#rank error messages
-
-  rank_error1: １以下の数字は入れられないヨ。
-  rank_error2: マイナスの値は入れられないからサー。
-  rank_error3: 小数点以下は一桁で頼むワ。
-  rank_error4: なんかサー、ちょっと数値盛りすぎっしょ？
-
-
-  fc_help: |
-    
-    フレンドコードを登録してナ。
-    Example:
-    !!profile fc SW-5208-7719-6394
-    
-  fc_added: オッケー、書き込んどいたヨ。
-  fc_error: 入力するのはフレンドコードだけにしてくれよナー。
-  db_error: 何かオマエ、データーベースにいないじゃん。 まず `!!profile` を使ってみてネ。
-
-#ign help
-
-  ign_help: | 
-    
-    ゲーム中での名前を入力してくれよナ。
-    Example:
-    !!profile ign アオリちゃんラブ
-    
-  ign_set: オッケー、登録しといたヨ。＜
-
-#sr help
-  sr_help: | 
-    
-    サーモンランの称号を登録できるヨ。 300/99 とか、最大 999/99 まで数値でも書き込めるヨ。
-    Example:
-    !!profile sr Profreshional
-    
-    sr_set: リョーカイ、そのチョーシで頑張ってネー。　＜
-    sr_error: 有効な値じゃないヨ。
-#loadout help
-
-  loadout_help: | 
-    loadout.ink を使って普段のブキ＆ファッションスタイルを3つまでアピールできるヨ（L1～L3）。
-    Example:
-    !!profile loadout L1 https://loadout.ink/url-here
-  l1: 1番目のloadoutのスタイルをセットしたヨ。
-  l2: 2番目のloadoutのスタイルをセットしたヨ。
-  l3: 3番目のloadoutのスタイルをセットしたヨ。
-
-  loadout_error: loadoutの正しいURLを入れてくれよナー。
-
-  
-    ランクについて詳しい情報を知りたいなら !!help profile rank もチェックしてくれよナ。
-  
-    あ、プロフィール帳を使う為には最初にフレンドコードを登録する必要があるからネ。
-  
-    オレがサボってると思う前に `!!help profile fc` をチェックしてコードを登録してナ。まいどありー。
-
-  level_help: |
-    
-    スプラトゥーンでの今のランクを入力できるヨ。
-    Example:
-    !!profile level 50
-    もしオマエが★プレイヤーなら、数字の後に S を足してくれよナ。
-    !!profile level 50 S
-  level_set: オッケー、書き込んどいたヨ。＜ランク
-
-  level_error1: マイナスの数字は入れられないヨ..
-
-  level_error2: それ数字じゃないでショ。
-
-  level_error3: 99が最大ランクだよネ。
-
-  level_error4: 数字の後にS以外のアルファベットは書き込めないんだワ。
-
-  weapon_help: |
-    お気に入りのブキを教えてネ。 3つまで登録できるヨ。
-    !!weapons を使えば現時点で登録できるブキの一覧が取得できるっショ？
-    Example:
-    !!profile weapon W1 Splattershot Pro
-    !!profile weapon W2 N-ZAP 85"
-  w1: 登録したヨ。＜おきにいりのブキ（１）：
-  w2: 登録したヨ。＜おきにいりのブキ（２）：
-  w3: 登録したヨ。＜おきにいりのブキ（３）：
-
-  wep_error: ん…？それは存在しないブキじゃね？
-
-
-  rank_help: | 
-  
-    ガチマッチごとのウデマエを登録できるヨ。各コマンドは以下を参考にしてネ。
-    ガチヤグラ = tc
-    ガチホコ　 = rm
-    ガチエリア = sz
-    ガチアサリ = cb
-    Example:
-    !!profile rank tc S+0
-  rank_set: ランクを登録しといたヨ。：
-  rank_error1: そんなランクはないっショ。
-  rank_error2: そのガチマッチは無くネ？tc、rm、sz、cbのどれかを入力してナ。
-
-
-  league_power_help: | 
-    リーグマッチでのリーグパワー最高値を入力してナ。
-    チーム（team）とペア（pair）の両方のタイプを登録できるヨ。小数点以下も頼むワ。
-    Example:
-    !!profile power team 1750.0
-    !!profile power pair 1750.0
-    
-  team_power: 登録したヨ。＜リーグパワー最高値（チーム）：
-  pair_power: 登録したヨ。＜リーグパワー最高値（ペア）：
-
-#rank error messages
-
-  rank_error1: １以下の数字は入れられないヨ。
-  rank_error2: マイナスの値は入れられないからサー。
-  rank_error3: 小数点以下は一桁で頼むワ。
-  rank_error4: なんかサー、ちょっと数値盛りすぎっしょ？
-
-
-  fc_help: |
-    
-    フレンドコードを登録してナ。
-    Example:
-    !!profile fc SW-5208-7719-6394
-    
-  fc_added: オッケー、書き込んどいたヨ。
-  fc_error: 入力するのはフレンドコードだけにしてくれよナー。
-  db_error: 何かオマエ、データーベースにいないじゃん。 まず `!!profile` を使ってみてネ。
-
-#ign help
-
-  ign_help: | 
-    
-    ゲーム中での名前を入力してくれよナ。
-    Example:
-    !!profile ign ホタルまにあ
-    
-  ign_set: オッケー、登録しといたヨ。
-
-#sr help
-  sr_help: | 
-    
-    サーモンランの称号を登録できるヨ。 300/99 とか、最大 999/99 まで数値でも書き込めるヨ。
-    Example:
-    !!profile sr Profreshional
-    
-    sr_set: リョーカイ、そのチョーシで頑張ってネー。　＜
-    sr_error: 有効な値じゃないヨ。
-#loadout help
-
-  loadout_help: | 
-    loadout.ink を使って普段のブキ＆ファッションスタイルを3つまでアピールできるヨ（L1～L3）。
-    Example:
-    !!profile loadout L1 https://loadout.ink/url-here
-  l1: 1番目のloadoutのスタイルをセットしたヨ。
-  l2: 2番目のloadoutのスタイルをセットしたヨ。
-  l3: 3番目のloadoutのスタイルをセットしたヨ。
-
-  loadout_error: loadoutの正しいURLを入れてくれよナー。
+  rank_rm: ガチホコ
+  rank_sz: ガチエリア
+  rank_tc: ガチヤグラ
+  rank_cb: ガチアサリ
+  loadout: ロードアウト
+  ign: ゲーム内の名前
+  lvl: レベル
+  fc: フレンドコード
+  ranks: ランク
+  power_team: チーム
+  power_pair: ペア
+  sr_title: クマさん商会のタイトル
+  fav_wep: 武器
+  fav_map: お気に入りのマップ
+  loadouts: ロードアウト
+  clan: クラン
+  splat: フェスのチーム
+  footer_morti: 正真正銘の Morti
+  footer_bonnie: おお、僕のクリエイターだ。結構いい奴だよね。
+  footer_star: ダウニーのメンテナと翻訳者の一人。いい奴だよね。
+  footer_suhail: フロントエンドとバックエンドの翻訳の手伝いをしてる人の一人。寄付者でもある。どの位素晴らしい人なんだ！
+  lvl_negative: あなたのレベルは負の数であってはいけません。
+  lvl_large: おい、君。レベル 99 が最大だぞ！
+  lvl_tiererror: 何？S が使える最大のランクだぞ!
+  lvl_set: レベルが次の値にセットされました
+  rm_set: ガチホコのランクがセットされました。
+  tc_set: ガチヤグラのランクがセットされました。
+  sz_set: ガチエリアのランクがセットされました。
+  cb_set: ガチアサリのランクがセットされました。
+  no_mode: そのゲームモードは存在しません。
+  no_rank: そのランクは存在しません。
+  tz_err: それは、タイムゾーンではありません。大文字小文字の区別が関係あります。https://hastebin.com/ugimufopab.vbs からのタイムゾーンを使って下さい。
+  tz_set: タイムゾーンがセットされました。
+  pwr_low: 1以下の数は入りません。
+  pwr_acc: 小数第一位以下の小数は入れられません。
+  pwr_neg: 君、負の数のパワーはできないよ
+  pwr_big: 君、そのパワーは高すぎるよ。そんなに上手いわけないよ。
+  pwr_team_set: あなたの最高チームパワーが次の値にセットされました。
+  pwr_pair_set: あなたの最高ペアパワーが次の値にセットされました。
+  fc_example: おい、君　何考えてる？それは例えのフレンドコードだよ。
+  fc_zero: あなたのフレンドコードはゼロであってはなりません。
+  fc_update: あなたのフレンドコードが更新されました。
+  fc_add: あなたは足されました。
+  fc_notfc: すまない。フレンドコードしか受け付けていないんだ。
+  ign_set: あなたのゲーム内の名前が次の値にセットされました。
+  clan_set: あなたのクランが次の値にセットされました。
+  not_map: これはマップではないです。
+  favmap_set: あなたのお気に入りのマップが次のマップにセットされました。
+  splat_set: あなたのフェスのチームが次の値にセットされました。
+  not_splat: これは、存在するフェスのチームではありません。
+  sr_set: あなたのクマさん商会のランクがセットされました。
+  not_sr: これは、存在するクマさん商会のタイトルではありません。
+  l1_set: 最初のロードアウトがセットされました。
+  l2_set: 二番目のロードアウトがセットされました。
+  l3_set: 三番目のロードアウトがセットされました。
+  not_loadout: 君、ダウニーはそんなに簡単に騙されないぞ。それは、loadout.ink の URL じゃないぞ。
+  remove_help: 自分をデータベースから消す
+  remove_suc: データベースからあなたを消しました。行ってしまうのが悲しいです。o/
+  remove_fail: データベースに最初からいませんでした。
+  wep_error: おーい、しっかり。それは、武器じゃないぞ
+  w1_set: あなたの最初の武器が次の武器にセットされました。
+  w2_set: あなたの二番目の武器が次の武器にセットされました。
+  w3_set: あなたの三番目の武器が次の武器にセットされました。
+  locale_set: あなたのロケールがセットされました。
+  locale_check: あなたのロケールは、次の値です。
+  getfc_self: あなたのフレンドコードは `{}` です。
+  getfc_others: その人のフレンドコードは `{}` です。
+  char: プレイヤーのキャラクターが次の値にセットされました。
+  invalid_char: 君、それはキャラクターじゃないぞ。"Squid" (イカ) か "Octo" (タコ) しか受け付けていないよ！！
