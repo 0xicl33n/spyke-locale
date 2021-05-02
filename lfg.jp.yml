@@ -1,27 +1,27 @@
 jp:
-  lfg: グループを探す
-  time_left:  残り時間
+  lfg: Looking for a groupグループを探してます。
+  time_left: 残り時間
   gid: グループID
-  lfno: メンバーが必要
-  fc: リーダーの友達コード
-  mode:  ゲームモード
-  players_large: 大井メイトそれはあまりにも多くの人です！
-  players_small: メイト、あなたは少なくとも一人のプレイヤーを探すことを得た！
-  invalid_mode: メイト、私はあなたが「リーグ」、「スクリム」、または「サーモン」のマッチメークにしか手助けできない - 私はこれを手助けすることはできない。
-  posted: あなたのLFG記事が送信されました！
-  time_err: 愛してください、それは間違ったフォーマットです！ 「Xh」という形式でもう一度やり直してください。「X」は投稿が続く時間数です。
+  lfno: 必要なメンバーの数
+  fc: リーダーのフレンドコード
+  mode: ゲームモード
+  players_large: おーい！人が沢山いすぎるぞ。
+  players_small: おい、君　一人は見つけないと。
+  invalid_mode: 君、 `league`, `scrim`, か `salmon` しかマッチメイクできないよーこれは手伝えないよ
+  posted: プレーヤー募集中のポーストを送ったよ！
+  time_err:   おーい、フォーマットが違うよ！もう一回このフォーマットでやってくれる？Xは、このポーストが何時間見れるかです。
   group_full: このグループはいっぱいです。
   wants_to_join: >
-    `{0}` wants to join your group!
-  not_group: That group does not exist!
+    `{0}` がグループに入りたいです。
+  not_group: このグループは存在しません。
   pf_sent: |
-    I have sent your profile to {0}.
-    Make sure to keep your DMs open as you will receive your result there!
-  accepted: You have accepted {0} into your group!
-  declined: You have denied {0} from being in your group!
-  decision_fail: Oi mate, what're you doin'? You don't even 'ave a group!
-  next_user: The next user to accept/decline is {0}
+    あなたのプロファイルを  {0}　に送りました。
+    DMを開けといてください。そこに結果が表示されます。
+  accepted: '{0}　をグループに足しました。'
+  declined: '{0} を拒否しました。'
+  decision_fail: おい、君！何やってんの？グループまだないじゃん！
+  next_user: 受付・拒否する次のプレーヤーは、 {0}　です。
   dm_accept: >
-    {0} accepted you into their group!
+    {0} がグループに受け入れてくれました。
   dm_decline: >
-    {0} denied you access to their group!
+    {0} がグループに入ることを拒否しました。
