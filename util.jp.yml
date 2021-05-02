@@ -1,40 +1,40 @@
-en: 
+en:
   about:
-    title: スパイク統計
-    version:  バージョン
+    title: ダウニーの状況
+    version: バージョン
     commit: コミット
     shards: シャード
     shard: シャード
-    birthday: 私は作成されました
+    birthday: 誕生日：
     api: API
     api_value: >
       discord.py {}
-    db: データベースドライバ
+    db: データベースドライバー
     db_value: >
       Motor {}
-    linux: Linuxカーネルのバージョン
+    linux: Linux カーネルバージョン
     pid: プロセスID
-    memory:  メモリ使用量
-    ping: ハートビートping
+    memory: メモリー使用度(RAM)
+    ping: ピング
     guilds: サーバー
     profiles: プロファイル
-    splat: Splatnetチャンネル
+    splat: イカリング２チャンネル
     maps: マップチャンネル
-    orders: Splatnetの注文追跡数
-    lfg: 現在のLFGグループ
-    avi: によるプロフィール写真
-    devs: 現在の開発者
+    orders: トラックしているゲソタウンのオーダー
+    lfg: グループを募集中
+    avi: プロファイル写真作成者
+    devs: デベロッパー
     links: リンク
-    invite:  私を誘って！
-    patreon: パトレオン
+    invite: サーバーに招待する
+    patreon: ペイトリオン
     support: サポートサーバー
-    suggestions: \⁉️提案
-    docs:  ドキュメンテーション
-    pfdocs: プロファイル文書
-    keys: Spykeの翻訳を手伝ってください
+    suggestions: \⁉️ 提案
+    docs: ドキュメンテーション
+    pfdocs: プロファイルのドキュメンテーション
+    keys: ダウニーの翻訳を助ける
     donate: 寄付する
     paypal: ペイパル
-    lastrestart: 前回の再起動は
-    cache: キャッシュ情報（H / M / S）
-    salmon: サーモンランチャンネル
+    lastrestart: 一番最近のリスタートは、
+    cache: キャッシュ情報(H/M/S)
+    salmon: サーモンランのチャンネル
   
