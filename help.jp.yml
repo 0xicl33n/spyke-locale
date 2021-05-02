@@ -1,281 +1,308 @@
-# {} or {0} stands in for something, usually a number : >)
+# {} or {0} stands in for something, usually a number :)
 jp:
-  manual: >
-    ダウニー ヘルプマニュアル
-  page_msg: >
-    {}のヘルプページがあります。対応するページを見るために数を送りなさい。他のメッセージを送信して終了してください。
-  quit: >
-    ヘルプメニューを終了します。
-  footer: |
-    コマンドの詳細を表示するには、[p] help <command>
-    を入力してください。カテゴリの詳細については、{0} help <カテゴリ>
-    と入力することもできます。
-  desc: >
-    ダウニーのコマンド
+  add_reactions: このコマンドを使うたには、「リアクションをつける」許可が必要です。これがないとヘルプコマンドは使えません。
+  manual: ダウニー　ヘルプマニュアル
+  page_msg: Tヘルプページは、{}　枚あります。番号を送ってそのページを見ることができます。
+  timeout: 数字入力が時間切れしました。
+  bad_page: そのページは存在しません。 ({} > {})
+  quit: ヘルプページを止める。
+  #{0} is prefix here
+  footer: チャットに {0}help <command> と書くことによって、コマンドのことについてもっと見れます。{0}help <category>　と書くことによって、カテゴリーについてもっと情報を見れます。
+  desc: ダウニーーのコマンド
   syntax: >
-    構文=
-  no_category: >
-    カテゴリーなし
+    構文: {}
+  no_category: カテゴリー無し
   part: >
-    pt
-  commands: >
-    コマンド
-  subcommands: >
-    サブコマンド
-  page: >
-    Spyke Help Manual Page {}
-  no_command: >
-    "{}"という名前のコマンドが見つかりませんでした。
-  command_not_found: >
-    コマンドは大文字と小文字を区別します。スペルを確認してもう一度やり直してください。
-  help: |
-    ヘルプドキュメントを表示します。
-    [p]help: ヘルプマニュアルを表示します。
-    [p]help <command>: ヘルプマニュアルを表示します。
-    [p]help <category>: カテゴリのコマンドと説明を表示します。
-  #{0.name} is a command, do not translate this
-  no_subcommands: > 
-    コマンド "{0.name}"にサブコマンドはありません。
+    {} パート {}
+  commands: コマンド
+  subcommands: サブコマンド
+  page: ダウニー ヘルプページ {}
+  command_not_found: '{}' というコマンドは見つかりませんでした。
+  no_help_given: このコマンドには、ヘルプページがありません。
+  help:
+    # {} is an emoji for `general`
+    general: 混乱しましたか？ もっとヘルプを表示するためには、{} で、リアクションをつけてください。
+    welcome: インタラクティブのヘルプページへようこそ。
+    explanation: >
+      ヘルプページを見れます。移動は、リアクションを付けることによって、できます。
+    previous: ページ {}では
+    support:
+      key: サポート
+      value: >
+        もっとサポートが必要な場合は、サポートサーバーに入ってください。 https://discord.gg/q2j8HtB
+    help_help: |
+      ヘルプのドキュメンテーションを見せます。
+      [p]help: ヘルプマニュアルを見せます。
+      [p]help <command>: このコマンドのヘルプを見せます。
+      [p]help <category>: このカテゴリーのコマンドと使い方を見せます。
+    buttons:
+      what: このリアクションは何をする？
+      first: 最初のページに行く
+      last: 最後のページに行く
+      next: １ページ進む
+      previous: 前のページに戻る
+      number: このページに番号で行く
+      help: メッセージを表示する。
+      stop: ヘルプを終了する
+      bot_help: ボット使い方を表示する
+    bot_help: |
+      署名の説明:
+      **<argument>**
+      これは、構文が必要という意味です
+      **[argument]**
+      これは、構文は任意ということです。
+      **[A|B]**
+      これは、AあるいはBのどちらでもいいという意味です。
+      **[argument...]**
+      これは、複数の構文が可能で、構文がなくても使えます。
+      __かっこは。入力しなくていいです。__
+  #{0.qualified_name} is a command, do not translate this
+  no_subcommands: '{0.qualified_name}' は、サブコマンドがありません。
+  subcommand_not_found: '{0.qualified_name}' というコマンドには、'{1}'という名前のサブコマンドはありません。。
   callout: |
-    指定したマップの通常の吹き出しマップを取得します。名前の順序やスペルは任意です。
+    デフォルトのコールアウトを表示します。名前は正確である必要はありません。
 
-    Camp Triggerfishを入手したいとしましょう。まあ、あなたは "[p] callout camp："または "[p] callout triggerfish"のどちらでもあなたにとってより簡単なことができます。
+    例えば、モンガラキャンプ場を取得しようとしています。`[p]callout camp` あるいは `[p]callout triggerfish` を使うことができます。
 
-    例: 
+    例：
+
     [p]callout arena
     [p]callout shipyard
     [p]callout fitness
   pf_rank: |
-    あなたのプロフィールにランクを設定してください！これはかなり簡単です。
+    自分のプロファイルのガチマッチのランクをセットします。
 
-    tc =タワーコントロール
-    rm = Rainmaker
-    sz =スプラットゾーン
-    cb =クラムブリッツ
-    例: 
+    tc = ガチヤグラ
+    rm = ガチホコ
+    sz = ガチエリア
+    cb = ガチアサリ
+
+    (これは、存在することが確定されるまで使用不可能です。)
+    rkt = ロケット
+
+    例:
     [p]profile rank tc S+0
-    And the X rank works like this:
+    And the X rank works like thisランクXはこういう風にやります:
     [p]profile rank tc X 300.4
   pf_tz: |
-    これにより、salmon runコマンドを使用するときに住んでいる場所のタイムゾーンを設定できます。
-        
-    それはケースセンシティブです！
-        
-    タイムゾーンコードについては[this]（http://starbright.dyndns.org/starwort/timezones.txt）リストをチェックしてください。
+    このコマンドは、サーモンラン用のコマンドを使うために住んでる場所のタイムゾーンをセットします。
+        
+    このコマンドは、ケースセンシティブです!
+        
+    タイムゾーンを調べるためには、(http://starbright.dyndns.org/starwort/timezones.txt) を見て下さい。
   pf_pwr: |
-    あなたの最高のリーグ力を誇示する！
-    今両方のリーグタイプで！ （チームとペア）
-        
-    例: 
+    一番高いリーグマッチのパワーを誇示します。
+    チームとペア両方あります。(team と pair)
+        
+    例:
     [p]profile power team 1750
     [p]profile power pair 1750.9
   profile: |
-    FC の見事な置き換え！始めるには `[p] help profile fc`をチェックしてください。
-    さらに詳しい情報については `[p] help profile rank`を試してください。
-    あなたのプロフィールが機能するようになる前にあなたのFCを追加する必要があります！
-    Spykeは動作していないと言う前に、 `[p] help profile fc`をチェックして、友達コードを追加してください。ありがとうございます。
+    fc の輝かしい置き換え。始めるには、`[p]help profile fc` を入力して下さい。
+    もっと情報を取得するためには、`[p]help profile rank` と入力して下さい。
+    プロファイルを使うには、フレンドコード (FC) を追加して下さい。
+    ダウニーが使えないという前に、 `[p]help profile fc` を使って、フレンドコードを追加して下さい。ありがとうございます。
   pf_lvl: |
-    Splatoon 2 であなたのレベルを設定してください
-        
-    例: 
+    スプラトゥーン２のレベルをセットしました。
+    
+    例:
     [p]profile level 50
-    あなたがスタープレーヤーであるならば、あなたのレベルの後に最後にSを加える: >
+    レベルに星がついてる場合は、レベルの隣に、Sを足してください。
     [p]profile level 50 S
   pf_fc: |
-    あなたのFCをspykeに登録してください。
-    例: 
+    ダウニーで、フレンドコードをレジスターして下さい。
+    例:
     [p]profile fc SW-5208-7719-6394
   pf_ign: |
-    あなたのIn Game Nameを設定してください。
-    例: 
-    [p]profile ign MarieWaifu
+    ゲーム内の名前をセットする。.
+    例:
+    [p]profile ign ダウニー
   pf_clan: |
-    クランがある場合はクランを設定します。
-    例: 
-    [p]profile clan Ink2Death
+    クランがある場合、セット出来ます。
+    例:
+    [p]profile clan Prepare2Dye
   pf_favmap: |
-    Set your favourite map
-    例: 
+    お気に入りのマップをセットする。
+    例:
     [p]profile favmap Kelp Dome
-  pf_splat: >
-    あなたの現在または最後の感嘆符チームを設定して、一緒にプレイする相手を見つけましょう。
-    例: 
+  pf_splat: |
+    他に遊ぶ人を見つけるために、前回あるいは今回のフェスのチームをセットする。
+    例:
     [p]profile splat Squid
-  pf_sr: >
-    Grizzcoのタイトルを設定してください。 300/99から9999/99までも受け付けます
-    例: 
+  pf_sr: |
+    クマサン商会のタイトルをセットする。300/99 から9999/99 まで使えます。
+    例:
     [p]profile sr Profreshional
-  pf_loadout: >
-    あなたのloadout.inkロードアウトを披露！
-    最初の1つ（L1）がプロフィールに表示されます。
-    それらの残りは!! loadoutsコマンドで表示できます
-    例: 
+  pf_loadout: |
+    あなたの loadout.ink の装備見せびらかそう! 
+    最初の装備ギアのリストは、 (L1) プロファイルに表示されます。 
+    他のリストは、!!loadouts command　で、表示できます。
+    例:
     [p]profile loadout L1 https://loadout.ink/url-here
-  pf_remove: Remove yourself from the profile database.
+  pf_remove: データベースから自分を削除する。
   pf_wep: |
-    あなたのプロフィールにあなたのお気に入りの武器をセットしてください。今3を受け入れます！
-    Spykeが取る武器のリストについては `[p] weapons`をチェックしてください。
+    お気に入りの武器をセットする。 三つまで受付中
+    `[p]weapons` を使って、ダウニーが受け付けている武器を見ることができる。
 
-    例: 
+    例:
     [p]profile weapon W1 Splattershot Pro
     [p]profile weapon W2 N-ZAP 85
 
-  pf_char:  |
-    あなたのゲーム内のキャラクターをイカかオクトに設定してください！
-    例: 
+  pf_char: |
+    Set your in game character to either squid or octo!ゲーム内のキャラクターをセットする。(イカ、タコ)
+    例:
     [p]profile char octo
     [p]profile char squid
     
-  pf_locale:  |
-    別の言語でSpykeにロケールを設定してください。
-    EN, JP, ES, FR 利用可能なロケール  
+  pf_locale: |
+    他の言語にダウニーをセットする。
+    可能な言語： EN, JP, ES, FR (英、日、西、仏)
     
-    If your locale is not found Spyke will default to EN
+    言語が見付からなかった場合は、自動的に EN(英)になります。
     
     Note that the translations are still WIP, many parts of Spyke are not yet translated.
-    
-    例: 
+    翻訳は、完全に終了していません。
+
+    例:
     [p]profile locale EN
-  sp:  |
-    これはあなたのプロフィールのシングルプレイヤー部分です！始めるには `[p] help sp`を使ってください。サブコマンドは省略されています。
+  sp: |
+    プロファイルのシングルプレイヤーの部分です。 `[p]help sp` を使うことによってヘルプを表示できます。サブコマンドは、省略されてます。:
 
-    役職=役職
-    完了率= cp
-    見つかったスクロール= sf
-    入手したヒーローの武器= hwo
-    ベストレベルタイム= blt
-    オクト拡張= oe
-    Mem Cakes = mc
-    Thangs = thangs
-    黄金のつまようじ=ピック
+    タイトル = title
+    完了率 = cp
+    発見したミステリーファイル = sf
+    入手したヒーローモードの武器 = hwo
+    レベルを終了した最速の時間 = blt
+    オクトエキスパンション有無 = oe
+    集めたネリメモリー = mc
+    集めたアレ = thangs
+    金のつまようじ = pick
     
-    So check out `[p]help sp cp` or `[p]help sp hwo` to get started adding to your singleplayer profile.
-  sp_title:  |
-    Set your singleplayer title! Check from the nintendo app
+   始めるには、 `[p]help sp cp` か `[p]help sp hwo` を見よう！ 
+  sp_title: |
+    ニンテンドースイッチオンラインのアプリからシングルプレイヤーのタイトルをセットしよう！
     
-    例: 
+    例:
     [p]sp title Dingleberries
-  sp_cp:  |
-    This is your completion percent, you can go up to 1000%
+  sp_cp: |
+    完了率をセットする。 1000%まで、受付可能
 
-    例: 
+    例:
     [p]sp cp 150
     [p]sp cp 150%
-  sp_sf:  |
-    This is to show how many scrolls you've found!
+  sp_sf: |
+    発見したミステリーファイルをセットする。
     
-    例: 
+    例:
     [p]sp sf 4
-  sp_hwo:  |
-    This is used to show off how many hero weapons you've obtained
-    There are only 9 in the game(? please correct me if I'm wrong)
+  sp_hwo: |
+    入手したヒーロー武器を何個入手したかを誇示しよう。
+    ゲーム内には九個しかありません (? 間違ってたら訂正してください。)
 
-    例: 
+    例:
     [p]sp hwo 3
-  sp_blt:  |
-    Set your bacon lettuce tomato!
-    I'm kidding, this is for your best level time. Use XX: >XX format
+  sp_blt: |
+    ベーコン、レタス、トマトの状態をセットする。
+    冗談、冗談。このコマンドは、レベルの一番いいタイムをセットするコマンド。 XX:XX のフォーマットを使用してください・
 
-    例: 
-    [p]sp blt 01: 24
+    例:
+    [p]sp blt 01:24
   sp_mc: |
-    Use this to show off how many mem cakes you've obtained!
+    ネリメモリーの取得した数を誇示しよう。
 
-    例: 
+    例:
     [p]sp mc 50
-  sp_thangs:  |
-    Set how many thangs you've obtained
+  sp_thangs: |
+    「アレ」の所持数をセットする。。
 
-    例: 
+    例:
     [p]sp mc 4
-  sp_tp:  |
-    Yes/No if you have the Golden Toothpick
+  sp_tp: |
+    金のつまようじを持ってる はい、いいえ (yes/no)
 
-    例: 
+    例:
     [p]sp pick no
-  lfg:  |
-    Allows you to look for a group publicly: >
+  lfg: |
+    公開しているグループを探すことができる
     
-    [p]lfg <players needed> <time in xy format> <mode> [title for salmon run]
+    [p]lfg <必要なプレイヤーの数> <待ってられる時間> <モード> [サーモンランの場合はタイトル]
     
-    例: 
+    例:
     [p]lfg 3 4h league
-    This posts an LFG message for 3 people, max 4 hours for league battle.
-    Other options for mode:  Salmon, Scrim
+    このコマンドは、四時間中に三人の人を募集するコマンドです。
+    他のモードは、Salmon と Scrim (ナワバリバトル) があります。
   lfg_join: |
-    Allows you to join a group found by LFG
+    LFGで見つけたグループをジョイすることができます。
     
-    Every LFG post has an associated ID
+    LFGのポーストは、IDがついています。
     
-    To join the group, and get contact with its creator, run `[p]join <group ID>`
+    グループに入って、ホースとと連絡を取るためには、`[p]join <グループID>`　を使ってください。
     
-    例: 
+    例:
     [p]join G-34256
     
-    Groups are reset each day so old IDs do not clog the system.
+    グループは、毎日リセットされます。
   maps_nextmode: |
-    このコマンドを使うと、次に好きなモードがいつオンになるのか、そして何回転を待つ必要があるのか​​を確認できます。
-        
-    rm = Rainmaker
-    sz =スプラットゾーン
-    tc =タワーコントロール
-    cb =クラムブリッツ
-        
-    まだ多少WIPですが、うまくいきます。
-    例: 
-    [p]nextmode tc league
+    このコマンドは、お気に入りのモードが何ローテーション後かをチェックします。
+    rm = ガチホコ
+    sz = ガチエリア
+    tc = ガチヤグラ
+    cb = ガチアサリ
+
+    まだ完璧ではありません。まだ進行中の作業です。
+    
+    例:
+    [p]nextmode tc league(リーグのガチヤグラマッチを探す)
   splat: |
-    This command allows you to check the results of previous Splatfests.
+    前のフェスの結果をみれます。
+    フェスのチームの名前あるいはフェス番号と地域を入れると使えます。
 
-    Either enter the name of one of the teams or the Splatfest number & region
-    
-    例: 
-    [p]splatfest Squid
-    [p]splatfest Mayo
-    [p]splatfest 14 eu
-    [p]splatfest 3 na
+    例:
+    [p]splatfest Squid(イカ対タコのフェスの結果表示)
+    [p]splatfest Mayo(ケチャップ対マヨネーズのフェスの結果を表示)
+    [p]splatfest 14 eu(ヨーロッパの中のフェス14番の結果を表示)
+    [p]splatfest 3 na(北アメリカの中のフェス3番の結果を表示)
   splatroles: |
-    This command will generate roles for the current splatfest (requires Manage Roles permission)
-    
-    Include `region`: 'eu', 'na', 'jp' or 'all' ('all' is default behaviour)
+    このコマンドは、進行中のフェスのロールをセットします。(ロールを足す権限が必要です。)
+    `region`: 'eu', 'na', 'jp' or 'all' を使うことで地域をセットすることもできます('all'(全て) がデフォルトです。)
 
-    例: 
+    例:
     [p]splatfestroles eu
     [p]splatfestroles jp True
     [p]splatfestroles na no yes
     [p]splatfestroles all yes yes
   oldsplatroles: |
-    This command will generate roles for all previous splatfests (requires Manage Roles permission)
+    このコマンドは、終了したフェスのロールをセットします。(ロールを足す権限が必要です。)
     
-    Include `region`: 'eu', 'na', or 'jp'
+    地域を一緒に利用して下さい。 `region`: 'eu', 'na', or 'jp'
 
-    例: 
+    例:
     [p]oldsplatfestroles eu
     [p]oldsplatfestroles jp True
     [p]oldsplatfestroles na no yes
-  splatnet: This command will tell you the entire contents of the splatnet shop.
+  splatnet: ゲソタウンの商品を全て表示します。
   statreg: |
-    This command allows you to register for [p]getstats.
-    To use this correctly, load your stat.ink page and copy the URL. It will look like `http://www.stat.ink/@Starwort`.
-    Copy the part after the @ and use that as the parameter for the command. So for the example above: >
-    [p]statreg Starwort
+    このコマンドは、 [p]getstats　にレジスターすることができます。
+    このコマンドを正しく使うためには、stat.inkのウエブページに行って自分のプロファイルのURLをコピーして下さい。例： `http://www.stat.ink/@Starwort`.
+    @の後の部分をコピーして、コマンドのパラメターとして使って下さい。上の例では:
+    [p]statreg Starwort　となります。
   getstats: |
-    Get your stat.ink stats.
-    You must first have registered with [p]statreg
-    You may add a user as the parameter to get stats for someone else.
-    例: 
+    stat.ink　のステータスを見る。 
+    [p]statreg　でレジスターしていなければ使えません。
+    他のユーザーをパラメターとして足すことによってそのユーザーのスタタスを見れます。
+    例:
     [p]getstats
     [p]getstats Starwort
     [p]getstats Starwort#6129
     [p]getstats 232948417087668235
     [p]getstats @Starwort#6129
   devmail: |
-    Send the devs a message!
-    This command allows feedback and suggestions, as well as manually reporting issues that aren't reported automatically.
-    The devs will respond to you through DM so keep DMs open!
+    デベロッパーにメッセージを送る!
+    このコマンドは、意見や提案、自動報告されていないエラーなどを送ることができます。
+    DMで答えが帰ってくるのでブロックしないで下さい。
     
-    例: 
-    [p]devmail I think it would be neat to add feature x
-    [p]devmail Heads up that command x is silently erroring!
-    [p]devmail Thanks for making such a great bot guys!
-  about: Shows bot information.
+    例:
+    [p]devmail ～～～みたいなことができるようにしたらいいと思うよ。
+    [p]devmail おーい～～～のコマンドが静かにエラーしてるよ！
+    [p]devmail こんないいボットを作ってくれてありがとう。
+  about: ボットの情報を表示する。
