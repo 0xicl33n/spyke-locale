@@ -1,14 +1,14 @@
-jp:
-  schedule: サーモンランスケジュール
-  stream: サーモンランストリーム
-  active: アクティブラン
-  through: スルー
-  map: 地図
-  weapons: 兵器
-  nextrun: 次のラン
-  nextmap: 次の地図
+en:
+  schedule: 次のタイムゾーンのサーモンランスケジュール
+  stream: 次のチャンネルのサーモンランのストリーム 
+  active: 現在のサーモンラン
+  through: から
+  map: マップ
+  weapons: 武器
+  nextrun: 次のサーモンラン
+  nextmap: 次のマップ
   nextweapons: 次の武器
-  futureruns: 今後のラン
+  futureruns: 未来のサーモンラン  
   rewardgear: 報酬ギア
-  obtained: から得られたデータ
-  image : https://i.imgur.com/BG84YBt.png
+  obtained: データ入手先： 
+  image: https://i.imgur.com/BG84YBt.png
