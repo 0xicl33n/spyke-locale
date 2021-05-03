@@ -1,6 +1,6 @@
-jp:
+en:
   phoned: >
-    {} (one of Spyke's developers) has connected to your DM. You can type `disconnect` here at any time to end the call.
-  disconnected: You have been disconnected from {}.
-  disconnect_fail: You are not connected to anyone!
-  dm_only: You must do this in DM!
+    {} (ダウニーのデベロッパーの一人) が、DM にコネクトしました。コールを終わすには、`disconnect` とタイプして下さい。 
+  disconnected: '{} との接続を切りました。'
+  disconnect_fail: 誰とも繋がっていません。
+  dm_only: DMの中でやらなければいけません。

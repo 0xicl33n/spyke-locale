@@ -1,12 +1,12 @@
 #Dont touch curly brackets & anything in them
-jp:
-  rw_mono: あなたのランダムな武器は
-  rw_poly: あなたの{}ランダムな武器は
-  pb: プライベートバトル
-  pb_info: あなたの個人戦の準備
+en:
+  rw_mono: あなたのランダム武器は、
+  rw_poly: あなたの {} 個のランダム武器は、
+  pb: プライベートマッチ
+  pb_info: プライベートマッチ用のセットアップ
   player: プレイヤー
   alpha: アルファチーム
   bravo: ブラボーチーム
-  long_version: ところで、squiddoは、{1}を正しく入力する代わりに{0}を使えるようになったことを知っていますか？
-  turf:  縄張り戦争
-  map: 地図
+  long_version: ちなみにね、イカちゃん。{1} とタイプする代わりに {0} を使えるからね。
+  turf: ナワバリバトル
+  map: マップ

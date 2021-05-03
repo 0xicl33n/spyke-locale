@@ -1,13 +1,13 @@
 jp:
-  unset: 無し
-  arg_long: 長すぎる
-  arg_neg: 負にすることはできません
-  arg_nan: 数字ではない
-  is_spyke: プロフィールはありません！
-  not_in_db_self: あなたはデータベースにいません！ まず `[p] help profile fc`に登録してください。
-  not_in_db_others: データベースにはありません。 最初に `[p] help profile fc`に登録するように伝えてください。
-  user_not_found: ユーザーが見つかりませんでした。
-  err: エラーが発生しました。
+  unset: 未設定
+  arg_long: おい、長すぎるよ！
+  arg_neg: 負の値は入れられません。
+  arg_nan: おい、それは数字じゃないぞ
+  is_spyke: ふざけてるんかい？
+  not_in_db_self: データベースにレジスターされてません。 `[p]help profile fc` で、レジスターしてください。
+  not_in_db_others: その人たちはデータベースに入っていません `[p]help profile fc` で、レジスターするように言ってあげてください。
+  user_not_found: そのユーザーは見つかりませんでした。
+  err: エラーが発生しました！
   mhm: >
     はい。
   smh: >
