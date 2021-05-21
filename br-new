@@ -1,0 +1,230 @@
+br:
+  profile_help: |
+    A gloriosa substituição do fc! Confira !!perfil de ajuda para começar.
+  
+    Tente também !!perfil fileira de ajuda para informações mais detalhadas.
+  
+    Você tem que adicionar seu fc antes que seu perfil funcione!
+  
+    Por favor, marque "!!perfil ajuda fc" e adicione seu código de amigo antes de dizer que spyke não está funcionando! Obrigado!
+
+  level_help: |
+    
+    Defina seu nível em splatoon
+    Exemplo:
+    !!perfil nivel 50
+    Se você é um jogador de estrela, adicione um S no final após o seu nível
+    !!perfil nivel 50 S
+  level_set: seu nível foi ajustado para
+
+  level_error1: você não pode ser nível negativo ..
+
+  level_error2: Vamos lá, isso não é nem um número!
+
+  level_error3: mate, o nível 99 é o máximo ..
+
+  level_error4: U WOT MATE ?! S é o único nível que eu aceito!
+
+    weapon_help: |
+    Defina suas armas favoritas em seu perfil. Agora aceita 3!
+    Marque !!armas para a lista de armas que spyke leva
+    Exemplo:
+    !!perfil arma A1 Kensa Splattershot
+    !!perfil arma A2 N-ZAP 89 "
+  w1: seu conjunto de armas # 1 para
+  w2: seu conjunto de armas # 2 para
+  w3: seu conjunto de armas # 3 para
+
+  wep_error: Mate, cmon que não é uma arma
+
+
+  rank_help: |
+  
+    Defina a fileira no seu perfil! Isso é bastante simples:
+    tc = controle de torre
+    rm = rainmaker
+    sz = zonas splat
+    cb = clam blitz
+    Exemplo:
+    !!perfil fileira tc S+0
+  : sua fileira foi definida
+  rank_error1: essa fileira não existe
+  rank_error2: esse modo de jogo não existe
+
+
+  league_power_help: |
+    Mostrar seu maior liga poder!
+    Agora com os dois liga tipos! equipes e par. Requires a decimal
+    Exemplo:
+    !!perfil poder equipe 2019.3
+    !!perfil poder par 2019.3
+
+  team_power:  your highest team power level has been set to
+  pair_power: seu mostrar par poder nivel foi cunjunto para
+
+#rank error messages
+
+  rank_error1: Você não pode estar abaixo de um!
+  rank_error2: Companheiro .. você não pode ser poder negativo ..
+  rank_error3: Você não pode ter mais de uma casa decimal!
+  rank_error4: Mate, isso é muito alto! Não tem como você ser tão bom
+
+
+  fc_help: |
+
+    Registo seu CA com spyke.
+    Exemplo:
+    !!perfil fc SW-6637-6452-8500
+
+fc_added: você foi adicionado, felicidades.
+  fc_error: Desculpe amor, eu só aceito códigos de amigos ..
+  db_error: Você não está no banco de dados. Por favor use `!!perfil` para começar
+
+#ign help
+
+  ign_help: |
+
+    Conjunto seu nome no jogo.
+    Exemplo:
+    !!perfil ign cochu#0626
+
+  ign_set: seu nnj foi conjunto
+
+#sr help
+  sr_help: |
+
+    conjunta seu salmão fileira. Também aceita 300/99 e até 9999/99
+    Exemplo:
+    !!perfil sr Profreshional
+
+    sr_error1: seu salmão fileira foi conjunta para
+    sr_error2: que não é um título de salmão válido
+#loadout help
+
+  loadout_help: |
+    Show off your loadout.ink load outs! You can have up to 3
+    Exemplo:
+    !!perfil loadout L1 https://loadout.ink/url-here
+  l1: seu loadout #1 foi conjunta
+  l2: seu loadout #2 foi conjunta
+  l3: seu loadout #3 foi conjunta
+
+  loadout_error: Companheiro, você não pode enganar o Spyke. Isso não é um URL de loadout.ink
+
+
+    Tente também !!ajuda perfil fileira para informações mais detalhadas.
+
+    Você tem que adicionar seu fc antes que seu perfil funcione!
+
+    Por favor marque o seu perfil de ajuda antes de dizer "spyke" não está funcionando! Obrigado!
+
+      level_help: |
+    
+    Defina seu nível em splatoon
+    Exemplo:
+    !!perfil nivel 50
+    Se você é um jogador de estrela, adicione um S no final após o seu nível
+    !!perfil nivel 50 S
+  level_set: seu nível foi ajustado para
+
+  level_error1: você não pode ser nível negativo ..
+
+  level_error2: Vamos lá, isso não é nem um número!
+
+  level_error3: mate, o nível 99 é o máximo ..
+
+  level_error4: U WOT MATE ?! S é o único nível que eu aceito!
+
+    weapon_help: |
+    Defina suas armas favoritas em seu perfil. Agora aceita 3!
+    Marque !!armas para a lista de armas que spyke leva
+    Exemplo:
+    !!perfil arma A1 Kensa Splattershot
+    !!perfil arma A2 N-ZAP 89 "
+  w1: seu conjunto de armas # 1 para
+  w2: seu conjunto de armas # 2 para
+  w3: seu conjunto de armas # 3 para
+
+  wep_error: Mate, cmon que não é uma arma
+
+
+  rank_help: |
+  
+    Defina a fileira no seu perfil! Isso é bastante simples:
+    tc = controle de torre
+    rm = rainmaker
+    sz = zonas splat
+    cb = clam blitz
+    Exemplo:
+    !!perfil fileira tc S+0
+  : sua fileira foi definida
+  rank_error1: essa fileira não existe
+  rank_error2: esse modo de jogo não existe
+
+
+  league_power_help: |
+    Mostrar seu maior liga poder!
+    Agora com os dois liga tipos! equipes e par. Requires a decimal
+    Exemplo:
+    !!perfil poder equipe 2019.3
+    !!perfil poder par 2019.3
+
+  team_power:  your highest team power level has been set to
+  pair_power: seu mostrar par poder nivel foi cunjunto para
+
+#rank error messages
+
+  rank_error1: Você não pode estar abaixo de um!
+  rank_error2: Companheiro .. você não pode ser poder negativo ..
+  rank_error3: Você não pode ter mais de uma casa decimal!
+  rank_error4: Mate, isso é muito alto! Não tem como você ser tão bom
+
+
+  fc_help: |
+
+    Registo seu CA com spyke.
+    Exemplo:
+    !!perfil fc SW-6637-6452-8500
+
+fc_added: você foi adicionado, felicidades.
+  fc_error: Desculpe amor, eu só aceito códigos de amigos ..
+  db_error: Você não está no banco de dados. Por favor use `!!perfil` para começar
+
+#ign help
+
+  ign_help: |
+
+    Conjunto seu nome no jogo.
+    Exemplo:
+    !!perfil ign cochu#0626
+
+  ign_set: seu nnj foi conjunto
+
+#sr help
+  sr_help: |
+
+    conjunta seu salmão fileira. Também aceita 300/99 e até 9999/99
+    Exemplo:
+    !!perfil sr Profreshional
+
+    sr_error1: seu salmão fileira foi conjunta para
+    sr_error2: que não é um título de salmão válido
+#loadout help
+
+  loadout_help: |
+    Show off your loadout.ink load outs! You can have up to 3
+    Exemplo:
+    !!perfil loadout L1 https://loadout.ink/url-here
+  l1: seu loadout #1 foi conjunta
+  l2: seu loadout #2 foi conjunta
+  l3: seu loadout #3 foi conjunta
+
+  loadout_error: Companheiro, você não pode enganar o Spyke. Isso não é um URL de loadout.ink
+
+
+    Tente também !!ajuda perfil fileira para informações mais detalhadas.
+
+    Você tem que adicionar seu fc antes que seu perfil funcione!
+
+    Por favor marque o seu perfil de ajuda antes de dizer "spyke" não está funcionando! Obrigado!
+	
