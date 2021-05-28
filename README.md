@@ -18,17 +18,17 @@ jp:
   rank_tc: ガチヤグラ
   rank_cb: ガチアサリ
   loadout: 服
-  ign: ゲームの名前
+  ign: ゲーム内の名前
   lvl: レベル
-  fc: 書き込んどいたヨ
-  ranks: ガチ
-  power_team: チーム
-  power_pair: ペア
+  fc: フレンドコード
+  ranks: ランク
+  power_team: チームパワー
+  power_pair: ペアパワー
   sr_title: サーモンラン
   fav_wep: お気に入りの武器
   fav_map: お気に入りの地図
   loadouts: ロードアウト
-  clan: 一族
+  clan: クラン
   splat: フェス
 ```
 
