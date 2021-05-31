@@ -22,8 +22,8 @@ jp:
   lvl: レベル
   fc: フレンドコード
   ranks: ランク
-  power_team: チームパワー
-  power_pair: ペアパワー
+  power_team: チーム
+  power_pair: ペア
   sr_title: サーモンラン
   fav_wep: お気に入りの武器
   fav_map: お気に入りの地図
