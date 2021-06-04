@@ -111,7 +111,7 @@ fr:
     Le premier (L1) est affiché dans ton profil
     Les autures peuvent être affich avec la commande !!loadouts 
     Exemple:
-    [p]profil loadout L1 https://loadout.ink/url-ici
+    [p]profil loadout L1 https://selicia.github.io/url-ici
 
   pf_remove: Enleve-toi de la base de données de profil.
   pf_wep: |

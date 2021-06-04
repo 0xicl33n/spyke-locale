@@ -3,7 +3,7 @@ es:
   rank_sz: Pintazonas
   rank_tc: Torreón
   rank_cb: Asalto almeja
-  loadout: Equipo loadout.ink .
+  loadout: Equipo selicia.github.io .
   ign: Nombre en el juego.
   lvl: Nivel
   fc: Código de amigo
@@ -29,7 +29,7 @@ es:
   cb_set: rango en asalto almeja registrado
   no_mode: ese modo de juego no existe
   no_rank: Ese rango no existe
-  tz_err: Esa no es una zona horaria válida. La zona horaria distingue entre mayúsculas y minúsculas. Por favor revisa https://hastebin.com/ugimufopab.vbs para ver tu zona horaria!
+  tz_err: Esa no es una zona horaria válida. La zona horaria distingue entre mayúsculas y minúsculas. Por favor revisa http://starbright.dyndns.org/starwort/timezones.txt para ver tu zona horaria!
   tz_set: tu zona horaria ha sido registrada.
   pwr_low: ¡No puedes estar por debajo de cero!
   pwr_acc: ¡No puedes tener más de un decimal!
@@ -53,7 +53,7 @@ es:
   l1_set: tu primer equipo loadout.ink ha sido registrado como
   l2_set: tu segundo equipo loadout.ink ha sido registrado como
   l3_set: tu tercer equipo loadout.ink ha sido registrado como
-  not_loadout: Amigo, no puedes engañar al viejo Spyke. Esa no es una dirección loadout.ink ...
+  not_loadout: Amigo, no puedes engañar al viejo Spyke. Esa no es una dirección selicia.github.io ...
   remove_help: Borrar registro de la base de datos.
   remove_suc: Tus datos han sido borrados. ¡Esperamos verte nuevamente!
   remove_fail: Nunca estuviste registrado.

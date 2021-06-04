@@ -30,7 +30,7 @@ en:
   cb_set: your Clam Blitz rank has been set
   no_mode: That game mode does not exist
   no_rank: That rank does not exist
-  tz_err: That is not a valid timezone. This is CASE SENSITIVE! Please check https://hastebin.com/ugimufopab.vbs to get your proper timezone!
+  tz_err: That is not a valid timezone. This is CASE SENSITIVE! Please check http://starbright.dyndns.org/starwort/timezones.txt to get your proper timezone!
   tz_set: your time zone has been set.
   pwr_low: You cannot be below one!
   pwr_acc: You cannot have more than one decimal place!
@@ -54,7 +54,7 @@ en:
   l1_set: your first loadout has been set
   l2_set: your second loadout has been set
   l3_set: your third loadout has been set
-  not_loadout: Mate, you can't fool ol' Spyke. That's not a loadout.ink url...
+  not_loadout: Mate, you can't fool ol' Spyke. That's not a selicia.github.io url...
   remove_help: Remove yourself from the database
   remove_suc: you have been removed... Sorry to see you go! o/
   remove_fail: You were never in the database!

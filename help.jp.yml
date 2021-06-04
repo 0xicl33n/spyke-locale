@@ -138,7 +138,7 @@ jp:
     最初の装備ギアのリストは、 (L1) プロファイルに表示されます。 
     他のリストは、!!loadouts command　で、表示できます。
     例:
-    [p]profile loadout L1 https://loadout.ink/url-here
+    [p]profile loadout L1 https://selicia.github.io/url-here
   pf_remove: データベースから自分を削除する。
   pf_wep: |
     お気に入りの武器をセットする。 三つまで受付中
