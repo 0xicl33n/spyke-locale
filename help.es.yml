@@ -50,7 +50,7 @@ es:
         
     ¡Es sensible a mayúsculas/minúsculas!
         
-    Visita [https://hastebin.com/ugimufopab.vbs](esta lista) para los códigos de zona horaria.
+    Visita [esta lista](http://starbright.dyndns.org/starwort/timezones.txt) para los códigos de zona horaria.
   pf_pwr: |
     ¡Muéstranos tu poder de liga más alto!
     ¡Ahora con ambos tipos de ligas (pareja y equipo)!
@@ -97,7 +97,7 @@ es:
   pf_loadout: |
     ¡Muéstranos tus equipos de loadout.ink! Puedes tener hasta 3.
     Ejemplo:
-    [p]profile loadout L1 https://loadout.ink/url-here
+    [p]profile loadout L1 https://selicia.github.io/url-here
   pf_remove: Elimina tu perfil de la base de datos.
   pf_wep: |
     Ingresa tus armas favoritas. Ahora puedes seleccionar hasta 3.
