@@ -4,7 +4,7 @@ en:
   manual: Spyke Help Manual
   page_msg: There are {} help pages. Send a number to see the corresponding page.
   timeout: Number entry timed out.
-  bad_page: Invalid page gien ({} > {})
+  bad_page: Invalid page given ({} > {})
   quit: Quit Help menu.
   #{0} is prefix here
   footer: Type {0}help <command> for more info on a command. You can also type {0}help <category> for more info on a category.
@@ -89,7 +89,7 @@ en:
         
     IT IS CASE SENSITIVE!
         
-    Please check [this](http://starbright.dyndns.org/starwort/timezones.txt) list for the time zone code.
+    Please check [this list](http://starbright.dyndns.org/starwort/timezones.txt) for the time zone code.
   pf_pwr: |
     Show off your highest league power!
     Now with both league types! (team and pair)
