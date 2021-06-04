@@ -30,7 +30,7 @@ jp:
   cb_set: ガチアサリのランクがセットされました。
   no_mode: そのゲームモードは存在しません。
   no_rank: そのランクは存在しません。
-  tz_err: それは、タイムゾーンではありません。大文字小文字の区別が関係あります。https://hastebin.com/ugimufopab.vbs からのタイムゾーンを使って下さい。
+  tz_err: それは、タイムゾーンではありません。大文字小文字の区別が関係あります。http://starbright.dyndns.org/starwort/timezones.txt からのタイムゾーンを使って下さい。
   tz_set: タイムゾーンがセットされました。
   pwr_low: 1以下の数は入りません。
   pwr_acc: 小数第一位以下の小数は入れられません。
