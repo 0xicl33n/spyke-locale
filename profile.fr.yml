@@ -30,7 +30,7 @@ fr:
   cb_set: ton rang de Pluie de palourdes a été réglé
   no_mode: Ce mode de jeux n'existe pas
   no_rank: Ce rang n'existe pas
-  tz_err: Ce n'est pas un fuseau horaire valide. C'est SENSIBLE AUX MAJUSCULES. S'il te plaît, vérifie https://hastebin.com/ugimufopab.vbs pour obtenir ton fuseau horaire correct!
+  tz_err: Ce n'est pas un fuseau horaire valide. C'est SENSIBLE AUX MAJUSCULES. S'il te plaît, vérifie http://starbright.dyndns.org/starwort/timezones.txt pour obtenir ton fuseau horaire correct!
   tz_set: Ton fuseau horaire a été réglé
   pwr_low: Tu ne peux pas être en dessous d'un!
   pwr_acc: Tu ne peux pas avoir plus d'un chiffre après la virgule.
@@ -54,7 +54,7 @@ fr:
   l1_set: ton premier loadout a été réglé
   l2_set: ta deuxième loadout a été réglé
   l3_set: ta troisième loadout a été réglé
-  not_loadout: Mec, tu ne peux pas me duper. Ce n'est pas un URL loadout.ink...
+  not_loadout: Mec, tu ne peux pas me duper. Ce n'est pas un URL selicia.github.io...
   remove_help: Enleve-toi de la base de données.
   remove_suc: t'as été enlevé... désolé de vous voir partir
   remove_fail: tu n'étais jamais dans la base de données!
