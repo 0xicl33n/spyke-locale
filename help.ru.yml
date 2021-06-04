@@ -138,7 +138,7 @@ ru:
     Самое первое (L1) отображено в вашем профиле. 
     Остальное вам покажут если ввести команду !!loadouts
     Например:
-    [p]profile loadout L1 https://loadout.ink/url-here
+    [p]profile loadout L1 https://selicia.github.io/url-here
   pf_remove: Удалить свою анкету из базы данных Спайка.
   pf_wep: |
     Установите своё любимое оружие (мейн) в Splatoon 2! Теперь можно ввести до трёх!
